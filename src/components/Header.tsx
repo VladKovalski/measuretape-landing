@@ -28,7 +28,7 @@ export function Header({ locale }: { locale: Locale }) {
         </Link>
         <nav className="hidden items-center gap-8 text-sm md:flex">
           <a href={`${base}/#features`} className="text-ink/80 hover:text-amber transition">{t('features')}</a>
-          <a href={`${base}/#use-cases`} className="text-ink/80 hover:text-amber transition">{t('useCases')}</a>
+          <Link href={`${base}/how-to/`} className="text-ink/80 hover:text-amber transition">{t('howTo')}</Link>
           <a href={`${base}/#compare`} className="text-ink/80 hover:text-amber transition">{t('compare')}</a>
           <Link href={`${base}/blog/`} className="text-ink/80 hover:text-amber transition">{t('blog')}</Link>
           <a href={`${base}/#faq`} className="text-ink/80 hover:text-amber transition">{t('faq')}</a>
