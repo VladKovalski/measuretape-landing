@@ -10,14 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Locale roots
   for (const locale of locales) {
     entries.push({
-      url: locale === 'en' ? `${SITE.url}/` : `${SITE.url}/${locale}/`,
+      url: `${SITE.url}/${locale}/`,
       lastModified,
       changeFrequency: 'monthly',
       priority: locale === 'en' ? 1.0 : 0.8,
       alternates: {
-        languages: Object.fromEntries(
-          locales.map((l) => [l, l === 'en' ? `${SITE.url}/` : `${SITE.url}/${l}/`])
-        )
+        languages: Object.fromEntries(locales.map((l) => [l, `${SITE.url}/${l}/`]))
       }
     });
   }
@@ -25,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Blog indexes
   for (const locale of locales) {
     entries.push({
-      url: locale === 'en' ? `${SITE.url}/blog/` : `${SITE.url}/${locale}/blog/`,
+      url: `${SITE.url}/${locale}/blog/`,
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.7
@@ -36,14 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of locales) {
     for (const { meta } of POSTS) {
       entries.push({
-        url: locale === 'en' ? `${SITE.url}/blog/${meta.slug}/` : `${SITE.url}/${locale}/blog/${meta.slug}/`,
+        url: `${SITE.url}/${locale}/blog/${meta.slug}/`,
         lastModified: new Date(meta.date),
         changeFrequency: 'monthly',
         priority: 0.6,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, l === 'en' ? `${SITE.url}/blog/${meta.slug}/` : `${SITE.url}/${l}/blog/${meta.slug}/`])
-          )
+          languages: Object.fromEntries(locales.map((l) => [l, `${SITE.url}/${l}/blog/${meta.slug}/`]))
         }
       });
     }

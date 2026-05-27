@@ -21,14 +21,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   if (!locales.includes(locale as Locale)) notFound();
   const t = await getTranslations({ locale, namespace: 'meta' });
-  const path = locale === 'en' ? '' : `/${locale}`;
-  const url = `${SITE.url}${path}/`;
+  const url = `${SITE.url}/${locale}/`;
 
   const languages: Record<string, string> = {};
   locales.forEach((l) => {
-    languages[l] = l === 'en' ? `${SITE.url}/` : `${SITE.url}/${l}/`;
+    languages[l] = `${SITE.url}/${l}/`;
   });
-  languages['x-default'] = `${SITE.url}/`;
+  languages['x-default'] = `${SITE.url}/en/`;
 
   return {
     metadataBase: new URL(SITE.url),

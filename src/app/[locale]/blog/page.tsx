@@ -60,12 +60,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   if (!locales.includes(locale as Locale)) notFound();
   const m = BLOG_META[locale as Locale];
-  const path = locale === 'en' ? '/blog/' : `/${locale}/blog/`;
+  const path = `/${locale}/blog/`;
   const languages: Record<string, string> = {};
   locales.forEach((l) => {
-    languages[l] = l === 'en' ? `${SITE.url}/blog/` : `${SITE.url}/${l}/blog/`;
+    languages[l] = `${SITE.url}/${l}/blog/`;
   });
-  languages['x-default'] = `${SITE.url}/blog/`;
+  languages['x-default'] = `${SITE.url}/en/blog/`;
   return {
     title: m.title,
     description: m.description,
@@ -83,7 +83,7 @@ export default function BlogIndex({ params: { locale } }: { params: { locale: st
   if (!locales.includes(locale as Locale)) notFound();
   setRequestLocale(locale);
   const m = BLOG_META[locale as Locale];
-  const base = locale === 'en' ? '' : `/${locale}`;
+  const base = `/${locale}`;
 
   const posts = [...POSTS].sort((a, b) => (a.meta.date < b.meta.date ? 1 : -1));
 

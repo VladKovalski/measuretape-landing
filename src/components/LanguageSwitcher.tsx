@@ -21,10 +21,10 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
 
   // strip current locale prefix from pathname
   const stripped = (() => {
-    if (!pathname) return '/';
+    if (!pathname) return '';
     const seg = pathname.split('/').filter(Boolean);
     if (seg.length && (locales as readonly string[]).includes(seg[0])) seg.shift();
-    return '/' + seg.join('/');
+    return seg.length ? '/' + seg.join('/') : '';
   })();
 
   return (
@@ -45,7 +45,7 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
           className="absolute right-0 top-full mt-2 min-w-[160px] overflow-hidden rounded-2xl border border-line bg-bg/95 backdrop-blur shadow-2xl"
         >
           {locales.map((l) => {
-            const href = l === 'en' ? stripped || '/' : `/${l}${stripped === '/' ? '' : stripped}`;
+            const href = `/${l}${stripped}/`;
             return (
               <li key={l}>
                 <a

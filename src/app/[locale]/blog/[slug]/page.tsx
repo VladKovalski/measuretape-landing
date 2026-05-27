@@ -28,11 +28,11 @@ export async function generateMetadata({
 
   const title = getLocalizedTitle(post.meta, locale as Locale);
   const desc = getLocalizedExcerpt(post.meta, locale as Locale);
-  const path = locale === 'en' ? `/blog/${slug}/` : `/${locale}/blog/${slug}/`;
+  const path = `/${locale}/blog/${slug}/`;
 
   const languages: Record<string, string> = {};
   locales.forEach((l) => {
-    languages[l] = l === 'en' ? `${SITE.url}/blog/${slug}/` : `${SITE.url}/${l}/blog/${slug}/`;
+    languages[l] = `${SITE.url}/${l}/blog/${slug}/`;
   });
 
   return {
@@ -66,7 +66,7 @@ export default function PostPage({ params: { locale, slug } }: { params: { local
   if (!post) notFound();
 
   const t = STRINGS[locale as Locale];
-  const base = locale === 'en' ? '' : `/${locale}`;
+  const base = `/${locale}`;
   const Component = post.default;
 
   const related = POSTS.filter((p) => p.meta.slug !== slug).slice(0, 3);
@@ -81,7 +81,7 @@ export default function PostPage({ params: { locale, slug } }: { params: { local
     keywords: post.meta.keywords,
     author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
     publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: { '@type': 'ImageObject', url: `${SITE.url}/icon.png` } },
-    mainEntityOfPage: `${SITE.url}/${locale === 'en' ? '' : locale + '/'}blog/${slug}/`,
+    mainEntityOfPage: `${SITE.url}/${locale}/blog/${slug}/`,
     image: `${SITE.url}/opengraph-image`,
     about: { '@type': 'SoftwareApplication', name: APPS.free.name }
   }).replace(/</g, '\\u003c');

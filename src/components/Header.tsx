@@ -8,7 +8,7 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Header({ locale }: { locale: Locale }) {
   const t = useTranslations('nav');
-  const base = locale === 'en' ? '' : `/${locale}`;
+  const base = `/${locale}`;
 
   return (
     <header className="sticky top-0 z-50 border-b border-line/60 bg-bg/85 backdrop-blur-md">
