@@ -59,7 +59,7 @@ export function TwoApps() {
                     label={t(`${ns}.cta`)}
                   />
                   <p className="mt-3 font-mono text-[10px] uppercase tracking-ruler text-ink/40">
-                    {APPS[variant].price} · {APPS[variant].rating}★
+                    {APPS[variant].price}
                   </p>
                 </div>
               </article>

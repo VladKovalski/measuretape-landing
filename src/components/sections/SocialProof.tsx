@@ -20,15 +20,17 @@ export function SocialProof() {
             </div>
           ))}
         </div>
-        <div className="mt-10 flex flex-wrap items-center gap-2 border-t border-line pt-6">
-          <span className="font-mono text-[10px] uppercase tracking-ruler text-ink/45">
+        <div className="mt-10 border-t border-line pt-6">
+          <p className="font-display text-lg md:text-2xl uppercase tracking-tightest text-ink/85 max-w-3xl">
             {t('ratingHeadline')}
-          </span>
-          {tags.map((tag) => (
-            <span key={tag} className="rounded-full border border-line px-3 py-1 text-xs text-ink/70">
-              {tag}
-            </span>
-          ))}
+          </p>
+          <div className="mt-5 flex flex-wrap items-center gap-2">
+            {tags.map((tag) => (
+              <span key={tag} className="rounded-full border border-line px-3 py-1 text-xs text-ink/70">
+                {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </section>

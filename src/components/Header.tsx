@@ -27,10 +27,11 @@ export function Header({ locale }: { locale: Locale }) {
           </span>
         </Link>
         <nav className="hidden items-center gap-8 text-sm md:flex">
-          <a href="#features" className="text-ink/80 hover:text-amber transition">{t('features')}</a>
-          <a href="#use-cases" className="text-ink/80 hover:text-amber transition">{t('useCases')}</a>
-          <a href="#compare" className="text-ink/80 hover:text-amber transition">{t('compare')}</a>
-          <a href="#faq" className="text-ink/80 hover:text-amber transition">{t('faq')}</a>
+          <a href={`${base}/#features`} className="text-ink/80 hover:text-amber transition">{t('features')}</a>
+          <a href={`${base}/#use-cases`} className="text-ink/80 hover:text-amber transition">{t('useCases')}</a>
+          <a href={`${base}/#compare`} className="text-ink/80 hover:text-amber transition">{t('compare')}</a>
+          <Link href={`${base}/blog/`} className="text-ink/80 hover:text-amber transition">{t('blog')}</Link>
+          <a href={`${base}/#faq`} className="text-ink/80 hover:text-amber transition">{t('faq')}</a>
         </nav>
         <div className="flex items-center gap-3">
           <LanguageSwitcher locale={locale} />

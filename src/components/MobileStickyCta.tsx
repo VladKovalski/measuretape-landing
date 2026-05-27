@@ -37,7 +37,7 @@ export function MobileStickyCta() {
         <div className="min-w-0 flex-1">
           <div className="truncate text-sm font-semibold text-ink">Ruler AR</div>
           <div className="truncate font-mono text-[10px] uppercase tracking-ruler text-ink/55">
-            4.3★ · {APPS.free.price}
+            {APPS.free.price} · iOS 16.6+
           </div>
         </div>
         <a
