@@ -11,14 +11,27 @@
     @apply bg-bg text-ink font-sans antialiased;
     /* Reserve room for the fixed tape-rail so the rail never overlaps content */
     padding-left: 22px;
+    position: relative;
+  }
+  /* Background decorations on a separate fixed layer behind content.
+     `background-attachment: fixed` on body causes severe scroll-jank
+     (browser repaints the entire gradient on every scroll). A dedicated
+     position:fixed pseudo-element on a low z-index gets composited
+     once by the GPU and stays still during scroll without repaints. */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: #0a0a0a;
     background-image:
       radial-gradient(800px circle at 0% 0%, rgba(255, 180, 0, 0.06), transparent 50%),
       radial-gradient(600px circle at 100% 20%, rgba(255, 180, 0, 0.04), transparent 50%),
-      /* faint blueprint grid */
       linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
     background-size: auto, auto, 40px 40px, 40px 40px;
-    background-attachment: fixed;
+    will-change: transform;
   }
   @media (min-width: 768px) {
     body { padding-left: 40px; }

@@ -42,12 +42,30 @@ import * as howToMeasureRoom from './how-to-measure-a-room-with-iphone';
 import * as accuracyGuide from './ar-tape-measure-accuracy-guide';
 import * as bestApps from './best-ar-measure-apps-iphone-2026';
 import * as renovationPlanner from './plan-renovation-with-iphone';
+import * as sofaFit from './will-my-sofa-fit-iphone';
+import * as appleMeasureComparison from './iphone-measure-vs-apple-measure';
+import * as squareFootage from './measure-square-footage-iphone';
+import * as lidarExplained from './how-lidar-works-iphone';
+import * as realEstate from './measure-for-real-estate-agents';
+import * as listicle from './things-you-can-measure-iphone';
+import * as construction from './ar-tape-measure-for-construction';
+import * as materials from './measure-for-tile-flooring-paint';
+import * as appliance from './measure-fridge-appliance-fit';
 
 export const POSTS: PostModule[] = [
   howToMeasureRoom as PostModule,
   accuracyGuide as PostModule,
   bestApps as PostModule,
-  renovationPlanner as PostModule
+  renovationPlanner as PostModule,
+  sofaFit as PostModule,
+  appleMeasureComparison as PostModule,
+  squareFootage as PostModule,
+  lidarExplained as PostModule,
+  realEstate as PostModule,
+  listicle as PostModule,
+  construction as PostModule,
+  materials as PostModule,
+  appliance as PostModule
 ];
 
 export function getPost(slug: string): PostModule | undefined {

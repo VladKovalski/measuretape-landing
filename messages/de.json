@@ -19,7 +19,7 @@
     "subtitle": "Dein iPhone als digitales Maßband in der Hosentasche — immer zur Hand. Kamera draufhalten: Länge, Höhe, Fläche und kompletter 3D-Raumplan in Sekunden. Kein Bandmaß, kein Helfer, kein Raten.",
     "primaryCta": "Kostenlos im App Store",
     "secondaryCta": "So funktioniert's",
-    "trust": "Im App Store Dienstprogramme · 3.500+ Bewertungen · Zufriedenheitsgarantie · 20 Sprachen"
+    "trust": "Im App Store Dienstprogramme · 3.500+ Bewertungen · 20 Sprachen · iPhone Xs und neuer"
   },
   "socialProof": {
     "ratingHeadline": "Eine App ersetzt dein Maßband, Raumplaner, Laser und Innenarchitekten",
@@ -50,7 +50,7 @@
   "features": {
     "kicker": "Was sie kann",
     "title": "Eine App statt Maßband, Planer, Laser und Innenarchitekt.",
-    "intro": "Jedes Messszenario, das ein iPhone lösen kann, in einer einzigen App auf Basis von ARKit und LiDAR. Entwickelt für Handwerker, die im Millimeterbereich abrechnen, und für alle, die einfach wissen wollen, ob das Sofa passt.",
+    "intro": "Für Handwerker, die im Millimeterbereich abrechnen, Designer, die in 3D planen, und alle, die einfach wissen wollen, ob das Sofa passt. Jedes Messszenario, das dein iPhone lösen kann — auf Basis von ARKit und LiDAR.",
     "items": {
       "cameraMeasure": {
         "title": "Kameramessung — anvisieren, tippen, fertig",
@@ -200,8 +200,8 @@
     "title": "Drei Tipps zur Messung",
     "steps": {
       "open": {
-        "title": "Kamera öffnen",
-        "body": "App starten. iPhone auf die Wand, den Boden oder das Objekt richten. Die AR-Sitzung kalibriert sich in unter zwei Sekunden."
+        "title": "Öffnen & zielen",
+        "body": "App starten. iPhone auf Wand, Boden oder Objekt richten. Die AR-Sitzung kalibriert sich in unter zwei Sekunden."
       },
       "point": {
         "title": "Anfang und Ende antippen",
@@ -219,7 +219,7 @@
     "free": {
       "label": "01 / KOSTENLOS",
       "name": "Ruler AR",
-      "tagline": "Das KI-Maßband für den Alltag.",
+      "tagline": "Das KI-Maßband für den Alltag. Kostenlos. Für immer.",
       "bullets": [
         "Kameramessung (Länge, Höhe, Fläche)",
         "Wasserwaage & Winkelmesser",
@@ -231,7 +231,7 @@
     "pro": {
       "label": "02 / PRO",
       "name": "Ruler Pro",
-      "tagline": "LiDAR-Raumscanning, 3D-Export und unbegrenzte Nutzung für Profis.",
+      "tagline": "Profi-Präzision. LiDAR-3D-Raumscan, unbegrenzter PDF- und 3D-Export, keine Werbung, keine Limits.",
       "bullets": [
         "Alles aus Ruler AR",
         "LiDAR 3D-Raumscanning",
@@ -274,6 +274,18 @@
         "a": "Ja, aber die Genauigkeit hängt davon ab, wie gut die AR-Sitzung Oberflächen verfolgen kann. Bei dunklen Räumen zeigt die App ein Low-Light-Banner mit One-Tap-Taschenlampe. In völliger Dunkelheit funktionieren LiDAR-Geräte auch ohne sichtbares Licht."
       },
       {
+        "q": "Funktioniert es auf dem iPad?",
+        "a": "Ja. Die App läuft auf iPad Pro (2018+), iPad Air (2020+) und iPad mini (6. Gen+) — alles mit iOS/iPadOS 16.6 oder neuer. iPad Pro mit LiDAR unterstützt den vollen 3D-RoomPlan-Scanner. Der größere iPad-Bildschirm ist besonders gut für den manuellen Grundriss-Editor."
+      },
+      {
+        "q": "Kann ich draußen messen?",
+        "a": "Ja, aber die Genauigkeit hängt vom Licht ab. Im Schatten oder bei bedecktem Himmel funktioniert AR genauso gut wie drinnen. In direkter Sonne werden LiDAR-Tiefenwerte durch die IR-Strahlung der Sonne überschienen — Messen geht weiter, aber die Toleranz wächst auf einige cm in der Distanz. Für lange Außenmessungen (über 5 m) ist ein Laser-Entfernungsmesser zuverlässiger."
+      },
+      {
+        "q": "Wird es auf iPhone 16 und 17 funktionieren?",
+        "a": "Ja — die App unterstützt iPhone 16, 16 Pro, 17, 17 Pro und 17 Air vollständig. Pro-Modelle mit LiDAR bekommen den automatischen 3D-RoomPlan-Scanner. Die A18/A19-Chips beschleunigen den AR-Session-Start auf unter 1 Sekunde aus dem kalten Start."
+      },
+      {
         "q": "Gibt es eine Android-Version?",
         "a": "Derzeit nicht. Die App basiert auf Apples ARKit und RoomPlan, für die es keine direkte Android-Entsprechung gibt. Wir verfolgen ARCore, haben aber keinen Android-Releasetermin."
       },
@@ -284,29 +296,29 @@
     ]
   },
   "testimonials": {
-    "kicker": "Stimmen",
-    "title": "Fünf-Sterne-Bewertungen aus dem App Store",
+    "kicker": "Was Nutzer sagen",
+    "title": "Bewertungen aus dem App Store",
     "items": [
       {
-        "quote": "Letzte Woche bei einem Küchenumbau eingesetzt. Den ganzen Raum in drei Minuten aufgenommen, Grundriss exportiert und dem Schreiner gemailt, bevor ich die Auffahrt verließ.",
-        "author": "Verifizierte App Store-Bewertung",
+        "quote": "Sanfter Lerneinstieg — sobald man's raus hat, ist es das perfekte Werkzeug.",
+        "author": "rKid · App Store",
         "rating": 5
       },
       {
-        "quote": "Der manuelle Raumplaner ist genial — ich habe ein iPhone 11 ohne LiDAR und kann trotzdem einen sauberen Grundriss durchs Abschreiten zeichnen. Ersetzt komplett meine alte Papierskizze.",
-        "author": "Verifizierte App Store-Bewertung",
+        "quote": "Einfach zu bedienen, genau, kostenloser Test — macht genau, was es soll.",
+        "author": "App Store · UK",
         "rating": 5
       },
       {
-        "quote": "Sonntag bei IKEA ein Sofa gekauft. Tür, Flur und Wohnzimmernische in fünf Minuten vermessen. Sofa passt perfekt. Jedes Byte wert.",
-        "author": "Verifizierte App Store-Bewertung",
+        "quote": "Ziemlich praktisch. Lässt sich für alltägliche Messungen gut einsetzen.",
+        "author": "4kwuai · App Store",
         "rating": 5
       }
     ]
   },
   "finalCta": {
     "title": "Schluss\nmit Raten.\nFang an zu messen.",
-    "subtitle": "Kostenlos im App Store. iOS 16.6 und neuer. In 20 Sprachen verfügbar.",
+    "subtitle": "Kostenlos im App Store. iOS 16.6 und neuer. Hunderttausende Messungen täglich — deine kommt als nächstes.",
     "primary": "Kostenlos laden",
     "secondary": "Ruler Pro holen"
   },

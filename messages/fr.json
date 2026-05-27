@@ -19,7 +19,7 @@
     "subtitle": "Votre iPhone comme mètre ruban numérique de poche — toujours à portée de main. Pointez la caméra : longueur, hauteur, surface et plan 3D en quelques secondes. Sans mètre, sans assistant, sans approximation.",
     "primaryCta": "Télécharger gratuitement",
     "secondaryCta": "Voir comment ça marche",
-    "trust": "Mis en avant dans Utilitaires App Store · 3 500+ avis · Satisfaction garantie · 20 langues"
+    "trust": "Mis en avant dans Utilitaires App Store · 3 500+ avis · 20 langues · iPhone Xs et plus récent"
   },
   "socialProof": {
     "ratingHeadline": "Une seule app remplace votre mètre, planificateur, laser et architecte d'intérieur",
@@ -50,7 +50,7 @@
   "features": {
     "kicker": "Ce qu'il fait",
     "title": "Une app au lieu d'un mètre, planificateur, laser et architecte.",
-    "intro": "Tous les scénarios de mesure que votre iPhone peut résoudre, dans un seul utilitaire basé sur ARKit et LiDAR. Conçu pour les artisans qui facturent au millimètre et pour ceux qui veulent juste savoir si le canapé rentrera.",
+    "intro": "Conçu pour les artisans qui facturent au millimètre, les designers qui planifient en 3D, et tous ceux qui veulent juste savoir si le canapé rentrera. Tous les scénarios de mesure que votre iPhone peut résoudre — basé sur ARKit et LiDAR.",
     "items": {
       "cameraMeasure": {
         "title": "Mesure caméra — pointez, tapez, terminé",
@@ -200,7 +200,7 @@
     "title": "Trois taps pour une mesure",
     "steps": {
       "open": {
-        "title": "Ouvrez la caméra",
+        "title": "Ouvrir & viser",
         "body": "Lancez l'app. Pointez l'iPhone sur le mur, le sol ou l'objet à mesurer. La session AR se calibre en moins de deux secondes."
       },
       "point": {
@@ -219,7 +219,7 @@
     "free": {
       "label": "01 / ÉDITION GRATUITE",
       "name": "Ruler AR",
-      "tagline": "Le mètre IA pour les mesures du quotidien.",
+      "tagline": "Le mètre IA pour les mesures du quotidien. Gratuit. Pour toujours.",
       "bullets": [
         "Mesure caméra (longueur, hauteur, surface)",
         "Niveau & outil d'angle",
@@ -231,7 +231,7 @@
     "pro": {
       "label": "02 / ÉDITION PRO",
       "name": "Ruler Pro",
-      "tagline": "Scan LiDAR, export 3D et usage illimité pour artisans et designers.",
+      "tagline": "Précision pro. Scan 3D LiDAR, export PDF & 3D illimité, sans pub, sans limites.",
       "bullets": [
         "Tout Ruler AR",
         "Scan LiDAR 3D des pièces",
@@ -274,6 +274,18 @@
         "a": "Oui, mais la précision dépend de la capacité de la session AR à suivre les surfaces. En pièce sombre, l'app affiche un bandeau Low Light avec un bouton lampe torche. En obscurité totale, les appareils LiDAR fonctionnent toujours sans lumière visible."
       },
       {
+        "q": "Fonctionne-t-il sur iPad ?",
+        "a": "Oui. L'app fonctionne sur iPad Pro (2018+), iPad Air (2020+) et iPad mini (6e gén+) — tout appareil avec iOS/iPadOS 16.6 ou plus récent. Les iPad Pro avec LiDAR supportent le scanner 3D RoomPlan complet. Le plus grand écran de l'iPad est particulièrement pratique pour l'éditeur de plan manuel."
+      },
+      {
+        "q": "Puis-je mesurer en extérieur ?",
+        "a": "Oui, mais la précision dépend de l'éclairage. À l'ombre ouverte ou par temps couvert, le tracking AR fonctionne aussi bien qu'en intérieur. En plein soleil, les lectures de profondeur LiDAR peuvent être noyées par l'infrarouge solaire — la mesure fonctionne mais la tolérance s'élargit à quelques cm à distance. Pour de longues mesures extérieures (>5 m), un télémètre laser est plus fiable."
+      },
+      {
+        "q": "Fonctionnera-t-il sur iPhone 16 et 17 ?",
+        "a": "Oui — l'app supporte intégralement les iPhone 16, 16 Pro, 17, 17 Pro et 17 Air. Les modèles Pro avec LiDAR bénéficient du scanner 3D RoomPlan automatique. Les puces A18/A19 accélèrent aussi l'initialisation de la session AR (moins d'1 seconde au démarrage à froid)."
+      },
+      {
         "q": "Y a-t-il une version Android ?",
         "a": "Pas actuellement. L'app est basée sur ARKit et RoomPlan d'Apple, qui n'ont pas d'équivalent Android direct. Nous suivons ARCore mais n'avons pas de calendrier de sortie Android."
       },
@@ -284,29 +296,29 @@
     ]
   },
   "testimonials": {
-    "kicker": "Ce que disent les avis",
-    "title": "Avis cinq étoiles de l'App Store",
+    "kicker": "Avis utilisateurs",
+    "title": "Témoignages App Store",
     "items": [
       {
-        "quote": "Utilisé sur une rénovation de cuisine la semaine dernière. Capturé toute la pièce en trois minutes, exporté le plan et envoyé par mail au cuisiniste avant de quitter l'allée.",
-        "author": "Avis App Store vérifié",
+        "quote": "Super appli, accessible avec le lecteur d'écran VoiceOver. Pour quelqu'un qui a du mal à se représenter une distance, cette application est une grande aide.",
+        "author": "Lucky29000 · App Store",
         "rating": 5
       },
       {
-        "quote": "Le constructeur manuel est génial — j'ai un iPhone 11 sans LiDAR et je peux dessiner un plan propre en marchant dans la pièce. Remplace totalement mon ancien croquis papier.",
-        "author": "Avis App Store vérifié",
+        "quote": "Très pratique pour mesurer en cm ce que l'on veut.",
+        "author": "Jacobbenz · App Store",
         "rating": 5
       },
       {
-        "quote": "Acheté un canapé chez IKEA dimanche. Mesuré la porte, le couloir et le coin salon en cinq minutes. Le canapé est rentré parfaitement. Vaut chaque octet.",
-        "author": "Avis App Store vérifié",
+        "quote": "Courbe d'apprentissage facile — une fois maîtrisé, c'est un outil parfait.",
+        "author": "rKid · App Store",
         "rating": 5
       }
     ]
   },
   "finalCta": {
     "title": "Arrêtez\nd'estimer.\nCommencez à mesurer.",
-    "subtitle": "Gratuit sur l'App Store. iOS 16.6 et plus récent. Disponible en 20 langues.",
+    "subtitle": "Gratuit sur l'App Store. iOS 16.6 et plus récent. Des centaines de milliers de mesures chaque jour — la vôtre est la prochaine.",
     "primary": "Télécharger gratuit",
     "secondary": "Obtenir Ruler Pro"
   },
