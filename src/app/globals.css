@@ -1,0 +1,297 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #0a0a0a;
+  }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    /* Reserve room for the fixed tape-rail so the rail never overlaps content */
+    padding-left: 22px;
+    background-image:
+      radial-gradient(800px circle at 0% 0%, rgba(255, 180, 0, 0.06), transparent 50%),
+      radial-gradient(600px circle at 100% 20%, rgba(255, 180, 0, 0.04), transparent 50%),
+      /* faint blueprint grid */
+      linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
+    background-size: auto, auto, 40px 40px, 40px 40px;
+    background-attachment: fixed;
+  }
+  @media (min-width: 768px) {
+    body { padding-left: 40px; }
+  }
+  ::selection {
+    background-color: #ffb400;
+    color: #000;
+  }
+  h1, h2, h3 {
+    @apply font-display tracking-tightest;
+  }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-6 md:px-10; }
+  .kicker { @apply font-mono text-[11px] uppercase tracking-ruler text-amber; }
+  .body-muted { @apply text-ink/70 leading-relaxed; }
+  .section { @apply relative py-16 md:py-32; }
+  .badge-amber { @apply inline-flex items-center gap-2 rounded-full border border-amber/30 bg-amber/10 px-3 py-1 font-mono text-[10px] uppercase tracking-ruler text-amber; }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-amber px-7 py-4 font-semibold text-black transition hover:scale-[1.02] hover:bg-amber-soft;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink/20 px-7 py-4 font-semibold text-ink transition hover:border-amber hover:text-amber;
+  }
+  .card {
+    @apply relative rounded-3xl border border-line bg-white/[0.02] backdrop-blur-sm p-7 transition hover:border-amber/40 hover:bg-white/[0.04];
+  }
+
+  /* ====================================================================== */
+  /* MEASURING-INSTRUMENT VISUAL LANGUAGE                                   */
+  /* ====================================================================== */
+
+  /* Yellow tape-measure rail running down the left edge of the page.       */
+  /* Major ticks every 100px, minor ticks every 20px, numbers every 100px. */
+  .tape-rail {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 28px;
+    pointer-events: none;
+    z-index: 5;
+    background: linear-gradient(90deg, #ffb400 0%, #ffc640 60%, #ffb400 100%);
+    border-right: 2px solid rgba(0,0,0,0.4);
+    box-shadow: 1px 0 0 rgba(255,219,64,0.4), 8px 0 30px -10px rgba(255,180,0,0.25);
+    /* tick marks: 1px black line every 20px (minor), every 100px (major) */
+    background-image:
+      linear-gradient(90deg, #ffb400 0%, #ffc640 60%, #ffb400 100%),
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent 19px,
+        rgba(0,0,0,0.55) 19px,
+        rgba(0,0,0,0.55) 20px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent 99px,
+        rgba(0,0,0,0.85) 99px,
+        rgba(0,0,0,0.85) 100px
+      );
+    background-blend-mode: normal, multiply, multiply;
+  }
+  /* The black tick lines start short (minor) on the right, extend longer for majors. */
+  .tape-rail::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 0;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 99px,
+      rgba(0,0,0,0.85) 99px,
+      rgba(0,0,0,0.85) 100px
+    );
+    /* extend major ticks across more width */
+    -webkit-mask: linear-gradient(90deg, black 0%, black 100%);
+  }
+  @media (max-width: 768px) {
+    .tape-rail { width: 14px; }
+  }
+
+  /* Crosshair / viewfinder bracket marks on the four corners of a card.    */
+  .dim-corners > .corner {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1.5px solid rgba(255,180,0,0.55);
+    transition: border-color 0.3s;
+    pointer-events: none;
+  }
+  .dim-corners:hover > .corner { border-color: #ffb400; }
+  .dim-corners > .corner.tl { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+  .dim-corners > .corner.tr { top: -1px; right: -1px; border-left: 0; border-bottom: 0; }
+  .dim-corners > .corner.bl { bottom: -1px; left: -1px; border-right: 0; border-top: 0; }
+  .dim-corners > .corner.br { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+
+  /* Floating measurement-style label for diagrams (← 132 cm →)             */
+  .dim-label {
+    @apply inline-flex items-center gap-1.5 rounded-sm bg-amber px-2 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-black;
+    box-shadow: 0 4px 16px -4px rgba(255,180,0,0.4);
+  }
+
+  /* Horizontal tape-measure divider between sections. Thin yellow tape    */
+  /* with cm tick marks, like the side of a real measuring tape.           */
+  .tape-divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(255,180,0,0.18), transparent);
+    position: relative;
+  }
+  .tape-divider::after {
+    content: '';
+    position: absolute;
+    inset: -3px 0 auto 0;
+    height: 8px;
+    background-image: repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent 19px,
+      rgba(255,180,0,0.32) 19px,
+      rgba(255,180,0,0.32) 20px
+    );
+    -webkit-mask: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    mask: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+  }
+
+  /* Dimension annotation: horizontal yellow line with arrowheads + label   */
+  /* Drop into a relatively-positioned parent to anchor measurements.       */
+  .dim-line {
+    position: relative;
+    height: 1px;
+    background: rgba(255,180,0,0.6);
+  }
+  .dim-line::before, .dim-line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform: translateY(-50%);
+  }
+  .dim-line::before {
+    left: 0;
+    border-width: 4px 6px 4px 0;
+    border-color: transparent rgba(255,180,0,0.6) transparent transparent;
+  }
+  .dim-line::after {
+    right: 0;
+    border-width: 4px 0 4px 6px;
+    border-color: transparent transparent transparent rgba(255,180,0,0.6);
+  }
+
+  /* Tape-measure section header: a strip with cm numbers on the side.      */
+  .tape-marker {
+    @apply inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-ruler text-amber;
+  }
+  .tape-marker::before {
+    content: '';
+    width: 16px;
+    height: 1px;
+    background: currentColor;
+  }
+  .tape-marker::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 1px;
+  }
+}
+
+/* ========================================================================= */
+/* COMPONENT STYLES                                                          */
+/* ========================================================================= */
+
+.phone-frame {
+  position: relative;
+  border-radius: 44px;
+  padding: 8px;
+  background: linear-gradient(160deg, #1a1a1d, #050505);
+  box-shadow:
+    0 30px 80px -20px rgba(0,0,0,0.6),
+    0 0 0 1px rgba(255,255,255,0.05) inset;
+}
+.phone-frame > img {
+  border-radius: 36px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.headline-massive {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 8vw, 8rem);
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+.title-xl {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.85rem, 5.5vw, 4.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+
+.amber-underline {
+  background-image: linear-gradient(transparent 62%, rgba(255, 180, 0, 0.35) 0);
+}
+
+/* Hero phone mockup with floating measurement annotation */
+.hero-mockup-wrap {
+  position: relative;
+}
+.hero-mockup-wrap .dim-callout {
+  position: absolute;
+  left: -10%;
+  top: 38%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+  z-index: 2;
+}
+.hero-mockup-wrap .dim-callout-line {
+  height: 1px;
+  width: 80px;
+  background: rgba(255,180,0,0.7);
+  position: relative;
+}
+.hero-mockup-wrap .dim-callout-line::before {
+  content: '';
+  position: absolute;
+  right: -3px; top: -3px;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #ffb400;
+}
+
+/* Camera viewfinder corners for hero/feature mockup containers */
+.viewfinder {
+  position: relative;
+}
+.viewfinder::before, .viewfinder::after,
+.viewfinder > .vf-tr, .viewfinder > .vf-bl {
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-color: rgba(255,180,0,0.7);
+  border-style: solid;
+  border-width: 0;
+  pointer-events: none;
+}
+.viewfinder::before {
+  top: -10px; left: -10px;
+  border-top-width: 2px; border-left-width: 2px;
+}
+.viewfinder::after {
+  bottom: -10px; right: -10px;
+  border-bottom-width: 2px; border-right-width: 2px;
+}
+.viewfinder > .vf-tr {
+  top: -10px; right: -10px;
+  border-top-width: 2px; border-right-width: 2px;
+}
+.viewfinder > .vf-bl {
+  bottom: -10px; left: -10px;
+  border-bottom-width: 2px; border-left-width: 2px;
+}
