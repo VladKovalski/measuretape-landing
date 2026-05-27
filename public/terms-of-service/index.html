@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Protocols | Vladislav Kovalski</title>
+    <!-- Phông chữ đồng bộ hệ thống -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Inter:wght@200;400;600;700&family=JetBrains+Mono:wght@300;500;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ffb400;
+            --bg: #0a0a0a;
+            --text: #f5f5f7;
+            --muted: #444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- THE INFINITE RULER LINE (Signature Element) --- */
+        .ruler-line {
+            position: fixed;
+            left: 50px; top: 0;
+            width: 1px; height: 100%;
+            background: linear-gradient(to bottom, transparent, var(--muted), transparent);
+            z-index: 100;
+        }
+        .ruler-line::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 10px; height: 100%;
+            background-image: linear-gradient(var(--muted) 1px, transparent 1px);
+            background-size: 100% 20px;
+        }
+
+        .container { padding: 0 10% 100px 120px; }
+
+        /* --- HEADER --- */
+        header {
+            padding: 120px 0 80px;
+            border-bottom: 1px solid var(--muted);
+        }
+
+        .protocol-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 5px;
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(3rem, 12vw, 8rem);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.05em;
+            line-height: 0.9;
+        }
+
+        /* --- MAIN CONTENT AREA --- */
+        .content-body {
+            padding-top: 80px;
+            max-width: 900px;
+        }
+
+        .policy-section {
+            margin-bottom: 100px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--primary);
+        }
+
+        h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        p {
+            font-weight: 300;
+            color: #a1a1a6;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .protocol-box {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid var(--muted);
+            padding: 40px;
+            margin: 30px 0;
+        }
+
+        .list-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            color: #ccc;
+            font-size: 1rem;
+        }
+
+        .list-item span {
+            color: var(--primary);
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 800;
+        }
+
+        /* --- CONTACT CHANNEL (Consistent with Privacy) --- */
+        .contact-channel {
+            padding: 40px;
+            border: 1px solid var(--muted);
+            background: rgba(255,255,255,0.02);
+            margin-top: 20px;
+        }
+
+        .email-link {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: 0.3s;
+        }
+
+        .email-link:hover {
+            border-bottom-color: var(--primary);
+            letter-spacing: 1px;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            margin-top: 150px;
+            padding-top: 40px;
+            border-top: 1px solid var(--muted);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--muted);
+        }
+
+        footer a { color: var(--text); text-decoration: none; font-weight: 700; }
+        footer a:hover { color: var(--primary); }
+
+        @media (max-width: 900px) {
+            .container { padding-left: 60px; }
+            .ruler-line { left: 20px; }
+            h1 { font-size: 3.5rem; }
+            footer { flex-direction: column; gap: 20px; text-align: center; }
+            .protocol-box { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ruler-line"></div>
+
+    <div class="container">
+        <header>
+            <div class="protocol-label">Usage Mandate // Vladislav Kovalski</div>
+            <h1>TERMS OF<br>SERVICE.</h1>
+        </header>
+
+        <main class="content-body">
+            <!-- Section 01 -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">01/</span>
+                    <h2>Acceptance of Protocols</h2>
+                </div>
+                <p>By initializing and operating the AR Ruler software (Ruler Pro / Ruler AR), you enter into a legally binding agreement. If you do not consent to these operational guidelines, you must terminate the session and remove the application immediately.</p>
+            </section>
+
+            <!-- Section 02 -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">02/</span>
+                    <h2>Operational License</h2>
+                </div>
+                <p>Vladislav Kovalski Studio grants you a non-exclusive, revocable license to utilize our spatial measurement engines for personal or professional tasks. All architectural assets and code remains the property of the developer.</p>
+                <div class="protocol-box">
+                    <div class="list-item"><span>[!]</span> No reverse engineering of LiDAR algorithms.</div>
+                    <div class="list-item"><span>[!]</span> No unauthorized redistribution of AR assets.</div>
+                    <div class="list-item"><span>[!]</span> No commercial resale of the software module.</div>
+                </div>
+            </section>
+
+            <!-- Section 03 -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">03/</span>
+                    <h2>Data & Sync</h2>
+                </div>
+                <p>Simulation progress and measurement logs are synchronized via Apple App Store infrastructure. We are not responsible for data corruption caused by local hardware instability or connection failures during synchronization.</p>
+            </section>
+
+            <!-- Section 04 -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">04/</span>
+                    <h2>System Termination</h2>
+                </div>
+                <p>We reserve the right to revoke system access without prior notice if a breach of conduct is detected. Upon termination, all licenses granted under this document will be deactivated.</p>
+            </section>
+
+            <!-- Section 05: CONTACT -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">05/</span>
+                    <h2>Legal Inquiry</h2>
+                </div>
+                <p>For technical clarification regarding these protocols or to report a system vulnerability, connect with the primary support channel:</p>
+                <div class="contact-channel">
+                    <a href="/cdn-cgi/l/email-protection#87e4e8e9f3e6e4f3c7eae2e6f4f2f5e2f3e6f7e2a9eee9e1e8" class="email-link"><span class="__cf_email__" data-cfemail="f695999882979582b69b93978583849382978693d89f989099">[email&#160;protected]</span></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>&copy; 2026 Vladislav Kovalski</div>
+            <div style="display: flex; gap: 30px;">
+                <a href="../index.html">Main Terminal</a>
+                <a href="../privacy-policy-3/">Privacy Policy</a>
+            </div>
+            <div style="opacity: 0.5;">Rev. 4.0 // Valid Worldwide</div>
+        </footer>
+    </div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

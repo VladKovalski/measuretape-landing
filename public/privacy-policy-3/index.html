@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Protocol | Vladislav Kovalski</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Inter:wght@200;400;600;700&family=JetBrains+Mono:wght@300;500;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ffb400;
+            --bg: #0a0a0a;
+            --text: #f5f5f7;
+            --muted: #444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- THE INFINITE RULER LINE --- */
+        .ruler-line {
+            position: fixed;
+            left: 50px; top: 0;
+            width: 1px; height: 100%;
+            background: linear-gradient(to bottom, transparent, var(--muted), transparent);
+            z-index: 100;
+        }
+        .ruler-line::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 10px; height: 100%;
+            background-image: linear-gradient(var(--muted) 1px, transparent 1px);
+            background-size: 100% 20px;
+        }
+
+        .container { padding: 0 10% 100px 120px; }
+
+        /* --- HEADER --- */
+        header {
+            padding: 120px 0 80px;
+            border-bottom: 1px solid var(--muted);
+        }
+
+        .protocol-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 5px;
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(3rem, 12vw, 8rem);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.05em;
+            line-height: 0.9;
+        }
+
+        /* --- MAIN CONTENT AREA --- */
+        .content-body {
+            padding-top: 80px;
+            max-width: 900px;
+        }
+
+        .policy-section {
+            margin-bottom: 100px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--primary);
+        }
+
+        h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        p {
+            font-weight: 300;
+            color: #a1a1a6;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        /* Bảng dữ liệu phong cách Engineering */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            border: 1px solid var(--muted);
+        }
+
+        .data-table th, .data-table td {
+            padding: 15px;
+            border: 1px solid var(--muted);
+            text-align: left;
+        }
+
+        .data-table th {
+            color: var(--primary);
+            background-color: rgba(255, 180, 0, 0.05);
+        }
+
+        /* --- PHẦN CONTACT ĐÃ ĐƯỢC ĐƯA VÀO NỘI DUNG --- */
+        .contact-channel {
+            padding: 40px;
+            border: 1px solid var(--muted);
+            background: rgba(255,255,255,0.02);
+            margin-top: 20px;
+        }
+
+        .email-link {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem; /* Kích thước vừa phải, chuyên nghiệp */
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: 0.3s;
+        }
+
+        .email-link:hover {
+            border-bottom-color: var(--primary);
+            letter-spacing: 1px;
+        }
+
+        /* --- FOOTER SIÊU TỐI GIẢN --- */
+        footer {
+            margin-top: 150px;
+            padding-top: 40px;
+            border-top: 1px solid var(--muted);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--muted);
+        }
+
+        footer a { color: var(--text); text-decoration: none; font-weight: 700; }
+        footer a:hover { color: var(--primary); }
+
+        @media (max-width: 900px) {
+            .container { padding-left: 60px; }
+            .ruler-line { left: 20px; }
+            h1 { font-size: 4rem; }
+            footer { flex-direction: column; gap: 20px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ruler-line"></div>
+
+    <div class="container">
+        <header>
+            <div class="protocol-label">Encrypted Data Protocol // 2026.01</div>
+            <h1>PRIVACY<br>POLICY.</h1>
+        </header>
+
+        <main class="content-body">
+            <!-- Section 01 -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">01/</span>
+                    <h2>General Mandate</h2>
+                </div>
+                <p>Welcome to the AR Ruler ecosystem. We at Vladislav Kovalski Studio prioritize your privacy as the cornerstone of our engineering. This protocol describes the collection and utilization of technical metadata within our applications.</p>
+            </section>
+
+            <!-- Section 02 -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">02/</span>
+                    <h2>Data Architecture</h2>
+                </div>
+                <p>Most measurement processes occur locally. For engine precision, we track the following technical parameters:</p>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Module</th>
+                            <th>Data Point</th>
+                            <th>Objective</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Augmented Reality</td>
+                            <td>LiDAR Depth Maps</td>
+                            <td>Spatial Accuracy</td>
+                        </tr>
+                        <tr>
+                            <td>Hardware Meta</td>
+                            <td>OS Architecture</td>
+                            <td>Optimization</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Section 03 -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">03/</span>
+                    <h2>External Nodes</h2>
+                </div>
+                <p>We interface with verified third-party architectures (Apple App Store & Unity) to facilitate core services and physics rendering under strict privacy frameworks.</p>
+            </section>
+
+            <!-- Section 04: CONTACT (Moved from Footer to Content) -->
+            <section class="policy-section">
+                <div class="section-header">
+                    <span class="section-num">04/</span>
+                    <h2>Contact Information</h2>
+                </div>
+                <p>For inquiries regarding data sovereignty or technical protocol audit, connect with our engineering desk through the direct channel below:</p>
+                <div class="contact-channel">
+                    <a href="/cdn-cgi/l/email-protection#accfc3c2d8cdcfd8ecc1c9cddfd9dec9d8cddcc982c5c2cac3" class="email-link"><span class="__cf_email__" data-cfemail="55363a3b213436211538303426202730213425307b3c3b333a">[email&#160;protected]</span></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>&copy; 2026 Vladislav Kovalski</div>
+            <div style="display: flex; gap: 30px;">
+                <a href="../index.html">Back to Home</a>
+                <a href="/terms-of-service/">Terms of Use</a>
+            </div>
+            <div style="opacity: 0.5;">Secure Connection: Active</div>
+        </footer>
+    </div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
