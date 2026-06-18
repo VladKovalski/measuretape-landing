@@ -36,7 +36,7 @@ export async function generateMetadata({
   });
 
   return {
-    title: `${title} · measuretape.info`,
+    title: `${title} · measuretape.app`,
     description: desc,
     keywords: post.meta.keywords,
     alternates: { canonical: `${SITE.url}${path}`, languages },

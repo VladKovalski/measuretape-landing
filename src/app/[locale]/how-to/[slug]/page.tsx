@@ -43,7 +43,7 @@ export async function generateMetadata({
     languages[l] = `${SITE.url}/${l}/how-to/${slug}/`;
   });
   return {
-    title: `${title} · measuretape.info`,
+    title: `${title} · measuretape.app`,
     description: desc,
     keywords: item.keywords,
     alternates: { canonical: `${SITE.url}${path}`, languages },

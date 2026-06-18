@@ -49,7 +49,7 @@ export default async function OG() {
               textTransform: 'uppercase'
             }}
           >
-            measuretape.info
+            measuretape.app
           </div>
         </div>
 

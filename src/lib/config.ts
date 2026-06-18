@@ -1,5 +1,5 @@
 export const SITE = {
-  url: 'https://measuretape.info',
+  url: 'https://measuretape.app',
   name: 'Ruler AR — AI Tape Measure',
   twitter: '@measuretapeapp'
 };

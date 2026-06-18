@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["SFXWZ9W4BT.com.tapetool.ruler"],
+        "components": [
+          { "/": "/roomplan", "comment": "Open the Room Plan scanner" },
+          { "/": "/measure", "comment": "Open the app ready to measure" }
+        ]
+      }
+    ]
+  }
+}

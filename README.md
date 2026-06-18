@@ -1,4 +1,4 @@
-# measuretape.info — landing v2
+# measuretape.app — landing v2
 
 SEO + GEO-оптимизированный лендинг для **Ruler AR** и **Ruler Pro** (iOS).
 Цель — органический трафик из Google, переливаемый в App Store.
@@ -86,7 +86,7 @@ npm run build          # генерирует out/
 3. Build command: `npm run build`
 4. Output directory: `out`
 5. Environment variables: не требуются
-6. Custom domain: `measuretape.info`
+6. Custom domain: `measuretape.app`
 
 ### Vercel
 

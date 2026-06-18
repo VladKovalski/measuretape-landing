@@ -32,7 +32,7 @@ export default function RootRedirect() {
       </head>
       <body style={{ background: '#0a0a0a', color: '#888', fontFamily: 'system-ui, sans-serif', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', margin: 0 }}>
         <p>
-          <a href="/en/" style={{ color: '#ffb400' }}>Redirecting to measuretape.info…</a>
+          <a href="/en/" style={{ color: '#ffb400' }}>Redirecting to measuretape.app…</a>
         </p>
       </body>
     </html>

@@ -12,7 +12,7 @@ export function generateStaticParams() {
 
 const BLOG_META: Record<Locale, { title: string; description: string; kicker: string; h1: string; intro: string; readTime: string; }> = {
   en: {
-    title: 'Blog · Measuring tips, AR guides, and renovation walkthroughs — measuretape.info',
+    title: 'Blog · Measuring tips, AR guides, and renovation walkthroughs — measuretape.app',
     description: 'Articles on measuring with your iPhone, AR tape measure accuracy, room scanning, and renovation planning. By the makers of Ruler AR.',
     kicker: 'Field notes',
     h1: 'Measuring, the iPhone way.',
@@ -20,7 +20,7 @@ const BLOG_META: Record<Locale, { title: string; description: string; kicker: st
     readTime: 'min read'
   },
   ru: {
-    title: 'Блог · Гайды по измерениям, AR и ремонту — measuretape.info',
+    title: 'Блог · Гайды по измерениям, AR и ремонту — measuretape.app',
     description: 'Статьи о том, как измерять iPhone-ом, точности AR-рулетки, сканировании комнат и планировании ремонта. От команды Ruler AR.',
     kicker: 'Полевые заметки',
     h1: 'Измерения по-новому.',
@@ -28,7 +28,7 @@ const BLOG_META: Record<Locale, { title: string; description: string; kicker: st
     readTime: 'мин чтения'
   },
   de: {
-    title: 'Blog · Mess-Tipps, AR-Guides und Renovierungs-Walkthroughs — measuretape.info',
+    title: 'Blog · Mess-Tipps, AR-Guides und Renovierungs-Walkthroughs — measuretape.app',
     description: 'Artikel zum Messen mit iPhone, Genauigkeit von AR-Maßbändern, Raumscan und Renovierungsplanung. Von den Machern von Ruler AR.',
     kicker: 'Praxisnotizen',
     h1: 'Messen, neu gedacht.',
@@ -36,7 +36,7 @@ const BLOG_META: Record<Locale, { title: string; description: string; kicker: st
     readTime: 'Min Lesezeit'
   },
   fr: {
-    title: 'Blog · Astuces de mesure, guides AR et tutoriels de rénovation — measuretape.info',
+    title: 'Blog · Astuces de mesure, guides AR et tutoriels de rénovation — measuretape.app',
     description: 'Articles sur la mesure avec iPhone, la précision AR, le scan de pièces et la planification de rénovation. Par l\'équipe Ruler AR.',
     kicker: 'Notes terrain',
     h1: 'Mesurer, mode iPhone.',
@@ -44,7 +44,7 @@ const BLOG_META: Record<Locale, { title: string; description: string; kicker: st
     readTime: 'min de lecture'
   },
   es: {
-    title: 'Blog · Consejos de medición, guías AR y tutoriales de reforma — measuretape.info',
+    title: 'Blog · Consejos de medición, guías AR y tutoriales de reforma — measuretape.app',
     description: 'Artículos sobre medir con iPhone, precisión de cinta métrica AR, escaneo de habitaciones y planificación de reformas. Del equipo de Ruler AR.',
     kicker: 'Notas de campo',
     h1: 'Medir, al estilo iPhone.',

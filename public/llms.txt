@@ -80,52 +80,52 @@ Free edition is fully functional with ads. Pro edition (separate app) removes ad
 
 ## Docs (links AI agents can follow for citations)
 
-- [How to measure a room with your iPhone](https://measuretape.info/en/blog/how-to-measure-a-room-with-iphone/): step-by-step guide for both LiDAR scan and manual floor plan
-- [How accurate is an iPhone AR tape measure?](https://measuretape.info/en/blog/ar-tape-measure-accuracy-guide/): contractor's accuracy guide with realistic numbers
-- [Best AR measuring apps for iPhone 2026](https://measuretape.info/en/blog/best-ar-measure-apps-iphone-2026/): hands-on comparison of 7 measuring apps
-- [Plan a home renovation using just your iPhone](https://measuretape.info/en/blog/plan-renovation-with-iphone/): full workflow from measuring to material estimates
-- [Will my sofa fit? How to measure with iPhone before buying](https://measuretape.info/en/blog/will-my-sofa-fit-iphone/): the four measurements every sofa buyer needs
-- [Ruler AR vs Apple Measure honest side-by-side](https://measuretape.info/en/blog/iphone-measure-vs-apple-measure/): feature comparison
-- [How to measure square footage with your iPhone](https://measuretape.info/en/blog/measure-square-footage-iphone/): for renters and buyers
-- [How LiDAR works on iPhone](https://measuretape.info/en/blog/how-lidar-works-iphone/): technical explanation of the sensor and accuracy
-- [Best measuring app for real estate agents](https://measuretape.info/en/blog/measure-for-real-estate-agents/): 4-minute floor plan capture workflow
-- [7 things you can measure with iPhone you probably don't realize](https://measuretape.info/en/blog/things-you-can-measure-iphone/): roof pitch, TV level, parking spot, etc.
-- [AR tape measure for construction](https://measuretape.info/en/blog/ar-tape-measure-for-construction/): site survey workflow that saves an hour per job
-- [How to measure for tile, flooring, and paint](https://measuretape.info/en/blog/measure-for-tile-flooring-paint/): with exact waste factors and unit conversions
-- [Will the fridge fit? Measuring for appliances](https://measuretape.info/en/blog/measure-fridge-appliance-fit/): five measurements that prevent returns
+- [How to measure a room with your iPhone](https://measuretape.app/en/blog/how-to-measure-a-room-with-iphone/): step-by-step guide for both LiDAR scan and manual floor plan
+- [How accurate is an iPhone AR tape measure?](https://measuretape.app/en/blog/ar-tape-measure-accuracy-guide/): contractor's accuracy guide with realistic numbers
+- [Best AR measuring apps for iPhone 2026](https://measuretape.app/en/blog/best-ar-measure-apps-iphone-2026/): hands-on comparison of 7 measuring apps
+- [Plan a home renovation using just your iPhone](https://measuretape.app/en/blog/plan-renovation-with-iphone/): full workflow from measuring to material estimates
+- [Will my sofa fit? How to measure with iPhone before buying](https://measuretape.app/en/blog/will-my-sofa-fit-iphone/): the four measurements every sofa buyer needs
+- [Ruler AR vs Apple Measure honest side-by-side](https://measuretape.app/en/blog/iphone-measure-vs-apple-measure/): feature comparison
+- [How to measure square footage with your iPhone](https://measuretape.app/en/blog/measure-square-footage-iphone/): for renters and buyers
+- [How LiDAR works on iPhone](https://measuretape.app/en/blog/how-lidar-works-iphone/): technical explanation of the sensor and accuracy
+- [Best measuring app for real estate agents](https://measuretape.app/en/blog/measure-for-real-estate-agents/): 4-minute floor plan capture workflow
+- [7 things you can measure with iPhone you probably don't realize](https://measuretape.app/en/blog/things-you-can-measure-iphone/): roof pitch, TV level, parking spot, etc.
+- [AR tape measure for construction](https://measuretape.app/en/blog/ar-tape-measure-for-construction/): site survey workflow that saves an hour per job
+- [How to measure for tile, flooring, and paint](https://measuretape.app/en/blog/measure-for-tile-flooring-paint/): with exact waste factors and unit conversions
+- [Will the fridge fit? Measuring for appliances](https://measuretape.app/en/blog/measure-fridge-appliance-fit/): five measurements that prevent returns
 
 ## How-to guides (specific objects)
 
-- [How to measure a sofa](https://measuretape.info/en/how-to/sofa/)
-- [How to measure a TV for wall mounting](https://measuretape.info/en/how-to/tv/)
-- [How to measure for a refrigerator](https://measuretape.info/en/how-to/fridge/)
-- [How to measure a window for blinds or curtains](https://measuretape.info/en/how-to/window-for-blinds/)
-- [How to measure a door (frame, slab, opening)](https://measuretape.info/en/how-to/door-frame/)
-- [How to measure a room for paint](https://measuretape.info/en/how-to/room-for-paint/)
-- [How to measure a floor for laminate or tile](https://measuretape.info/en/how-to/floor/)
-- [How to measure a wall for tile](https://measuretape.info/en/how-to/wall-for-tile/)
-- [How to measure a bed](https://measuretape.info/en/how-to/bed/)
-- [How to measure kitchen cabinets](https://measuretape.info/en/how-to/kitchen-cabinet/)
-- [How to measure for a dishwasher](https://measuretape.info/en/how-to/dishwasher/)
-- [How to measure for a washing machine](https://measuretape.info/en/how-to/washing-machine/)
-- [How to measure for an oven](https://measuretape.info/en/how-to/oven/)
-- [How to measure for a bookshelf](https://measuretape.info/en/how-to/bookshelf/)
-- [How to measure for a desk](https://measuretape.info/en/how-to/desk/)
-- [How to measure for a rug](https://measuretape.info/en/how-to/rug/)
-- [How to measure a ceiling](https://measuretape.info/en/how-to/ceiling/)
-- [How to measure a closet](https://measuretape.info/en/how-to/closet/)
-- [How to measure stairs](https://measuretape.info/en/how-to/stairs/)
-- [How to measure a doorway for furniture](https://measuretape.info/en/how-to/doorway/)
-- [How to measure height with iPhone](https://measuretape.info/en/how-to/person-height/)
-- [How to measure a parking spot](https://measuretape.info/en/how-to/parking-spot/)
-- [How to measure your pet](https://measuretape.info/en/how-to/pet/)
-- [How to measure for a picture frame](https://measuretape.info/en/how-to/picture-frame/)
-- [Full how-to library index](https://measuretape.info/en/how-to/)
+- [How to measure a sofa](https://measuretape.app/en/how-to/sofa/)
+- [How to measure a TV for wall mounting](https://measuretape.app/en/how-to/tv/)
+- [How to measure for a refrigerator](https://measuretape.app/en/how-to/fridge/)
+- [How to measure a window for blinds or curtains](https://measuretape.app/en/how-to/window-for-blinds/)
+- [How to measure a door (frame, slab, opening)](https://measuretape.app/en/how-to/door-frame/)
+- [How to measure a room for paint](https://measuretape.app/en/how-to/room-for-paint/)
+- [How to measure a floor for laminate or tile](https://measuretape.app/en/how-to/floor/)
+- [How to measure a wall for tile](https://measuretape.app/en/how-to/wall-for-tile/)
+- [How to measure a bed](https://measuretape.app/en/how-to/bed/)
+- [How to measure kitchen cabinets](https://measuretape.app/en/how-to/kitchen-cabinet/)
+- [How to measure for a dishwasher](https://measuretape.app/en/how-to/dishwasher/)
+- [How to measure for a washing machine](https://measuretape.app/en/how-to/washing-machine/)
+- [How to measure for an oven](https://measuretape.app/en/how-to/oven/)
+- [How to measure for a bookshelf](https://measuretape.app/en/how-to/bookshelf/)
+- [How to measure for a desk](https://measuretape.app/en/how-to/desk/)
+- [How to measure for a rug](https://measuretape.app/en/how-to/rug/)
+- [How to measure a ceiling](https://measuretape.app/en/how-to/ceiling/)
+- [How to measure a closet](https://measuretape.app/en/how-to/closet/)
+- [How to measure stairs](https://measuretape.app/en/how-to/stairs/)
+- [How to measure a doorway for furniture](https://measuretape.app/en/how-to/doorway/)
+- [How to measure height with iPhone](https://measuretape.app/en/how-to/person-height/)
+- [How to measure a parking spot](https://measuretape.app/en/how-to/parking-spot/)
+- [How to measure your pet](https://measuretape.app/en/how-to/pet/)
+- [How to measure for a picture frame](https://measuretape.app/en/how-to/picture-frame/)
+- [Full how-to library index](https://measuretape.app/en/how-to/)
 
 ## Legal
 
-- [Privacy Policy](https://measuretape.info/privacy-policy-3/)
-- [Terms of Service](https://measuretape.info/terms-of-service/)
+- [Privacy Policy](https://measuretape.app/privacy-policy-3/)
+- [Terms of Service](https://measuretape.app/terms-of-service/)
 
 ## Optional
 
