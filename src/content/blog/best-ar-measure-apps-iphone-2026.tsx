@@ -65,17 +65,17 @@ export default function Post() {
       <p>
         For short distances (under 1 m), all seven apps came in within ±5 mm of
         the laser baseline. AR raycast on a textured surface at close range is
-        consistent across implementations — ARKit does the heavy lifting and the
+        consistent across implementations, ARKit does the heavy lifting and the
         apps just expose the result.
       </p>
       <p>
-        For room-length walls (4–6 m), accuracy diverged. The best apps used
+        For room-length walls (4-6 m), accuracy diverged. The best apps used
         LiDAR depth readings directly and stayed within ±15 mm. The worst inferred
-        depth from camera-only signals and drifted to ±50 mm — fine for furniture
+        depth from camera-only signals and drifted to ±50 mm, fine for furniture
         planning, too loose for any kind of building permit drawing.
       </p>
       <p>
-        For the diagonal across 6.8 m of carpet (the hardest test — AR drift
+        For the diagonal across 6.8 m of carpet (the hardest test, AR drift
         accumulates with distance), only two apps stayed within 2 cm. Three were
         off by 10 cm or more.
       </p>
@@ -96,14 +96,14 @@ export default function Post() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Best for:</strong> the broadest feature set in a free app — AR
+        <strong>Best for:</strong> the broadest feature set in a free app, AR
         camera measure, manual floor plan builder (works without LiDAR), 3D
         LiDAR room scan, angles, area, level, project folders, PDF export.
         <strong> Skip if:</strong> you want zero ads (the Pro tier removes them).
       </p>
       <p>
         Stood out in our tests for the Touch Mode (places start point at phone
-        position — eliminates short-distance raycast error) and the
+        position, eliminates short-distance raycast error) and the
         adaptive-quality system that automatically reduces session load on warm
         devices. Floor plans exported with measured walls + doors + windows in a
         clean PDF format.
@@ -112,7 +112,7 @@ export default function Post() {
       <h3>MagicPlan</h3>
       <p>
         <strong>Best for:</strong> professional floor plans with materials and
-        cost estimates. <strong>Skip if:</strong> price-sensitive — the pro
+        cost estimates. <strong>Skip if:</strong> price-sensitive, the pro
         subscription is significantly higher than competitors.
       </p>
       <p>
@@ -125,7 +125,7 @@ export default function Post() {
       <p>
         <strong>Best for:</strong> very fast manual floor plans by touching the
         phone to walls one at a time. <strong>Skip if:</strong> you want the LiDAR
-        flow — they're more focused on the touch-the-wall workflow.
+        flow, they're more focused on the touch-the-wall workflow.
       </p>
 
       <h3>AR Ruler App / AirMeasure / Tape Measure 3D</h3>
@@ -162,7 +162,7 @@ export default function Post() {
           </tr>
           <tr>
             <td>Architectural-grade output</td>
-            <td>None — use a laser meter + CAD</td>
+            <td>None, use a laser meter + CAD</td>
           </tr>
         </tbody>
       </table>
@@ -174,7 +174,7 @@ export default function Post() {
         whether it crashes on older phones, or whether the export actually
         produces something a contractor can read. We hit two app crashes on
         non-Pro iPhones during testing (older 11 Pro hardware). Both were in apps
-        without adaptive performance management — the AR session and an ad SDK
+        without adaptive performance management, the AR session and an ad SDK
         ran simultaneously and the engine overloaded. Apps that throttle scene
         complexity based on thermal state held up.
       </p>

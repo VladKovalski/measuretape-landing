@@ -43,8 +43,7 @@ export default function Post() {
       <p>
         The iPhone's LiDAR fires <strong>576 pulses simultaneously in a
         grid pattern</strong>, 30 times per second. That gives you a depth
-        map of 576 points in your environment, updated 30 times per second
-        — essentially a 3D depth video stream.
+        map of 576 points in your environment, updated 30 times per second, essentially a 3D depth video stream.
       </p>
       <p>
         Range: about 5 metres indoors, 3 metres outdoors (sunlight saturates
@@ -86,8 +85,8 @@ export default function Post() {
           </tr>
           <tr>
             <td>Works on blank white walls?</td>
-            <td>Struggles — needs texture</td>
-            <td>Yes — laser reads depth regardless of visual texture</td>
+            <td>Struggles, needs texture</td>
+            <td>Yes, laser reads depth regardless of visual texture</td>
           </tr>
           <tr>
             <td>Works in pitch darkness?</td>
@@ -102,12 +101,12 @@ export default function Post() {
           <tr>
             <td>Captures 3D mesh of environment?</td>
             <td>No</td>
-            <td>Yes — Apple's RoomPlan API uses it</td>
+            <td>Yes, Apple's RoomPlan API uses it</td>
           </tr>
           <tr>
             <td>Detects furniture / objects automatically?</td>
             <td>No</td>
-            <td>Yes — sofas, beds, fridges, doors, windows tagged</td>
+            <td>Yes, sofas, beds, fridges, doors, windows tagged</td>
           </tr>
         </tbody>
       </table>
@@ -120,8 +119,8 @@ export default function Post() {
         <li>
           <strong>RoomPlan scanning.</strong> Apple's RoomPlan framework
           (which Ruler AR uses for room scans) only works on LiDAR
-          devices. It captures a complete 3D model of the room — walls,
-          windows, doors, furniture — in 60-90 seconds of walking. No
+          devices. It captures a complete 3D model of the room, walls,
+          windows, doors, furniture, in 60-90 seconds of walking. No
           LiDAR, no RoomPlan.
         </li>
         <li>
@@ -153,16 +152,16 @@ export default function Post() {
       </ul>
       <p>
         Standard (non-Pro) iPhones don't have LiDAR. Apple has indicated this
-        is deliberate — LiDAR is a "Pro" differentiator. There are no
+        is deliberate, LiDAR is a "Pro" differentiator. There are no
         announcements of LiDAR coming to standard iPhones.
       </p>
 
-      <h2>If you don't have LiDAR — what can you still do?</h2>
+      <h2>If you don't have LiDAR, what can you still do?</h2>
       <p>
         Pretty much everything except the automatic 3D room scan.
         Camera-based AR measurement still works for distance, height, area,
         and angles. The Manual Room Builder lets you build floor plans by
-        walking the perimeter and tapping corners — no LiDAR required, and
+        walking the perimeter and tapping corners, no LiDAR required, and
         the resulting plan is just as accurate as a LiDAR scan in 2D.
       </p>
       <p>

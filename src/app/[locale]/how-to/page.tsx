@@ -12,43 +12,43 @@ export function generateStaticParams() {
 
 const INDEX_META: Record<Locale, { title: string; description: string; kicker: string; h1: string; intro: string; categoryLabels: Record<string, string>; }> = {
   en: {
-    title: 'How to Measure Anything with Your iPhone — A Guide Library',
+    title: 'How to Measure Anything with Your iPhone, A Guide Library',
     description: 'Step-by-step guides to measure sofas, fridges, walls, windows, and 20+ other things using your iPhone camera. Each guide is 3-15 minutes.',
     kicker: 'Guide library',
     h1: 'How to measure anything.',
-    intro: 'Twenty-plus step-by-step guides for measuring specific objects with your iPhone — from sofas to ceilings, kitchen cabinets to parking spots. Each guide is hands-on, tested, and takes 2-15 minutes to complete.',
+    intro: 'Twenty-plus step-by-step guides for measuring specific objects with your iPhone, from sofas to ceilings, kitchen cabinets to parking spots. Each guide is hands-on, tested, and takes 2-15 minutes to complete.',
     categoryLabels: { furniture: 'Furniture', appliance: 'Appliances', room: 'Rooms', fixture: 'Fixtures', outdoor: 'Outdoor', body: 'People & Pets', other: 'Other' }
   },
   ru: {
-    title: 'Как измерить что угодно iPhone-ом — библиотека гайдов',
+    title: 'Как измерить что угодно iPhone-ом, библиотека гайдов',
     description: 'Пошаговые гайды по замеру дивана, холодильника, стены, окна и ещё 20+ объектов с камерой iPhone. Каждый гайд 3-15 минут.',
     kicker: 'Библиотека гайдов',
     h1: 'Как измерить всё на свете.',
-    intro: 'Двадцать с лишним пошаговых гайдов под конкретные объекты — от дивана до потолка, от кухонных шкафов до парковочных мест. Каждый практичный, проверенный, занимает 2-15 минут.',
+    intro: 'Двадцать с лишним пошаговых гайдов под конкретные объекты, от дивана до потолка, от кухонных шкафов до парковочных мест. Каждый практичный, проверенный, занимает 2-15 минут.',
     categoryLabels: { furniture: 'Мебель', appliance: 'Техника', room: 'Комнаты', fixture: 'Конструкции', outdoor: 'Снаружи', body: 'Люди и животные', other: 'Прочее' }
   },
   de: {
-    title: 'So misst du alles mit dem iPhone — Anleitungsbibliothek',
+    title: 'So misst du alles mit dem iPhone, Anleitungsbibliothek',
     description: 'Schritt-für-Schritt-Anleitungen zum Messen von Sofas, Kühlschränken, Wänden, Fenstern und 20+ weiteren Objekten mit der iPhone-Kamera.',
     kicker: 'Anleitungen',
     h1: 'So misst du alles.',
-    intro: 'Über zwanzig Schritt-für-Schritt-Anleitungen für bestimmte Objekte mit dem iPhone — vom Sofa bis zur Decke, von Küchenschränken bis Parkplätzen. Jede praxiserprobt, 2-15 Minuten.',
+    intro: 'Über zwanzig Schritt-für-Schritt-Anleitungen für bestimmte Objekte mit dem iPhone, vom Sofa bis zur Decke, von Küchenschränken bis Parkplätzen. Jede praxiserprobt, 2-15 Minuten.',
     categoryLabels: { furniture: 'Möbel', appliance: 'Geräte', room: 'Räume', fixture: 'Einbauten', outdoor: 'Draußen', body: 'Menschen & Tiere', other: 'Sonstiges' }
   },
   fr: {
-    title: 'Comment tout mesurer avec votre iPhone — Bibliothèque de guides',
+    title: 'Comment tout mesurer avec votre iPhone, Bibliothèque de guides',
     description: 'Guides pas-à-pas pour mesurer canapés, frigos, murs, fenêtres et 20+ autres objets avec la caméra de votre iPhone.',
     kicker: 'Bibliothèque',
     h1: 'Comment tout mesurer.',
-    intro: 'Plus de vingt guides pas-à-pas pour des objets spécifiques avec iPhone — du canapé au plafond, des armoires de cuisine aux places de parking. Chacun éprouvé sur le terrain, 2-15 minutes.',
+    intro: 'Plus de vingt guides pas-à-pas pour des objets spécifiques avec iPhone, du canapé au plafond, des armoires de cuisine aux places de parking. Chacun éprouvé sur le terrain, 2-15 minutes.',
     categoryLabels: { furniture: 'Mobilier', appliance: 'Électroménager', room: 'Pièces', fixture: 'Fixations', outdoor: 'Extérieur', body: 'Personnes & animaux', other: 'Autre' }
   },
   es: {
-    title: 'Cómo medir cualquier cosa con tu iPhone — Biblioteca de guías',
+    title: 'Cómo medir cualquier cosa con tu iPhone, Biblioteca de guías',
     description: 'Guías paso a paso para medir sofás, neveras, paredes, ventanas y 20+ objetos más con la cámara de tu iPhone.',
     kicker: 'Biblioteca de guías',
     h1: 'Cómo medir cualquier cosa.',
-    intro: 'Más de veinte guías paso a paso para objetos específicos con iPhone — desde el sofá al techo, de los armarios de cocina a las plazas de parking. Cada una probada en campo, 2-15 minutos.',
+    intro: 'Más de veinte guías paso a paso para objetos específicos con iPhone, desde el sofá al techo, de los armarios de cocina a las plazas de parking. Cada una probada en campo, 2-15 minutos.',
     categoryLabels: { furniture: 'Muebles', appliance: 'Electrodomésticos', room: 'Habitaciones', fixture: 'Fijos', outdoor: 'Exterior', body: 'Personas y mascotas', other: 'Otros' }
   }
 };

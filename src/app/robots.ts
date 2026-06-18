@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/config';
 
 /**
- * robots.txt — explicitly allow AI crawlers (GEO / Generative Engine Optimization).
+ * robots.txt, explicitly allow AI crawlers (GEO / Generative Engine Optimization).
  *
  * The "default-block-all-AI" pattern (which the previous WordPress host used via
  * Cloudflare's managed robots.txt) is the opposite of what we want. We WANT

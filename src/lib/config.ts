@@ -1,13 +1,13 @@
 export const SITE = {
   url: 'https://measuretape.app',
-  name: 'Ruler AR — AI Tape Measure',
+  name: 'Ruler AR: AI Tape Measure',
   twitter: '@measuretapeapp'
 };
 
 export const APPS = {
   free: {
     id: '1279285953',
-    name: 'Ruler AR — AI Tape Measure Cam',
+    name: 'Ruler AR: AI Tape Measure Cam',
     bundleId: 'com.tapetool.ruler',
     appStoreUrl: 'https://apps.apple.com/app/id1279285953',
     rating: 4.34,
@@ -17,7 +17,7 @@ export const APPS = {
   },
   pro: {
     id: '1672750252',
-    name: 'Ruler Pro — LiDAR Room Scanner',
+    name: 'Ruler Pro, LiDAR Room Scanner',
     bundleId: 'com.tapetool.ruler.pro',
     appStoreUrl: 'https://apps.apple.com/app/id1672750252',
     rating: 4.4,

@@ -15,8 +15,8 @@ export const meta: PostMeta = {
     es: 'Cómo medir para azulejos, suelo y pintura con tu iPhone'
   },
   excerpt: {
-    en: 'A practical guide to converting room dimensions into material quantities — with the exact waste factors, pattern adjustments, and unit conversions for tile, flooring, paint, and wallpaper.',
-    ru: 'Практический гид: как из размеров комнаты получить количество материала — с конкретными коэффициентами на бой, поправками на узор и переводами для плитки, пола, краски и обоев.'
+    en: 'A practical guide to converting room dimensions into material quantities, with the exact waste factors, pattern adjustments, and unit conversions for tile, flooring, paint, and wallpaper.',
+    ru: 'Практический гид: как из размеров комнаты получить количество материала, с конкретными коэффициентами на бой, поправками на узор и переводами для плитки, пола, краски и обоев.'
   }
 };
 
@@ -28,8 +28,7 @@ export default function Post() {
         buy. Manufacturers package materials in inconvenient units
         (rectangular tiles in m², round paint in litres, wallpaper in
         2.6 m × 0.5 m rolls), and every material has a waste factor that
-        varies by how complicated your room shape is. Here's the math —
-        and how the app does it for you.
+        varies by how complicated your room shape is. Here's the math, and how the app does it for you.
       </p>
 
       <h2>Step 1: Get the right base measurement</h2>
@@ -80,7 +79,7 @@ export default function Post() {
       </table>
       <p>
         Add another 5% for irregularly-shaped rooms (alcoves, columns,
-        non-rectangular footprint) — those generate more cuts.
+        non-rectangular footprint), those generate more cuts.
       </p>
 
       <h2>Step 3: Convert to manufacturer's units</h2>
@@ -169,7 +168,7 @@ export default function Post() {
         Measuring the room is the easy part. Converting m² into "how many
         boxes" is where most DIY budgets blow. With a measured floor plan
         in Ruler AR plus the in-app material calculator, you get
-        per-material quantities in 30 seconds — accurate enough to shop
+        per-material quantities in 30 seconds, accurate enough to shop
         confidently without buying twice.
       </p>
     </article>

@@ -140,7 +140,7 @@ export async function JsonLd({ locale }: { locale: Locale }) {
     }
   };
 
-  // Static JSON-LD payload (typed config, no user input) — safe stringify.
+  // Static JSON-LD payload (typed config, no user input), safe stringify.
   const payload = [softwareApp('free'), softwareApp('pro'), faqPage, breadcrumb, organization, website]
     .map((b) => JSON.stringify(b).replace(/</g, '\\u003c'))
     .join('</script><script type="application/ld+json">');

@@ -10,12 +10,12 @@ export const meta: PostMeta = {
   title: {
     en: 'Plan a Home Renovation Using Just Your iPhone',
     ru: 'Как спланировать ремонт, имея только iPhone',
-    de: 'Eine Renovierung mit dem iPhone planen — Schritt für Schritt',
-    fr: 'Planifier une rénovation avec votre iPhone — pas à pas',
+    de: 'Eine Renovierung mit dem iPhone planen, Schritt für Schritt',
+    fr: 'Planifier une rénovation avec votre iPhone, pas à pas',
     es: 'Cómo planificar una reforma con solo tu iPhone'
   },
   excerpt: {
-    en: 'A pragmatic workflow for using your iPhone to measure, estimate materials, and price out a renovation before you call a contractor — no special tools, no architect.',
+    en: 'A pragmatic workflow for using your iPhone to measure, estimate materials, and price out a renovation before you call a contractor, no special tools, no architect.',
     ru: 'Практичный рабочий процесс: как iPhone-ом обмерить, оценить материалы и просчитать стоимость ремонта до того, как звонить мастеру.'
   }
 };
@@ -24,22 +24,22 @@ export default function Post() {
   return (
     <article className="prose-content">
       <p className="lead">
-        The hardest part of starting a renovation isn't the work — it's the
+        The hardest part of starting a renovation isn't the work, it's the
         unknowns. How many square metres of tile? How much paint? What's a
         reasonable bid for repainting two rooms? With a measuring app on your
         iPhone, you can answer all three before you make a single phone call.
       </p>
       <p>
         This is the workflow we'd use ourselves to scope a small-to-mid
-        renovation — a bathroom retile, a one-bedroom paint job, a kitchen
-        floor replacement — from "I want to do this" to a ballparked budget,
+        renovation, a bathroom retile, a one-bedroom paint job, a kitchen
+        floor replacement, from "I want to do this" to a ballparked budget,
         in one evening.
       </p>
 
       <h2>Step 1: Capture every room you'll touch</h2>
       <p>
         Open Ruler AR (or any AR floor-plan app) and scan each affected room.
-        Don't skip rooms you think are obvious — the laundry room you walk past
+        Don't skip rooms you think are obvious, the laundry room you walk past
         every day is probably 0.5 m² bigger than you think.
       </p>
       <ul>
@@ -53,12 +53,12 @@ export default function Post() {
         </li>
         <li>
           Either way, save each room as a project. Name them clearly:
-          "Bathroom — main", "Kitchen — floor only", "Bedroom 1 — paint".
+          "Bathroom, main", "Kitchen, floor only", "Bedroom 1, paint".
         </li>
       </ul>
       <p>
         Each project gets a PDF with floor plan + wall dimensions + total floor
-        area. Keep these — they're the input for everything that follows.
+        area. Keep these, they're the input for everything that follows.
       </p>
 
       <h2>Step 2: Calculate the material quantities</h2>
@@ -89,7 +89,7 @@ export default function Post() {
         </li>
         <li>
           <strong>Wall tile.</strong> Tiled wall area minus tile-cutouts for
-          fixtures. Adjust based on tile size — large-format tiles have less
+          fixtures. Adjust based on tile size, large-format tiles have less
           waste than mosaic.
         </li>
       </ul>
@@ -122,11 +122,11 @@ export default function Post() {
       </p>
       <ul>
         <li>
-          <strong>Paint a room.</strong> 0.5–1.5 days per room for one painter,
+          <strong>Paint a room.</strong> 0.5-1.5 days per room for one painter,
           depending on prep needed.
         </li>
         <li>
-          <strong>Tile a bathroom floor (4–6 m²).</strong> 1–2 days for one
+          <strong>Tile a bathroom floor (4-6 m²).</strong> 1-2 days for one
           tiler, including waterproofing prep.
         </li>
         <li>
@@ -140,7 +140,7 @@ export default function Post() {
       </ul>
       <p>
         Multiply by the local labour day rate (search "[your city] painter day
-        rate" — most regional contractor associations publish this). Add 15% for
+        rate", most regional contractor associations publish this). Add 15% for
         management overhead, taxes, and miscellaneous.
       </p>
 
@@ -149,7 +149,7 @@ export default function Post() {
         On your phone, open Numbers or Excel. Make a row for every line item with
         columns: Quantity, Unit, Unit price, Total. Sum the totals into three
         buckets: <strong>Materials</strong>, <strong>Labour</strong>,
-        <strong> Contingency</strong> (15–20% of materials + labour).
+        <strong> Contingency</strong> (15-20% of materials + labour).
       </p>
       <p>
         That total is your <em>self-assessed budget</em>. When you start getting
@@ -164,7 +164,7 @@ export default function Post() {
       </p>
       <ul>
         <li>
-          Sets a professional tone — contractors expect haggling and ambiguity
+          Sets a professional tone, contractors expect haggling and ambiguity
           from homeowners. A measured PDF says "I've done my homework, please
           quote accordingly".
         </li>
@@ -186,7 +186,7 @@ export default function Post() {
         </li>
         <li>
           <strong>Structural changes.</strong> Removing a wall, adding a window,
-          changing load-bearing structure — needs an engineer or architect.
+          changing load-bearing structure, needs an engineer or architect.
         </li>
         <li>
           <strong>Permits.</strong> Anything beyond cosmetic work in most

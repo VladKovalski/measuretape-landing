@@ -10,13 +10,13 @@ export const meta: PostMeta = {
   title: {
     en: '7 Things You Can Measure With Your iPhone You Probably Don\'t Realize',
     ru: '7 вещей, которые можно измерить iPhone-ом и о которых вы не знали',
-    de: '7 Dinge, die du mit dem iPhone messen kannst — wahrscheinlich ohne es zu wissen',
+    de: '7 Dinge, die du mit dem iPhone messen kannst, wahrscheinlich ohne es zu wissen',
     fr: '7 choses que vous pouvez mesurer avec votre iPhone sans le savoir',
     es: '7 cosas que puedes medir con tu iPhone y probablemente no sabías'
   },
   excerpt: {
     en: 'AR measuring apps aren\'t just for "how long is this thing". Once you start looking, your phone replaces a half-dozen tools you didn\'t realize you needed.',
-    ru: 'AR-приложения для измерений — это не только «какой длины эта штука». Стоит начать смотреть, и iPhone заменяет полдюжины инструментов, о которых вы не подозревали.'
+    ru: 'AR-приложения для измерений, это не только «какой длины эта штука». Стоит начать смотреть, и iPhone заменяет полдюжины инструментов, о которых вы не подозревали.'
   }
 };
 
@@ -25,14 +25,14 @@ export default function Post() {
     <article className="prose-content">
       <p className="lead">
         Most people install an AR measuring app, measure one thing, and
-        forget it's there. Which is a shame — the same app handles a bunch
+        forget it's there. Which is a shame, the same app handles a bunch
         of measurements that traditional tools either can't do or do
         badly. Here are seven uses you probably haven't tried.
       </p>
 
       <h2>1. The angle of a sloped roof</h2>
       <p>
-        Hard to do with a tape measure — you need to climb up there. With an
+        Hard to do with a tape measure, you need to climb up there. With an
         iPhone, stand at the foot of the wall, point your camera up along
         the roofline, and use the angle tool. The AR protractor reads the
         roof's pitch in degrees without you leaving the ground.
@@ -47,7 +47,7 @@ export default function Post() {
       <p>
         Hold the phone against the side of the TV, switch to bubble level
         mode. The reading tells you whether the TV is plumb to within
-        0.5 degrees. The standard wall-mount tolerance is ±2 degrees — if
+        0.5 degrees. The standard wall-mount tolerance is ±2 degrees, if
         you're outside that, the TV will look slightly off no matter how
         carefully you tightened the bracket.
       </p>
@@ -71,13 +71,13 @@ export default function Post() {
         between the lane lines. Tap each line. Compare to your car's width
         (usually 1.8-2.0 m for most sedans, 2.0-2.2 m for SUVs). If the
         spot's clear width is under 2.4 m and you have a wider vehicle,
-        skip it — you won't have door clearance.
+        skip it, you won't have door clearance.
       </p>
 
       <h2>5. Whether a picture frame is hanging straight</h2>
       <p>
         Press the phone flat against the bottom edge of the frame. Check
-        bubble level. Most frames hang with one nail and a wire — they
+        bubble level. Most frames hang with one nail and a wire, they
         always drift slightly off-level over time. A 1-degree tilt looks
         intentionally crooked; the AR level catches it instantly.
       </p>
@@ -85,7 +85,7 @@ export default function Post() {
       <h2>6. The slope of your floor</h2>
       <p>
         Old houses settle. Floors slope. Place the phone flat on the floor
-        in different rooms — the level reading tells you exactly how much
+        in different rooms, the level reading tells you exactly how much
         each floor slopes from horizontal. A 1-degree tilt over a 5 m room is
         9 cm of vertical drop, which is enough to make a ball roll. Anything
         over 2 degrees indicates structural issues worth a surveyor's
@@ -103,9 +103,9 @@ export default function Post() {
 
       <h2>Bonus: things you can also measure but probably shouldn't</h2>
       <ul>
-        <li>Your dog's height for ordering a custom harness — works, but the dog has to stand still</li>
-        <li>The depth of a swimming pool from above the water surface — possible with LiDAR, fails at non-LiDAR (water has no AR features)</li>
-        <li>How far the moon is — no. Don't try.</li>
+        <li>Your dog's height for ordering a custom harness, works, but the dog has to stand still</li>
+        <li>The depth of a swimming pool from above the water surface, possible with LiDAR, fails at non-LiDAR (water has no AR features)</li>
+        <li>How far the moon is, no. Don't try.</li>
       </ul>
 
       <h2>The point</h2>

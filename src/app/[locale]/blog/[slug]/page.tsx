@@ -51,11 +51,11 @@ export async function generateMetadata({
 }
 
 const STRINGS: Record<Locale, { back: string; readMore: string; getApp: string; appCta: string; relatedTitle: string; }> = {
-  en: { back: '← All articles', readMore: 'Continue reading', getApp: 'Get Ruler AR — Free', appCta: 'Try the app while you read', relatedTitle: 'Keep reading' },
-  ru: { back: '← Все статьи', readMore: 'Читать дальше', getApp: 'Установить Ruler AR — Бесплатно', appCta: 'Попробуй приложение пока читаешь', relatedTitle: 'Читать ещё' },
-  de: { back: '← Alle Artikel', readMore: 'Weiterlesen', getApp: 'Ruler AR holen — kostenlos', appCta: 'App ausprobieren beim Lesen', relatedTitle: 'Weiterlesen' },
-  fr: { back: '← Tous les articles', readMore: 'Continuer la lecture', getApp: 'Obtenir Ruler AR — gratuit', appCta: "Essayer l'app pendant la lecture", relatedTitle: 'À lire ensuite' },
-  es: { back: '← Todos los artículos', readMore: 'Seguir leyendo', getApp: 'Obtener Ruler AR — gratis', appCta: 'Prueba la app mientras lees', relatedTitle: 'Sigue leyendo' }
+  en: { back: '← All articles', readMore: 'Continue reading', getApp: 'Get Ruler AR, Free', appCta: 'Try the app while you read', relatedTitle: 'Keep reading' },
+  ru: { back: '← Все статьи', readMore: 'Читать дальше', getApp: 'Установить Ruler AR, Бесплатно', appCta: 'Попробуй приложение пока читаешь', relatedTitle: 'Читать ещё' },
+  de: { back: '← Alle Artikel', readMore: 'Weiterlesen', getApp: 'Ruler AR holen, kostenlos', appCta: 'App ausprobieren beim Lesen', relatedTitle: 'Weiterlesen' },
+  fr: { back: '← Tous les articles', readMore: 'Continuer la lecture', getApp: 'Obtenir Ruler AR, gratuit', appCta: "Essayer l'app pendant la lecture", relatedTitle: 'À lire ensuite' },
+  es: { back: '← Todos los artículos', readMore: 'Seguir leyendo', getApp: 'Obtener Ruler AR, gratis', appCta: 'Prueba la app mientras lees', relatedTitle: 'Sigue leyendo' }
 };
 
 export default function PostPage({ params: { locale, slug } }: { params: { locale: string; slug: string } }) {

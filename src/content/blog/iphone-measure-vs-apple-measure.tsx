@@ -27,7 +27,7 @@ export default function Post() {
         Apple's Measure app launched alongside iOS 12 in 2018. It uses the
         same ARKit framework that every third-party measuring app relies on,
         so the raw accuracy is roughly identical. The differences are
-        elsewhere — in what you can do with measurements after you take
+        elsewhere, in what you can do with measurements after you take
         them, and which scenarios the app actually handles.
       </p>
 
@@ -62,9 +62,9 @@ export default function Post() {
           <tr><td>Length / distance</td><td>yes</td><td>yes</td></tr>
           <tr><td>Height (auto-detect for people)</td><td>yes</td><td>yes</td></tr>
           <tr><td>Bubble level</td><td>basic</td><td>3 modes (vertical, horizontal, free)</td></tr>
-          <tr><td>Angle measurement</td><td>no</td><td>yes — AR protractor</td></tr>
-          <tr><td>Area / polygon</td><td>no</td><td>yes — Square mode</td></tr>
-          <tr><td>3D LiDAR room scan</td><td>no</td><td>yes — RoomPlan</td></tr>
+          <tr><td>Angle measurement</td><td>no</td><td>yes, AR protractor</td></tr>
+          <tr><td>Area / polygon</td><td>no</td><td>yes, Square mode</td></tr>
+          <tr><td>3D LiDAR room scan</td><td>no</td><td>yes, RoomPlan</td></tr>
           <tr><td>Manual floor plan (no LiDAR)</td><td>no</td><td>yes</td></tr>
           <tr><td>Touch Mode (sub-cm precision)</td><td>no</td><td>yes</td></tr>
           <tr><td>Project folders</td><td>no</td><td>yes</td></tr>
@@ -96,8 +96,7 @@ export default function Post() {
 
       <h2>The honest take</h2>
       <p>
-        Apple Measure is a fine ten-second tool. It's not designed to scale —
-        it's a quick "Settings" app, not a workflow. Ruler AR (and other
+        Apple Measure is a fine ten-second tool. It's not designed to scale, it's a quick "Settings" app, not a workflow. Ruler AR (and other
         full-featured AR measuring apps) exist because the moment you take
         more than one measurement that matters, you need somewhere to put
         them, a way to share them, and tools beyond linear distance.

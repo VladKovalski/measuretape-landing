@@ -15,8 +15,8 @@ export const meta: PostMeta = {
     es: '¿Qué precisión tiene una app cinta métrica iPhone? Guía profesional'
   },
   excerpt: {
-    en: 'Realistic accuracy numbers for AR measuring apps — what to expect with LiDAR vs without, when to trust the reading, and the five tricks that cut measurement error in half.',
-    ru: 'Реальные числа точности AR-приложений — что ожидать с LiDAR и без, когда доверять показаниям, и пять приёмов, которые уменьшают ошибку вдвое.'
+    en: 'Realistic accuracy numbers for AR measuring apps, what to expect with LiDAR vs without, when to trust the reading, and the five tricks that cut measurement error in half.',
+    ru: 'Реальные числа точности AR-приложений, что ожидать с LiDAR и без, когда доверять показаниям, и пять приёмов, которые уменьшают ошибку вдвое.'
   }
 };
 
@@ -25,7 +25,7 @@ export default function Post() {
     <article className="prose-content">
       <p className="lead">
         Short answer: a modern iPhone with LiDAR will give you measurements within
-        ±5 mm over 3 metres. Without LiDAR, expect ±1–2 cm over the same distance.
+        ±5 mm over 3 metres. Without LiDAR, expect ±1-2 cm over the same distance.
         That's good enough for furniture shopping, real estate listings, and most
         renovation estimates. It's <em>not</em> good enough for cabinetry or
         millwork, where you still need a steel rule.
@@ -43,7 +43,7 @@ export default function Post() {
       <p>
         ARKit (the framework all iPhone measuring apps are built on) does two
         things at once. It tracks the phone's 6-degree-of-freedom position in
-        space using <em>visual-inertial odometry</em> — the camera reads texture
+        space using <em>visual-inertial odometry</em>, the camera reads texture
         features in your environment 60 times per second, and the IMU
         (accelerometer + gyroscope) reads motion 1000 times per second. The two
         signals are fused to estimate where the phone is.
@@ -66,7 +66,7 @@ export default function Post() {
           <tr>
             <th></th>
             <th>iPhone with LiDAR (12 Pro+)</th>
-            <th>iPhone without LiDAR (Xs–14)</th>
+            <th>iPhone without LiDAR (Xs, 14)</th>
           </tr>
         </thead>
         <tbody>
@@ -78,12 +78,12 @@ export default function Post() {
           <tr>
             <td>Typical accuracy (≤3 m)</td>
             <td>±5 mm</td>
-            <td>±10–20 mm</td>
+            <td>±10-20 mm</td>
           </tr>
           <tr>
             <td>Accuracy at 5 m</td>
             <td>±10 mm</td>
-            <td>±30–50 mm</td>
+            <td>±30-50 mm</td>
           </tr>
           <tr>
             <td>Works in pitch darkness</td>
@@ -93,7 +93,7 @@ export default function Post() {
           <tr>
             <td>Initialization time</td>
             <td>~1 second</td>
-            <td>~3–5 seconds</td>
+            <td>~3-5 seconds</td>
           </tr>
         </tbody>
       </table>
@@ -104,7 +104,7 @@ export default function Post() {
           <strong>Calibrate by moving the phone first.</strong> Before tapping
           your first point, walk a metre or two around the area you'll be
           measuring. This gives ARKit enough motion to triangulate depth from
-          parallax — early measurements right after launching the app are the
+          parallax, early measurements right after launching the app are the
           least accurate.
         </li>
         <li>
@@ -120,7 +120,7 @@ export default function Post() {
           detection works by finding feature points (corners, edges, dots in
           texture). A perfectly white plaster wall has zero features. If you need
           to measure to a blank wall, place a piece of patterned tape or a book
-          where you want to anchor — anything with edges.
+          where you want to anchor, anything with edges.
         </li>
         <li>
           <strong>Cross-check long distances by walking.</strong> AR drift adds up
@@ -135,7 +135,7 @@ export default function Post() {
           move the phone away, come back, re-tap. Repeat three times. If all
           three readings agree within ±3 mm, you have a solid number. If they
           disagree by more than 1 cm, something about the AR session (lighting,
-          tracking quality, surface) isn't favourable — change something and
+          tracking quality, surface) isn't favourable, change something and
           retry.
         </li>
       </ol>
@@ -151,7 +151,7 @@ export default function Post() {
         </li>
         <li>
           <strong>Diagonal across a room over 5 m.</strong> Use a laser distance
-          meter — they're cheap, accurate, and don't drift over long distances.
+          meter, they're cheap, accurate, and don't drift over long distances.
         </li>
         <li>
           <strong>Outdoors in direct sunlight.</strong> LiDAR is washed out by
@@ -191,7 +191,7 @@ export default function Post() {
       <p>
         A modern iPhone AR app is accurate enough to replace a tape measure for
         most home and pro-light tasks. With LiDAR, ±5 mm is realistic. Without
-        LiDAR, ±1–2 cm is realistic. Use the five tricks above and your readings
+        LiDAR, ±1-2 cm is realistic. Use the five tricks above and your readings
         will improve. For finish work, keep a steel rule in your toolbox.
       </p>
     </article>

@@ -19,7 +19,7 @@ try {
 
 /**
  * Root page. Performs a client-side + meta-refresh redirect to the locale-prefixed
- * English home — necessary because output: 'export' has no server-side redirects.
+ * English home, necessary because output: 'export' has no server-side redirects.
  * Real users get sent to /<browser-lang>/ immediately; bots see noindex + canonical hint.
  */
 export default function RootRedirect() {

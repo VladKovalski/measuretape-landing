@@ -15,8 +15,8 @@ export const meta: PostMeta = {
     es: 'Cómo medir una habitación con tu iPhone (guía paso a paso)'
   },
   excerpt: {
-    en: 'A practical guide to measuring an entire room with your iPhone in under five minutes — using LiDAR for 3D plans, or AR for manual layouts on any device.',
-    ru: 'Практическое руководство: как измерить комнату iPhone за пять минут — через LiDAR для 3D-плана или AR для ручной разметки на любом устройстве.'
+    en: 'A practical guide to measuring an entire room with your iPhone in under five minutes, using LiDAR for 3D plans, or AR for manual layouts on any device.',
+    ru: 'Практическое руководство: как измерить комнату iPhone за пять минут, через LiDAR для 3D-плана или AR для ручной разметки на любом устройстве.'
   }
 };
 
@@ -24,8 +24,7 @@ export default function Post() {
   return (
     <article className="prose-content">
       <p className="lead">
-        A tape measure is great for one wall at a time. But if you need a full room
-        — every wall, every door, every window — there's a faster way. Your iPhone
+        A tape measure is great for one wall at a time. But if you need a full room, every wall, every door, every window, there's a faster way. Your iPhone
         can capture the whole room in under five minutes, give you a measured 2D
         floor plan, export a PDF you can email to a contractor, and (on newer
         models) build a full 3D model you can walk through.
@@ -35,7 +34,7 @@ export default function Post() {
         This guide walks you through both methods: the <strong>automatic LiDAR
         scan</strong> for iPhones with a depth sensor (12 Pro and newer), and the
         <strong> manual floor plan builder</strong> that works on every iPhone from
-        the Xs onward. We'll use the free <em>Ruler AR</em> app for both — but the
+        the Xs onward. We'll use the free <em>Ruler AR</em> app for both, but the
         techniques apply to any AR-based measuring app.
       </p>
 
@@ -53,7 +52,7 @@ export default function Post() {
         </li>
         <li>
           <strong>Clear floor path.</strong> You'll walk the perimeter of the room.
-          Move chairs out of the way before you start — you can put them back after.
+          Move chairs out of the way before you start, you can put them back after.
         </li>
         <li>
           <strong>Steady hands.</strong> Hold the phone like you're filming a movie:
@@ -64,8 +63,8 @@ export default function Post() {
 
       <h2>Method 1: LiDAR scan (iPhone 12 Pro and newer)</h2>
       <p>
-        If your iPhone has a LiDAR sensor — the small black dot next to the rear
-        camera lenses on Pro models — you can use Apple's RoomPlan technology to
+        If your iPhone has a LiDAR sensor, the small black dot next to the rear
+        camera lenses on Pro models, you can use Apple's RoomPlan technology to
         generate a complete 3D floor plan. The phone identifies walls, doors,
         windows, and furniture automatically.
       </p>
@@ -77,13 +76,12 @@ export default function Post() {
         </li>
         <li>
           <strong>Stand in a corner of the room.</strong> Face the opposite corner
-          diagonally. The app will show a preview of the 3D model being built —
-          start out at chest height, phone in landscape orientation.
+          diagonally. The app will show a preview of the 3D model being built, start out at chest height, phone in landscape orientation.
         </li>
         <li>
           <strong>Walk slowly along each wall.</strong> Pan the phone in a smooth
           arc to capture the wall from floor to ceiling. Take your time at the
-          corners — that's where AR tracking can drift.
+          corners, that's where AR tracking can drift.
         </li>
         <li>
           <strong>Loop the entire room.</strong> When you return to your starting
@@ -138,7 +136,7 @@ export default function Post() {
       <p>
         Tip: if you make a mistake, long-press a corner to delete it. Or use the
         Undo/Redo buttons at the bottom of the screen. Your work is auto-saved
-        every second — even if you minimize the app or the phone locks, the
+        every second, even if you minimize the app or the phone locks, the
         in-progress scan survives.
       </p>
 
@@ -156,7 +154,7 @@ export default function Post() {
           opening dimensions.
         </li>
         <li>
-          For furniture, use the object library — sofa, bed, table, fridge, etc.
+          For furniture, use the object library, sofa, bed, table, fridge, etc.
           Drag onto the plan, then rotate and resize.
         </li>
       </ul>
@@ -177,7 +175,7 @@ export default function Post() {
           iMessage and email.
         </li>
         <li>
-          <strong>Export 3D (LiDAR only).</strong> USDZ format — opens in macOS
+          <strong>Export 3D (LiDAR only).</strong> USDZ format, opens in macOS
           Quick Look, AR Quick Look on iPhone, or any 3D modeling tool.
         </li>
       </ul>
@@ -205,7 +203,7 @@ export default function Post() {
           </tr>
           <tr>
             <td>Insurance documentation</td>
-            <td>LiDAR — captures furniture automatically</td>
+            <td>LiDAR, captures furniture automatically</td>
           </tr>
           <tr>
             <td>Doorway / corridor check before furniture delivery</td>
@@ -241,7 +239,7 @@ export default function Post() {
       <p>
         Ruler AR is free on the App Store. The Manual Room Builder works on any
         iPhone Xs or newer; the LiDAR scanner is included on Pro versions of the
-        iPhone 12 and up. Open the camera, walk the room, share the PDF — done in
+        iPhone 12 and up. Open the camera, walk the room, share the PDF, done in
         five minutes.
       </p>
     </article>

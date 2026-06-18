@@ -12,43 +12,43 @@ export function generateStaticParams() {
 
 const BLOG_META: Record<Locale, { title: string; description: string; kicker: string; h1: string; intro: string; readTime: string; }> = {
   en: {
-    title: 'Blog · Measuring tips, AR guides, and renovation walkthroughs — measuretape.app',
+    title: 'Blog · Measuring tips, AR guides, and renovation walkthroughs, measuretape.app',
     description: 'Articles on measuring with your iPhone, AR tape measure accuracy, room scanning, and renovation planning. By the makers of Ruler AR.',
     kicker: 'Field notes',
     h1: 'Measuring, the iPhone way.',
-    intro: 'Tutorials, comparisons, and field notes from the team behind Ruler AR. New articles every couple of weeks — measure smarter, not harder.',
+    intro: 'Tutorials, comparisons, and field notes from the team behind Ruler AR. New articles every couple of weeks, measure smarter, not harder.',
     readTime: 'min read'
   },
   ru: {
-    title: 'Блог · Гайды по измерениям, AR и ремонту — measuretape.app',
+    title: 'Блог · Гайды по измерениям, AR и ремонту, measuretape.app',
     description: 'Статьи о том, как измерять iPhone-ом, точности AR-рулетки, сканировании комнат и планировании ремонта. От команды Ruler AR.',
     kicker: 'Полевые заметки',
     h1: 'Измерения по-новому.',
-    intro: 'Туториалы, сравнения и заметки от команды Ruler AR. Новые статьи раз в две недели — измеряйте умнее, а не дольше.',
+    intro: 'Туториалы, сравнения и заметки от команды Ruler AR. Новые статьи раз в две недели, измеряйте умнее, а не дольше.',
     readTime: 'мин чтения'
   },
   de: {
-    title: 'Blog · Mess-Tipps, AR-Guides und Renovierungs-Walkthroughs — measuretape.app',
+    title: 'Blog · Mess-Tipps, AR-Guides und Renovierungs-Walkthroughs, measuretape.app',
     description: 'Artikel zum Messen mit iPhone, Genauigkeit von AR-Maßbändern, Raumscan und Renovierungsplanung. Von den Machern von Ruler AR.',
     kicker: 'Praxisnotizen',
     h1: 'Messen, neu gedacht.',
-    intro: 'Tutorials, Vergleiche und Praxisnotizen vom Team hinter Ruler AR. Neue Artikel alle paar Wochen — smarter messen, nicht härter.',
+    intro: 'Tutorials, Vergleiche und Praxisnotizen vom Team hinter Ruler AR. Neue Artikel alle paar Wochen, smarter messen, nicht härter.',
     readTime: 'Min Lesezeit'
   },
   fr: {
-    title: 'Blog · Astuces de mesure, guides AR et tutoriels de rénovation — measuretape.app',
+    title: 'Blog · Astuces de mesure, guides AR et tutoriels de rénovation, measuretape.app',
     description: 'Articles sur la mesure avec iPhone, la précision AR, le scan de pièces et la planification de rénovation. Par l\'équipe Ruler AR.',
     kicker: 'Notes terrain',
     h1: 'Mesurer, mode iPhone.',
-    intro: 'Tutoriels, comparatifs et notes de terrain de l\'équipe Ruler AR. De nouveaux articles toutes les deux semaines — mesurez plus malin.',
+    intro: 'Tutoriels, comparatifs et notes de terrain de l\'équipe Ruler AR. De nouveaux articles toutes les deux semaines, mesurez plus malin.',
     readTime: 'min de lecture'
   },
   es: {
-    title: 'Blog · Consejos de medición, guías AR y tutoriales de reforma — measuretape.app',
+    title: 'Blog · Consejos de medición, guías AR y tutoriales de reforma, measuretape.app',
     description: 'Artículos sobre medir con iPhone, precisión de cinta métrica AR, escaneo de habitaciones y planificación de reformas. Del equipo de Ruler AR.',
     kicker: 'Notas de campo',
     h1: 'Medir, al estilo iPhone.',
-    intro: 'Tutoriales, comparativas y notas de campo del equipo de Ruler AR. Artículos nuevos cada dos semanas — mide más inteligente.',
+    intro: 'Tutoriales, comparativas y notas de campo del equipo de Ruler AR. Artículos nuevos cada dos semanas, mide más inteligente.',
     readTime: 'min lectura'
   }
 };

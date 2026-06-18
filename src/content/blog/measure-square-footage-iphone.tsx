@@ -15,8 +15,8 @@ export const meta: PostMeta = {
     es: 'Cómo medir los metros cuadrados con tu iPhone (para inquilinos y compradores)'
   },
   excerpt: {
-    en: 'Square-footage numbers on rental listings are notoriously wrong. Here\'s how to verify them in 90 seconds using your iPhone — and what to do when the actual area is 10% smaller than advertised.',
-    ru: 'Цифры площади в объявлениях аренды и продажи часто врут. Как проверить площадь iPhone-ом за 90 секунд — и что делать, если реальная меньше на 10% от заявленной.'
+    en: 'Square-footage numbers on rental listings are notoriously wrong. Here\'s how to verify them in 90 seconds using your iPhone, and what to do when the actual area is 10% smaller than advertised.',
+    ru: 'Цифры площади в объявлениях аренды и продажи часто врут. Как проверить площадь iPhone-ом за 90 секунд, и что делать, если реальная меньше на 10% от заявленной.'
   }
 };
 
@@ -26,7 +26,7 @@ export default function Post() {
       <p className="lead">
         A study by ratemyagent.com.au in 2023 found that <strong>27% of
         property listings overstate square footage by more than 5%</strong>.
-        For a 60 m² apartment, that's 3 m² of imaginary space — about the
+        For a 60 m² apartment, that's 3 m² of imaginary space, about the
         size of a small bathroom. If you're renting at €25/m²/month, you're
         being asked to pay €75/month for floor that doesn't exist.
       </p>
@@ -42,7 +42,7 @@ export default function Post() {
         <li>Open Ruler AR and tap <em>Room Scan</em>.</li>
         <li>Stand in one corner. Walk slowly along each wall.</li>
         <li>When you return to the starting corner, tap <em>Done</em>.</li>
-        <li>Read the floor area from the summary screen — accurate to within ±2%.</li>
+        <li>Read the floor area from the summary screen, accurate to within ±2%.</li>
       </ol>
       <p>
         This takes about 60 seconds for a single room. A full one-bedroom
@@ -62,23 +62,23 @@ export default function Post() {
       </ol>
       <p>
         The polygon's area is computed automatically using the Shoelace
-        formula. Accuracy depends on AR tracking — typically ±5% for
+        formula. Accuracy depends on AR tracking, typically ±5% for
         rooms under 30 m², which is good enough to catch listing
         misrepresentations.
       </p>
 
-      <h2>What counts as "square footage" — and what doesn't</h2>
+      <h2>What counts as "square footage", and what doesn't</h2>
       <p>
         Listings inflate numbers in three common ways:
       </p>
       <ul>
-        <li><strong>Including unusable spaces.</strong> Sloped ceilings, alcoves under 1.5 m high, structural columns. Different jurisdictions handle these differently — UK/AU typically exclude under-1.5m areas; US is laxer.</li>
+        <li><strong>Including unusable spaces.</strong> Sloped ceilings, alcoves under 1.5 m high, structural columns. Different jurisdictions handle these differently, UK/AU typically exclude under-1.5m areas; US is laxer.</li>
         <li><strong>Measuring exterior wall-to-wall instead of interior.</strong> A 10 × 10 m exterior box is only ~9.5 × 9.5 m of usable interior space after walls (5 cm of internal partition × ~6 walls = 30 cm of "ghost" wall area).</li>
-        <li><strong>Including balconies/terraces at full count.</strong> Many places count outdoor space at 50% — if your listing counts it at 100%, you're getting half what you think.</li>
+        <li><strong>Including balconies/terraces at full count.</strong> Many places count outdoor space at 50%, if your listing counts it at 100%, you're getting half what you think.</li>
       </ul>
       <p>
         When you measure with the app, you're measuring <em>interior usable
-        floor area</em>. That's the most honest number — and the one that
+        floor area</em>. That's the most honest number, and the one that
         matters for furniture planning and pricing comparisons.
       </p>
 
@@ -90,14 +90,14 @@ export default function Post() {
       <ul>
         <li>
           <strong>Renting:</strong> Ask for a reduction proportional to the
-          discrepancy. €/m² is a transparent calculation — if you're
+          discrepancy. €/m² is a transparent calculation, if you're
           paying for 60 m² and the apartment is 56 m², that's 6.7% you can
           push for.
         </li>
         <li>
           <strong>Buying:</strong> Get a professional surveyor before you
           sign anything. A 5% area discrepancy on a €400,000 purchase is
-          €20,000 — that's worth the €500 surveyor fee.
+          €20,000, that's worth the €500 surveyor fee.
         </li>
         <li>
           <strong>Insurance:</strong> Wrong square footage means wrong
@@ -126,8 +126,7 @@ export default function Post() {
 
       <h2>Bottom line</h2>
       <p>
-        Never trust a square-footage number you didn't measure yourself —
-        especially on a rental or purchase listing. The app gives you a
+        Never trust a square-footage number you didn't measure yourself, especially on a rental or purchase listing. The app gives you a
         90-second verification that's accurate within a few percent and
         produces documentation you can use to negotiate. Treat it like a
         spell-check for real estate listings.

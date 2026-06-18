@@ -15,8 +15,8 @@ export const meta: PostMeta = {
     es: 'Mejor app de medición para agentes inmobiliarios: un flujo que vende'
   },
   excerpt: {
-    en: 'Listings with floor plans get 30-50% more clicks. Here\'s how to generate one from your iPhone during the first walkthrough — and why this is now table-stakes for any serious real estate workflow.',
-    ru: 'Объявления с планировкой получают на 30-50% больше кликов. Как сгенерировать её с iPhone прямо на первом показе — и почему это уже стандарт для любого серьёзного риелтора.'
+    en: 'Listings with floor plans get 30-50% more clicks. Here\'s how to generate one from your iPhone during the first walkthrough, and why this is now table-stakes for any serious real estate workflow.',
+    ru: 'Объявления с планировкой получают на 30-50% больше кликов. Как сгенерировать её с iPhone прямо на первом показе, и почему это уже стандарт для любого серьёзного риелтора.'
   }
 };
 
@@ -32,7 +32,7 @@ export default function Post() {
       </p>
       <p>
         Yet most agents still write square footage as a single number with
-        no visual context. The reason isn't lack of demand — it's because
+        no visual context. The reason isn't lack of demand, it's because
         ordering a professional floor plan costs €100-300 and adds a week
         to the listing turnaround. With an iPhone Pro and a measuring app,
         you can do this in 4 minutes during the first walkthrough.
@@ -83,7 +83,7 @@ export default function Post() {
       </ul>
       <p>
         These are decisions buyers make before they request a viewing. A
-        measured floor plan lets them self-qualify — agents see fewer
+        measured floor plan lets them self-qualify, agents see fewer
         time-wasters and more serious leads.
       </p>
 
@@ -127,8 +127,7 @@ export default function Post() {
       <h2>Privacy concerns</h2>
       <p>
         Listings sometimes show interior photos that buyers find off-putting
-        because of personal clutter. A floor plan is the opposite —
-        completely anonymous. No fridge magnets, no photos on walls, no
+        because of personal clutter. A floor plan is the opposite, completely anonymous. No fridge magnets, no photos on walls, no
         personal items. You can publish a plan before the home is staged for
         photography, which speeds up the listing timeline.
       </p>
@@ -137,7 +136,7 @@ export default function Post() {
       <p>
         Keep the PDF on your phone during showings. Buyers love when you
         can answer "how wide is this hall?" or "what's the depth of that
-        kitchen counter?" with a real number — and you're holding the
+        kitchen counter?" with a real number, and you're holding the
         evidence. It also helps when the buyer wants to know if their
         existing furniture fits.
       </p>
@@ -153,7 +152,7 @@ export default function Post() {
       <h2>Bottom line</h2>
       <p>
         Floor plans are now table-stakes for premium listings. The barrier
-        used to be cost and time — neither applies anymore. An iPhone Pro,
+        used to be cost and time, neither applies anymore. An iPhone Pro,
         a measuring app, and 4 minutes per property gets you a plan that
         outperforms half the professionally-drawn ones on the MLS. The agents
         who adopt this in 2026 will out-list the ones who don't.

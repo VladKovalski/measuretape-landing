@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const dynamic = 'force-static';
-export const alt = 'Ruler AR — AI Tape Measure App for iPhone';
+export const alt = 'Ruler AR: AI Tape Measure App for iPhone';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -69,7 +69,7 @@ export default async function OG() {
             <span style={{ color: '#ffb400' }}>Reinvented.</span>
           </div>
           <div style={{ fontSize: 28, color: 'rgba(245,245,247,0.78)', maxWidth: 900 }}>
-            AR + LiDAR measuring toolkit for iPhone. Length, height, area, 3D room plans — in seconds.
+            AR + LiDAR measuring toolkit for iPhone. Length, height, area, 3D room plans, in seconds.
           </div>
         </div>
 

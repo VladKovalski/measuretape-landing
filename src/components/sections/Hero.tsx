@@ -43,7 +43,7 @@ export function Hero() {
             <span className="vf-tr" />
             <span className="vf-bl" />
             <div className="absolute -inset-10 -z-10 rounded-[3rem] bg-gradient-to-br from-amber/20 via-transparent to-transparent blur-3xl" />
-            <PhoneMockup src={SCREENSHOTS.preciseRuler} alt="Ruler AR app — AR tape measure on iPhone showing live distance measurement" />
+            <PhoneMockup src={SCREENSHOTS.preciseRuler} alt="Ruler AR app, AR tape measure on iPhone showing live distance measurement" />
             {/* Floating measurement annotation pointing at the screen */}
             <div className="dim-callout hidden lg:flex">
               <div className="dim-callout-line" />

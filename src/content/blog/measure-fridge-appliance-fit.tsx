@@ -16,7 +16,7 @@ export const meta: PostMeta = {
   },
   excerpt: {
     en: 'Appliance returns cost retailers €50-150 each in restocking and freight. They cost you a day of waiting for the replacement. Five iPhone measurements before you click "order" avoid the whole mess.',
-    ru: 'Возврат техники стоит магазину €50-150 на логистику. Вам — день ожидания замены. Пять замеров iPhone-ом до клика «оформить заказ» избавляют от всей этой истории.'
+    ru: 'Возврат техники стоит магазину €50-150 на логистику. Вам, день ожидания замены. Пять замеров iPhone-ом до клика «оформить заказ» избавляют от всей этой истории.'
   }
 };
 
@@ -37,7 +37,7 @@ export default function Post() {
       <h3>1. The opening (width × depth × height)</h3>
       <p>
         The cabinet gap or wall recess where the appliance will live.
-        Measure each dimension at the front and at the back — these
+        Measure each dimension at the front and at the back, these
         sometimes differ because of pipes, plinths, or wall irregularities.
         Use the smallest of each pair as your constraint.
       </p>
@@ -55,7 +55,7 @@ export default function Post() {
         Most fridges and ovens swing their doors past 90 degrees. Measure
         the clearance from the appliance's right edge to the nearest
         obstacle (wall, cabinet, island). A 90 cm fridge with a 70 cm door
-        needs about 70 cm of clear swing space — if there's a wall 50 cm
+        needs about 70 cm of clear swing space, if there's a wall 50 cm
         away, you'll only be able to open it partway.
       </p>
 
@@ -73,8 +73,8 @@ export default function Post() {
         Most fridges need 25-50 mm of breathing space behind for heat
         dissipation. Built-in units have different requirements (look for
         "integrated installation" in the spec). The AR app's tape
-        measurement in the gap behind the cabinet line — usually impossible
-        with a physical tape — is easy: camera tilted into the gap, tap
+        measurement in the gap behind the cabinet line, usually impossible
+        with a physical tape, is easy: camera tilted into the gap, tap
         both edges.
       </p>
 
@@ -85,7 +85,7 @@ export default function Post() {
       </p>
       <ul>
         <li>Product dimensions (width × depth × height)</li>
-        <li>Packed dimensions (always larger — includes box)</li>
+        <li>Packed dimensions (always larger, includes box)</li>
         <li>Minimum cabinet opening dimensions</li>
         <li>Door swing clearance</li>
         <li>Connection point positions</li>
@@ -99,8 +99,7 @@ export default function Post() {
       <h2>The packed-dimension trap</h2>
       <p>
         A 60 cm wide fridge often ships in a 68 cm wide box (padding +
-        packaging). If your front door is 65 cm, the box doesn't fit —
-        even though the actual fridge would.
+        packaging). If your front door is 65 cm, the box doesn't fit, even though the actual fridge would.
       </p>
       <p>
         Delivery drivers in some regions will unpack at the truck if you
@@ -112,7 +111,7 @@ export default function Post() {
       <p>
         Capture all five measurements as a single Ruler AR project named
         "Kitchen appliance opening" (or wherever it's going). Export PDF.
-        Reference it when ordering — paste the actual numbers into the
+        Reference it when ordering, paste the actual numbers into the
         retailer's chat or your purchase notes. If anything is wrong on
         delivery, you have date-stamped documentation that the issue is
         with the appliance, not your measurements.
@@ -120,7 +119,7 @@ export default function Post() {
 
       <h2>What about built-in / panel-ready appliances?</h2>
       <p>
-        These are extra-sensitive — the appliance integrates with cabinetry
+        These are extra-sensitive, the appliance integrates with cabinetry
         rather than sitting separately. Even 5 mm of cabinet
         misalignment causes visible gaps. For built-ins, also measure:
       </p>
@@ -139,7 +138,7 @@ export default function Post() {
 
       <h2>Bottom line</h2>
       <p>
-        Five measurements, five minutes, one PDF — versus a delivery driver
+        Five measurements, five minutes, one PDF, versus a delivery driver
         carrying the box back to the truck and an extra week of cooking
         without a fridge. The math is obvious. Always measure twice; never
         order once.

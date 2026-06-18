@@ -24,8 +24,8 @@ export default function Post() {
   return (
     <article className="prose-content">
       <p className="lead">
-        On a typical home renovation site survey — a kitchen remodel, a
-        bathroom tear-out, or a few rooms of paint and floor — a tape
+        On a typical home renovation site survey, a kitchen remodel, a
+        bathroom tear-out, or a few rooms of paint and floor, a tape
         measure and a notebook take 45-60 minutes. The same survey with an
         iPhone AR app and a measured floor plan takes 12-15 minutes. Here's
         the workflow that gets you there, and where the time savings
@@ -43,7 +43,7 @@ export default function Post() {
       <h2>What AR is NOT good for</h2>
       <ul>
         <li><strong>Sub-millimetre cabinetry work.</strong> Use a steel rule.</li>
-        <li><strong>Long diagonals (over 5 m) outdoors.</strong> Use a laser distance meter — AR drift makes long shots unreliable.</li>
+        <li><strong>Long diagonals (over 5 m) outdoors.</strong> Use a laser distance meter, AR drift makes long shots unreliable.</li>
         <li><strong>Tight crawl spaces with no light.</strong> Camera AR fails; LiDAR works but the phone needs to fit in.</li>
         <li><strong>As-built drawings for permit submissions.</strong> Most municipalities require licensed surveyor stamps. The app gives you a starting document, not the final.</li>
       </ul>
@@ -61,7 +61,7 @@ export default function Post() {
         Walk room by room. For each room with LiDAR: tap Room Scan, walk
         the perimeter, finish. The app builds the floor plan automatically.
         For rooms without enough light (basements, closets), switch to
-        Manual Room Builder — tap each corner walking the perimeter.
+        Manual Room Builder, tap each corner walking the perimeter.
       </p>
       <p>
         Add each room to the project folder. Most jobs are 3-5 rooms; this
@@ -163,7 +163,7 @@ export default function Post() {
       <p>
         A site survey that takes an hour with traditional tools takes 15
         minutes with an AR app. On a 50-job year, that's 35-40 hours
-        recovered — a full work week. The accuracy is comparable for survey
+        recovered, a full work week. The accuracy is comparable for survey
         purposes. The output (PDF with floor plan + dimensions + photos +
         notes) is more presentable to clients than a hand-drawn sketch.
         Worth the 15 minutes of installing and learning the app.

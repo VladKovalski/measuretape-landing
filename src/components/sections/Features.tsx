@@ -3,11 +3,11 @@ import { SCREENSHOTS } from '@/lib/config';
 import { PhoneMockup } from '../PhoneMockup';
 
 const ORDER = [
-  { key: 'cameraMeasure', img: SCREENSHOTS.preciseRuler, alt: 'AR camera measure on iPhone — measuring length with augmented reality' },
+  { key: 'cameraMeasure', img: SCREENSHOTS.preciseRuler, alt: 'AR camera measure on iPhone, measuring length with augmented reality' },
   { key: 'lidarRoom', img: SCREENSHOTS.room, alt: 'LiDAR 3D room scanner generating floor plan on iPhone' },
-  { key: 'manualRoom', img: SCREENSHOTS.multiToolFP, alt: 'Manual room builder for iPhone without LiDAR — floor plan from corner taps' },
+  { key: 'manualRoom', img: SCREENSHOTS.multiToolFP, alt: 'Manual room builder for iPhone without LiDAR, floor plan from corner taps' },
   { key: 'angleSquare', img: SCREENSHOTS.height, alt: 'AR angle measurement tool on iPhone' },
-  { key: 'bubbleLevel', img: SCREENSHOTS.multiTool, alt: 'Digital bubble level on iPhone — spirit level for hanging frames' },
+  { key: 'bubbleLevel', img: SCREENSHOTS.multiTool, alt: 'Digital bubble level on iPhone, spirit level for hanging frames' },
   { key: 'export', img: SCREENSHOTS.area, alt: 'PDF export and project folders for measurements' }
 ] as const;
 

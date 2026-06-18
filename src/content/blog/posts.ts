@@ -23,7 +23,7 @@ export interface PostMeta {
   date: string;
   /** Estimated reading time in minutes */
   readingTimeMin: number;
-  /** Hero image URL (absolute or /-rooted) — optional */
+  /** Hero image URL (absolute or /-rooted), optional */
   cover?: string;
   /** SEO keywords (comma-separated) */
   keywords?: string;
