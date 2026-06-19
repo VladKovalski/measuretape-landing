@@ -34,9 +34,17 @@ export interface PostMeta {
 }
 
 export type PostModule = {
+  /** EN body — the canonical fallback for any locale without a translation. */
   default: ComponentType;
   meta: PostMeta;
+  /** Optional per-locale translated bodies. Missing locale → falls back to `default` (EN). */
+  bodies?: Partial<Record<Locale, ComponentType>>;
 };
+
+/** Pick the body component for a locale, falling back to the EN default. */
+export function getPostBody(post: PostModule, locale: Locale): ComponentType {
+  return post.bodies?.[locale] ?? post.default;
+}
 
 import * as howToMeasureRoom from './how-to-measure-a-room-with-iphone';
 import * as accuracyGuide from './ar-tape-measure-accuracy-guide';

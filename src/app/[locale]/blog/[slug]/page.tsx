@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { locales, type Locale } from '@/i18n';
 import { SITE, APPS } from '@/lib/config';
-import { POSTS, getPost, getLocalizedTitle, getLocalizedExcerpt } from '@/content/blog/posts';
+import { POSTS, getPost, getPostBody, getLocalizedTitle, getLocalizedExcerpt } from '@/content/blog/posts';
 import { AppStoreBadge } from '@/components/AppStoreBadge';
 
 export function generateStaticParams() {
@@ -81,7 +81,7 @@ export default function PostPage({ params: { locale, slug } }: { params: { local
 
   const t = STRINGS[locale as Locale];
   const base = `/${locale}`;
-  const Component = post.default;
+  const Component = getPostBody(post, locale as Locale);
 
   const related = POSTS.filter((p) => p.meta.slug !== slug).slice(0, 3);
 
