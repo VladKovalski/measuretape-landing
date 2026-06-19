@@ -90,6 +90,30 @@ const INDEX_META: Record<Locale, { title: string; description: string; kicker: s
     h1: 'Come misurare qualsiasi cosa.',
     intro: 'Oltre venti guide passo passo per misurare oggetti specifici con l\'iPhone, dal divano al soffitto, dai pensili della cucina ai posti auto. Tutte testate sul campo, 2-15 minuti.',
     categoryLabels: { furniture: 'Mobili', appliance: 'Elettrodomestici', room: 'Stanze', fixture: 'Strutture fisse', outdoor: 'Esterni', body: 'Persone e animali', other: 'Altro' }
+  },
+  pl: {
+    title: 'Jak zmierzyć cokolwiek iPhonem, biblioteka poradników',
+    description: 'Poradniki krok po kroku do mierzenia kanap, lodówek, ścian, okien i 20+ innych rzeczy aparatem iPhone\'a. Każdy poradnik 3-15 minut.',
+    kicker: 'Biblioteka poradników',
+    h1: 'Jak zmierzyć wszystko.',
+    intro: 'Ponad dwadzieścia poradników krok po kroku do mierzenia konkretnych obiektów iPhonem, od kanapy po sufit, od szafek kuchennych po miejsca parkingowe. Każdy sprawdzony w praktyce, 2-15 minut.',
+    categoryLabels: { furniture: 'Meble', appliance: 'AGD', room: 'Pomieszczenia', fixture: 'Elementy stałe', outdoor: 'Na zewnątrz', body: 'Ludzie i zwierzęta', other: 'Inne' }
+  },
+  tr: {
+    title: 'iPhone ile her şeyi nasıl ölçersiniz, rehber kütüphanesi',
+    description: 'iPhone kamerasıyla koltuk, buzdolabı, duvar, pencere ve 20+ başka şeyi ölçmek için adım adım rehberler. Her rehber 3-15 dakika.',
+    kicker: 'Rehber kütüphanesi',
+    h1: 'Her şey nasıl ölçülür.',
+    intro: 'iPhone ile belirli nesneleri ölçmek için yirmiden fazla adım adım rehber; koltuktan tavana, mutfak dolaplarından park yerlerine. Her biri sahada test edilmiş, 2-15 dakika.',
+    categoryLabels: { furniture: 'Mobilya', appliance: 'Beyaz eşya', room: 'Odalar', fixture: 'Sabit donanım', outdoor: 'Dış mekân', body: 'İnsanlar ve evcil hayvanlar', other: 'Diğer' }
+  },
+  ar: {
+    title: 'كيف تقيس أي شيء بآيفونك، مكتبة الأدلة',
+    description: 'أدلة خطوة بخطوة لقياس الأرائك والثلاجات والجدران والنوافذ وأكثر من 20 شيئًا آخر بكاميرا الآيفون. كل دليل من 3 إلى 15 دقيقة.',
+    kicker: 'مكتبة الأدلة',
+    h1: 'كيف تقيس أي شيء.',
+    intro: 'أكثر من عشرين دليلًا خطوة بخطوة لقياس أجسام محدّدة بالآيفون، من الأريكة إلى السقف، ومن خزائن المطبخ إلى مواقف السيارات. كلّها مُجرَّبة عمليًا، وتستغرق من 2 إلى 15 دقيقة.',
+    categoryLabels: { furniture: 'أثاث', appliance: 'أجهزة', room: 'غرف', fixture: 'تجهيزات ثابتة', outdoor: 'خارجي', body: 'الأشخاص والحيوانات', other: 'أخرى' }
   }
 };
 

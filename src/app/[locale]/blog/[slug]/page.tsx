@@ -60,12 +60,16 @@ const STRINGS: Record<Locale, { back: string; readMore: string; getApp: string; 
   ko: { back: '← 모든 글', readMore: '계속 읽기', getApp: 'Ruler AR 무료로 받기', appCta: '읽으면서 앱 사용해 보기', relatedTitle: '이어서 읽기' },
   'zh-Hans': { back: '← 所有文章', readMore: '继续阅读', getApp: '免费获取 Ruler AR', appCta: '边读边试用应用', relatedTitle: '继续阅读' },
   'pt-BR': { back: '← Todos os artigos', readMore: 'Continuar lendo', getApp: 'Baixar o Ruler AR, grátis', appCta: 'Experimente o app enquanto lê', relatedTitle: 'Continue lendo' },
-  it: { back: '← Tutti gli articoli', readMore: 'Continua a leggere', getApp: 'Ottieni Ruler AR, gratis', appCta: "Prova l'app mentre leggi", relatedTitle: 'Continua a leggere' }
+  it: { back: '← Tutti gli articoli', readMore: 'Continua a leggere', getApp: 'Ottieni Ruler AR, gratis', appCta: "Prova l'app mentre leggi", relatedTitle: 'Continua a leggere' },
+  pl: { back: '← Wszystkie artykuły', readMore: 'Czytaj dalej', getApp: 'Pobierz Ruler AR, za darmo', appCta: 'Wypróbuj aplikację podczas czytania', relatedTitle: 'Czytaj dalej' },
+  tr: { back: '← Tüm makaleler', readMore: 'Okumaya devam et', getApp: 'Ruler AR\'ı ücretsiz al', appCta: 'Okurken uygulamayı dene', relatedTitle: 'Okumaya devam et' },
+  ar: { back: '← كل المقالات', readMore: 'تابع القراءة', getApp: 'احصل على Ruler AR مجانًا', appCta: 'جرّب التطبيق أثناء القراءة', relatedTitle: 'تابع القراءة' }
 };
 
 const READ_TIME: Record<Locale, string> = {
   en: 'min read', ru: 'мин', de: 'Min Lesezeit', fr: 'min de lecture', es: 'min lectura',
-  ja: '分で読了', ko: '분 읽기', 'zh-Hans': '分钟阅读', 'pt-BR': 'min de leitura', it: 'min di lettura'
+  ja: '分で読了', ko: '분 읽기', 'zh-Hans': '分钟阅读', 'pt-BR': 'min de leitura', it: 'min di lettura',
+  pl: 'min czytania', tr: 'dk okuma', ar: 'دقيقة قراءة'
 };
 
 export default function PostPage({ params: { locale, slug } }: { params: { locale: string; slug: string } }) {

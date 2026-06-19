@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "title": "Ruler AR: aplikacja-miarka z AI na iPhone'a | Skaner pomieszczeń LiDAR",
+    "description": "Twój iPhone jako kieszonkowa cyfrowa miarka. Mierz długość, wysokość, powierzchnię i kąty w AR. Skanuj pomieszczenia w 3D dzięki LiDAR. Za darmo w App Store, wyróżniona w Narzędziach.",
+    "ogAlt": "Ruler AR, aplikacja-miarka na iPhone'a oparta na LiDAR i ARKit",
+    "keywords": "aplikacja do mierzenia, miarka AR, pomiar iPhone, aplikacja miarka, dalmierz, skaner pomieszczeń LiDAR, plan pomieszczenia, linijka AR"
+  },
+  "nav": {
+    "features": "Funkcje",
+    "useCases": "Zastosowania",
+    "compare": "Porównanie",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "getApp": "Pobierz aplikację",
+    "howTo": "Poradniki"
+  },
+  "hero": {
+    "label": "AR + LIDAR · ZESTAW PRECYZYJNY",
+    "title": "Miarka.\nNa nowo.",
+    "subtitle": "Twój iPhone jako kieszonkowa cyfrowa miarka, zawsze pod ręką. Wyceluj aparat i w kilka sekund uzyskaj długość, wysokość, powierzchnię oraz pełny plan pomieszczenia 3D. Bez miarki. Bez pomocnika. Bez zgadywania.",
+    "primaryCta": "Pobierz za darmo w App Store",
+    "secondaryCta": "Zobacz, jak działa",
+    "trust": "Wyróżniona w Narzędziach App Store · ponad 3500 recenzji · 20 języków · iPhone Xs i nowsze"
+  },
+  "socialProof": {
+    "ratingHeadline": "Jedna aplikacja zastępuje miarkę, planer pomieszczeń, laser i projektanta wnętrz",
+    "stat1": {
+      "value": "3500+",
+      "label": "Zweryfikowane recenzje"
+    },
+    "stat2": {
+      "value": "20",
+      "label": "Obsługiwane języki"
+    },
+    "stat3": {
+      "value": "iOS 16.6+",
+      "label": "iPhone i iPad"
+    },
+    "stat4": {
+      "value": "Wyróżniona",
+      "label": "w Narzędziach App Store"
+    },
+    "useTags": [
+      "Wykonawcy",
+      "Projektanci wnętrz",
+      "Agenci nieruchomości",
+      "Remonty DIY",
+      "Architekci"
+    ]
+  },
+  "features": {
+    "kicker": "Co potrafi",
+    "title": "Jedna aplikacja zastępuje miarkę, planer, laser i projektanta wnętrz.",
+    "intro": "Stworzona dla wykonawców rozliczających się co do milimetra, projektantów planujących w 3D i mieszkańców, którzy chcą tylko wiedzieć, czy zmieści się kanapa. Każdy scenariusz pomiaru, który iPhone potrafi rozwiązać, oparty na ARKit i LiDAR.",
+    "items": {
+      "cameraMeasure": {
+        "title": "Pomiar aparatem: wyceluj, dotknij, gotowe",
+        "subtitle": "Odległość i długość w AR",
+        "body": "Wyceluj aparat iPhone'a w dowolny obiekt. Dotknij punktu początkowego i końcowego, by uzyskać precyzyjny wymiar w centymetrach, metrach, calach lub stopach. Sesja AR dostosowuje się do oświetlenia, tekstury powierzchni i odległości, więc zarówno śruba 4 cm, jak i ściana 4 m pozostają dokładne. Zbudowane na śledzeniu świata ARKit z filtrowaniem wartości odstających klatka po klatce."
+      },
+      "lidarRoom": {
+        "title": "Plany pomieszczeń 3D z LiDAR",
+        "subtitle": "Skaner RoomPlan z AI",
+        "body": "Przejdź się po dowolnym pomieszczeniu. Aplikacja tworzy pełny plan 3D na bieżąco — ściany, okna, drzwi i meble klasyfikowane automatycznie. Eksportuj do PDF lub udostępnij jako model 3D wykonawcy, architektowi czy rzeczoznawcy. Działa na każdym iPhone Pro i iPad Pro z czujnikiem LiDAR (12 Pro i nowsze)."
+      },
+      "manualRoom": {
+        "title": "Ręczny kreator pomieszczeń (bez LiDAR)",
+        "subtitle": "Plany w AR dla każdego iPhone'a",
+        "body": "Brak LiDAR? Żaden problem. Przejdź wzdłuż każdej ściany, dotykaj narożników, a aplikacja zbuduje czysty, ortogonalny plan z wykrywaniem przecięć, przyciąganiem kątów i podglądem minimapy na żywo. Działa na każdym iPhonie od iPhone Xs wzwyż."
+      },
+      "angleSquare": {
+        "title": "Kąt i kątownik, precyzyjne narożniki",
+        "subtitle": "Kątomierz AR",
+        "body": "Mierz kąty między dowolnymi dwiema powierzchniami. Sprawdź, czy ściana jest w pionie, półka pod kątem prostym, a obraz w poziomie. Idealne do wieszania obrazów, wyrównywania szafek czy weryfikacji narożników podczas remontu, z dokładnością do stopnia."
+      },
+      "bubbleLevel": {
+        "title": "Poziomica, zawsze w kieszeni",
+        "subtitle": "Poziomica cyfrowa",
+        "body": "Niezawodna poziomica cyfrowa zasilana akcelerometrem iPhone'a. Tryby pionowy, poziomy i swobodnego obrotu. Wyrównaj półki, ramki, pralkę lub sprawdź, czy podłoga się nie pochyla, bez grzebania w skrzynce z narzędziami."
+      },
+      "export": {
+        "title": "Organizuj i eksportuj, po swojemu",
+        "subtitle": "PDF · udostępnianie · foldery",
+        "body": "Zapisuj pomiary w folderach projektów. Dodawaj notatki i zdjęcia. Eksportuj pełne raporty PDF z wymiarami i planami 2D albo udostępniaj pojedyncze pomiary przez Wiadomości, Mail czy AirDrop. Każdy pomiar jest o jedno dotknięcie od dostarczenia do zespołu."
+      }
+    }
+  },
+  "useCases": {
+    "kicker": "Kto z niej korzysta",
+    "title": "Dla ludzi, którzy coś budują",
+    "intro": "Konkretne scenariusze, konkretne narzędzia. Aplikacja oferuje gotowe ustawienia i profile dokładności dla tych, którzy mierzą zawodowo, i dla każdego, kto chce po prostu zakończyć spór przy stole o to, czy regał się zmieści.",
+    "items": {
+      "contractors": {
+        "title": "Wykonawcy i remontujący",
+        "body": "Inwentaryzacje, listy usterek, zlecenia zmian. Wyeksportuj PDF z wymiarami i planem, zanim opuścisz budowę."
+      },
+      "designers": {
+        "title": "Projektanci wnętrz",
+        "body": "Zarejestruj pomieszczenie w 60 sekund. Planuj układy w 3D. Udostępnij plan klientowi przed pierwszą korektą."
+      },
+      "diy": {
+        "title": "DIY i remont domu",
+        "body": "Mierz pod farbę, płytki, podłogi i tapety. Kalkulator materiałów zamienia wymiary w listę zakupów."
+      },
+      "realEstate": {
+        "title": "Agenci nieruchomości",
+        "body": "Twórz plany do ogłoszeń podczas prezentacji. Kupujący widzą zmierzony plan, a nie zgadywankę."
+      },
+      "furniture": {
+        "title": "Zakup mebli",
+        "body": "Czy kanapa się zmieści? Zmierz przestrzeń, zapisz wymiary i sprawdź w IKEA, markecie budowlanym czy gdziekolwiek kupujesz."
+      },
+      "everyday": {
+        "title": "Codzienne pomiary",
+        "body": "Paczka, miejsce parkingowe, wzrost dziecka. Gdy miarka jest w garażu, iPhone masz w kieszeni."
+      }
+    }
+  },
+  "compare": {
+    "kicker": "Jak wypada na tle innych",
+    "title": "Aplikacja-miarka vs alternatywy",
+    "intro": "Są trzy sposoby na pomiar pomieszczenia. Dwa z nich wymagają drugiej pary rąk, 5-metrowej miarki i dobrego światła. Oto uczciwe porównanie.",
+    "headers": [
+      "Możliwość",
+      "Ruler AR",
+      "Miarka fizyczna",
+      "Miarka iPhone (wbudowana)"
+    ],
+    "rows": [
+      [
+        "Obsługa przez jedną osobę",
+        "yes",
+        "no",
+        "yes"
+      ],
+      [
+        "Pomiar do 5 m / 16 stóp",
+        "yes",
+        "zależnie",
+        "yes"
+      ],
+      [
+        "Pomiar kątów",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Pomiar powierzchni",
+        "yes",
+        "ręczne liczenie",
+        "no"
+      ],
+      [
+        "Skan 3D z LiDAR",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Ręczny kreator planów",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Eksport i udostępnianie PDF",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Foldery projektów i notatki",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Wbudowana poziomica",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Działa bez internetu",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      [
+        "Cena",
+        "Za darmo",
+        "20–100 zł",
+        "Za darmo"
+      ]
+    ],
+    "footnote": "Zaktualizowano dla wersji 5.0 aplikacji. „Miarka iPhone” odnosi się do wbudowanej aplikacji Miarka w iOS."
+  },
+  "howItWorks": {
+    "kicker": "Jak to działa",
+    "title": "Trzy dotknięcia do pomiaru",
+    "steps": {
+      "open": {
+        "title": "Otwórz i wyceluj",
+        "body": "Uruchom aplikację. Skieruj iPhone'a na ścianę, podłogę lub obiekt do zmierzenia. Sesja AR kalibruje się w niecałe dwie sekundy."
+      },
+      "point": {
+        "title": "Dotknij początku i końca",
+        "body": "Dotknij punktu początkowego. Przesuń iPhone'a do punktu końcowego. Dotknij ponownie. Pomiar pojawia się na ekranie w czasie rzeczywistym, w cm, m, calach lub stopach."
+      },
+      "export": {
+        "title": "Zapisz, udostępnij, eksportuj",
+        "body": "Każdy pomiar trafia do historii z miniaturą. Wyślij PDF klientowi, udostępnij zrzut ekranu w Wiadomościach albo zapisz cały projekt na później."
+      }
+    }
+  },
+  "twoApps": {
+    "kicker": "Dwie edycje",
+    "title": "Za darmo dla wszystkich. Pro dla profesjonalistów.",
+    "free": {
+      "label": "01 / EDYCJA DARMOWA",
+      "name": "Ruler AR",
+      "tagline": "Miarka z AI do codziennych pomiarów. Za darmo, na zawsze.",
+      "bullets": [
+        "Pomiar aparatem (długość, wysokość, powierzchnia)",
+        "Poziomica i narzędzie kąta",
+        "Ręczny kreator pomieszczeń",
+        "Zapis do folderów projektów"
+      ],
+      "cta": "Pobierz Ruler AR za darmo"
+    },
+    "pro": {
+      "label": "02 / EDYCJA PRO",
+      "name": "Ruler Pro",
+      "tagline": "Profesjonalna precyzja. Skan 3D pomieszczeń z LiDAR, nieograniczony eksport PDF i 3D, bez reklam, bez limitów.",
+      "bullets": [
+        "Wszystko z Ruler AR",
+        "Skan 3D pomieszczeń z LiDAR",
+        "Nieograniczony eksport PDF i USDZ",
+        "Priorytetowe wsparcie, bez reklam, bez limitów"
+      ],
+      "cta": "Pobierz Ruler Pro"
+    }
+  },
+  "faq": {
+    "kicker": "Częste pytania",
+    "title": "O co ludzie pytają przed pobraniem",
+    "items": [
+      {
+        "q": "Czy Ruler AR wymaga czujnika LiDAR?",
+        "a": "Nie. Pomiar aparatem, narzędzie kąta, poziomica i ręczny kreator pomieszczeń działają na każdym iPhonie z iOS 16.6 lub nowszym, od iPhone Xs wzwyż. LiDAR jest potrzebny tylko do automatycznego skanera pomieszczeń 3D (iPhone 12 Pro i nowsze, iPad Pro 2020+)."
+      },
+      {
+        "q": "Jak dokładna jest miarka AR?",
+        "a": "Przy typowym oświetleniu wewnętrznym i do 5 metrów dokładność wynosi ±1–2 cm. Z LiDAR poprawia się do ±5 mm. Do prac wykończeniowych użyj Trybu Dotyku: ustawia punkt początkowy dokładnie w pozycji telefonu, eliminując największe źródło błędu AR."
+      },
+      {
+        "q": "Czy mogę eksportować pomiary do PDF?",
+        "a": "Tak. Każdy zapisany projekt można wyeksportować do PDF z planem 2D, tabelą wymiarów i opcjonalnymi zdjęciami. Udostępniaj bezpośrednio do Maila, Wiadomości, AirDrop lub dowolnego rozszerzenia. Eksport PDF jest nieograniczony w Ruler Pro."
+      },
+      {
+        "q": "Czy aplikacja jest naprawdę darmowa?",
+        "a": "Tak. Edycja darmowa obejmuje pomiar aparatem, poziomicę, narzędzie kąta, ręczny kreator pomieszczeń i foldery projektów bez opłat. Funkcje Pro (skan LiDAR, nieograniczony eksport, bez reklam) są dostępne w subskrypcji lub jednorazowym odblokowaniu."
+      },
+      {
+        "q": "Które iPhone'y i iPady są obsługiwane?",
+        "a": "Każde urządzenie z iOS 16.6 lub nowszym. Aplikacja jest zoptymalizowana pod iPhone Xs do iPhone 17 Pro, iPad Pro (2018+) i iPad Air (2020+). Na starszych urządzeniach bez LiDAR aplikacja automatycznie przełącza się na ręczny kreator pomieszczeń."
+      },
+      {
+        "q": "Jak zmierzyć pomieszczenie iPhonem?",
+        "a": "Jeśli iPhone ma LiDAR (12 Pro i nowsze): otwórz Room Plan, przejdź się powoli po pomieszczeniu, a aplikacja zbuduje plan 3D na bieżąco. Bez LiDAR: otwórz ręczny kreator pomieszczeń, stań w narożniku, idź wzdłuż każdej ściany dotykając narożników, a aplikacja wygeneruje czysty, ortogonalny plan."
+      },
+      {
+        "q": "Czy działa przy słabym świetle?",
+        "a": "Tak, ale dokładność zależy od zdolności sesji AR do śledzenia powierzchni. W ciemnych pomieszczeniach aplikacja pokazuje baner „słabe światło” z przyciskiem latarki na jedno dotknięcie. W całkowitej ciemności urządzenia z LiDAR działają bez żadnego widzialnego światła."
+      },
+      {
+        "q": "Czy działa na iPadzie?",
+        "a": "Tak. Aplikacja działa na iPad Pro (2018+), iPad Air (2020+) i iPad mini (6. gen.+), czyli na każdym z iOS/iPadOS 16.6 lub nowszym. Modele iPad Pro z LiDAR obsługują pełny skaner 3D RoomPlan. Większe ekrany iPada są szczególnie przydatne w ręcznym edytorze planów."
+      },
+      {
+        "q": "Czy mogę mierzyć na zewnątrz?",
+        "a": "Tak, ale dokładność zależy od oświetlenia. W cieniu lub przy zachmurzeniu śledzenie AR działa tak dobrze jak w pomieszczeniu. W pełnym słońcu odczyty głębi LiDAR mogą być zakłócone przez podczerwień słońca — pomiary nadal działają, ale tolerancja rośnie do kilku cm na dystansie. Do długich pomiarów na zewnątrz (powyżej 5 m) dalmierz laserowy jest pewniejszy."
+      },
+      {
+        "q": "Czy zadziała na iPhone 16 i 17?",
+        "a": "Tak, aplikacja w pełni obsługuje iPhone 16, 16 Pro, 17, 17 Pro i 17 Air. Modele Pro z LiDAR mają automatyczny skaner 3D RoomPlan. Układy A18/A19 przyspieszają też inicjalizację sesji AR (poniżej 1 sekundy od zimnego startu)."
+      },
+      {
+        "q": "Czy jest wersja na Androida?",
+        "a": "Obecnie nie. Aplikacja jest zbudowana na frameworkach ARKit i RoomPlan firmy Apple, które nie mają bezpośredniego odpowiednika na Androidzie. Śledzimy rozwój ARCore, ale nie mamy harmonogramu wydania na Androida."
+      },
+      {
+        "q": "Czy aplikacja zbiera dane śledzenia?",
+        "a": "Edycja darmowa wyświetla reklamy (które używają anonimowych identyfikatorów, jeśli udzielisz zgody przez App Tracking Transparency). Edycja Pro nie ma żadnego śledzenia ani reklam. Pełne informacje w etykiecie prywatności App Store i w naszej polityce prywatności."
+      }
+    ]
+  },
+  "testimonials": {
+    "kicker": "Co mówią recenzenci",
+    "title": "Z App Store",
+    "items": [
+      {
+        "quote": "Łatwo się tego nauczyć, a gdy już opanujesz, staje się idealnym narzędziem.",
+        "author": "rKid · App Store",
+        "rating": 5
+      },
+      {
+        "quote": "Łatwa w obsłudze, dokładna, z darmowym okresem próbnym, robi dokładnie to, czego chcę.",
+        "author": "App Store · Wielka Brytania",
+        "rating": 5
+      },
+      {
+        "quote": "Całkiem niezła. Nadaje się do codziennych pomiarów.",
+        "author": "4kwuai · App Store",
+        "rating": 5
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Przestań zgadywać.\nZacznij mierzyć.",
+    "subtitle": "Za darmo w App Store. iOS 16.6 i nowsze. Setki tysięcy pomiarów każdego dnia — Twój jest następny.",
+    "primary": "Pobierz za darmo",
+    "secondary": "Pobierz Ruler Pro"
+  },
+  "footer": {
+    "tagline": "Zestaw narzędzi pomiarowych na iOS autorstwa Vladislava Kovalskiego.",
+    "support": "Wsparcie: support@measuretape.app",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "copyright": "© 2026 Vladislav Kovalski. Wszelkie prawa zastrzeżone.",
+    "languages": "Języki"
+  },
+  "languageNames": {
+    "en": "English",
+    "ru": "Русский",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh-Hans": "简体中文",
+    "pt-BR": "Português (BR)",
+    "it": "Italiano",
+    "pl": "Polski",
+    "tr": "Türkçe",
+    "ar": "العربية"
+  }
+}

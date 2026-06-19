@@ -14,7 +14,7 @@ try {
   var two = raw.slice(0,2);
   // Region-specific locales first (full tag), then base-language fallback.
   var map = { 'zh': 'zh-Hans', 'pt': 'pt-BR' };
-  var supported = ['en','ru','de','fr','es','ja','ko','it'];
+  var supported = ['en','ru','de','fr','es','ja','ko','it','pl','tr','ar'];
   var target = 'en';
   if (map[two]) target = map[two];
   else if (supported.indexOf(two) > -1) target = two;

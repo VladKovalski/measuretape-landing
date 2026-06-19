@@ -90,6 +90,30 @@ const BLOG_META: Record<Locale, { title: string; description: string; kicker: st
     h1: 'Misurare, in stile iPhone.',
     intro: 'Tutorial, confronti e note sul campo dal team di Ruler AR. Nuovi articoli ogni due settimane: misura in modo più intelligente, non più faticoso.',
     readTime: 'min di lettura'
+  },
+  pl: {
+    title: 'Blog · Porady o mierzeniu, poradniki AR i przewodniki remontowe · measuretape.app',
+    description: 'Artykuły o mierzeniu iPhonem, dokładności miarki AR, skanowaniu pomieszczeń i planowaniu remontów. Od twórców Ruler AR.',
+    kicker: 'Notatki z terenu',
+    h1: 'Mierzenie po iPhone\'owemu.',
+    intro: 'Poradniki, porównania i notatki z terenu od zespołu Ruler AR. Nowe artykuły co kilka tygodni — mierz mądrzej, nie ciężej.',
+    readTime: 'min czytania'
+  },
+  tr: {
+    title: 'Blog · Ölçüm ipuçları, AR rehberleri ve tadilat anlatımları · measuretape.app',
+    description: 'iPhone ile ölçme, AR mezura doğruluğu, oda tarama ve tadilat planlaması üzerine yazılar. Ruler AR ekibinden.',
+    kicker: 'Saha notları',
+    h1: 'Ölçmek, iPhone tarzı.',
+    intro: 'Ruler AR ekibinden eğitimler, karşılaştırmalar ve saha notları. Birkaç haftada bir yeni yazı — daha çok değil, daha akıllı ölçün.',
+    readTime: 'dk okuma'
+  },
+  ar: {
+    title: 'المدونة · نصائح القياس وأدلة الواقع المعزّز وشروحات الترميم · measuretape.app',
+    description: 'مقالات عن القياس بالآيفون، ودقّة متر الواقع المعزّز، ومسح الغرف، وتخطيط الترميم. من فريق Ruler AR.',
+    kicker: 'ملاحظات ميدانية',
+    h1: 'القياس على طريقة الآيفون.',
+    intro: 'دروس ومقارنات وملاحظات ميدانية من فريق Ruler AR. مقالات جديدة كل أسبوعين — قِس بذكاء أكبر لا بجهد أكبر.',
+    readTime: 'دقيقة قراءة'
   }
 };
 
