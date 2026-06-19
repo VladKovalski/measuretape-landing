@@ -55,7 +55,17 @@ const STRINGS: Record<Locale, { back: string; readMore: string; getApp: string; 
   ru: { back: '← Все статьи', readMore: 'Читать дальше', getApp: 'Установить Ruler AR, Бесплатно', appCta: 'Попробуй приложение пока читаешь', relatedTitle: 'Читать ещё' },
   de: { back: '← Alle Artikel', readMore: 'Weiterlesen', getApp: 'Ruler AR holen, kostenlos', appCta: 'App ausprobieren beim Lesen', relatedTitle: 'Weiterlesen' },
   fr: { back: '← Tous les articles', readMore: 'Continuer la lecture', getApp: 'Obtenir Ruler AR, gratuit', appCta: "Essayer l'app pendant la lecture", relatedTitle: 'À lire ensuite' },
-  es: { back: '← Todos los artículos', readMore: 'Seguir leyendo', getApp: 'Obtener Ruler AR, gratis', appCta: 'Prueba la app mientras lees', relatedTitle: 'Sigue leyendo' }
+  es: { back: '← Todos los artículos', readMore: 'Seguir leyendo', getApp: 'Obtener Ruler AR, gratis', appCta: 'Prueba la app mientras lees', relatedTitle: 'Sigue leyendo' },
+  ja: { back: '← すべての記事', readMore: '続きを読む', getApp: 'Ruler ARを無料で入手', appCta: '読みながらアプリを試す', relatedTitle: '関連記事' },
+  ko: { back: '← 모든 글', readMore: '계속 읽기', getApp: 'Ruler AR 무료로 받기', appCta: '읽으면서 앱 사용해 보기', relatedTitle: '이어서 읽기' },
+  'zh-Hans': { back: '← 所有文章', readMore: '继续阅读', getApp: '免费获取 Ruler AR', appCta: '边读边试用应用', relatedTitle: '继续阅读' },
+  'pt-BR': { back: '← Todos os artigos', readMore: 'Continuar lendo', getApp: 'Baixar o Ruler AR, grátis', appCta: 'Experimente o app enquanto lê', relatedTitle: 'Continue lendo' },
+  it: { back: '← Tutti gli articoli', readMore: 'Continua a leggere', getApp: 'Ottieni Ruler AR, gratis', appCta: "Prova l'app mentre leggi", relatedTitle: 'Continua a leggere' }
+};
+
+const READ_TIME: Record<Locale, string> = {
+  en: 'min read', ru: 'мин', de: 'Min Lesezeit', fr: 'min de lecture', es: 'min lectura',
+  ja: '分で読了', ko: '분 읽기', 'zh-Hans': '分钟阅读', 'pt-BR': 'min de leitura', it: 'min di lettura'
 };
 
 export default function PostPage({ params: { locale, slug } }: { params: { locale: string; slug: string } }) {
@@ -99,7 +109,7 @@ export default function PostPage({ params: { locale, slug } }: { params: { local
         <div className="mt-6 flex flex-wrap items-center gap-3 text-[10px] font-mono uppercase tracking-ruler text-ink/45">
           <time dateTime={post.meta.date}>{post.meta.date}</time>
           <span aria-hidden>·</span>
-          <span>{post.meta.readingTimeMin} {locale === 'ru' ? 'мин' : locale === 'fr' ? 'min de lecture' : 'min read'}</span>
+          <span>{post.meta.readingTimeMin} {READ_TIME[locale as Locale] ?? 'min read'}</span>
           {post.meta.tags?.map((tag) => (
             <span key={tag}>
               <span aria-hidden className="mr-3">·</span>{tag}

@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "title": "Ruler AR: App de Trena com IA para iPhone | Scanner de Ambiente LiDAR",
+    "description": "Seu iPhone como uma trena digital de bolso. Meça comprimento, altura, área e ângulos com RA. Escaneie ambientes em 3D com LiDAR. Grátis na App Store, destaque em Utilitários.",
+    "ogAlt": "Ruler AR, app de trena para iPhone com LiDAR e ARKit",
+    "keywords": "app de medição, trena AR, medir com iPhone, app de trena, medidor de distância, scanner de ambiente LiDAR, planta baixa, régua RA"
+  },
+  "nav": {
+    "features": "Recursos",
+    "useCases": "Casos de uso",
+    "compare": "Comparar",
+    "faq": "Perguntas frequentes",
+    "blog": "Blog",
+    "getApp": "Baixar o app",
+    "howTo": "Como usar"
+  },
+  "hero": {
+    "label": "RA + LIDAR · KIT DE PRECISÃO",
+    "title": "Trena.\nReinventada.",
+    "subtitle": "Seu iPhone como uma trena digital de bolso, sempre à mão. Aponte a câmera e obtenha comprimento, altura, área e uma planta baixa 3D completa em segundos. Sem trena. Sem ajudante. Sem chute.",
+    "primaryCta": "Baixar grátis na App Store",
+    "secondaryCta": "Veja como funciona",
+    "trust": "Destaque em Utilitários da App Store · 3.500+ avaliações · 20 idiomas · iPhone Xs e mais recentes"
+  },
+  "socialProof": {
+    "ratingHeadline": "Um app substitui sua trena, planejador de ambientes, laser e designer de interiores",
+    "stat1": {
+      "value": "3.500+",
+      "label": "Avaliações verificadas"
+    },
+    "stat2": {
+      "value": "20",
+      "label": "Idiomas suportados"
+    },
+    "stat3": {
+      "value": "iOS 16.6+",
+      "label": "iPhone e iPad"
+    },
+    "stat4": {
+      "value": "Destaque",
+      "label": "em Utilitários da App Store"
+    },
+    "useTags": [
+      "Empreiteiros",
+      "Designers de interiores",
+      "Corretores de imóveis",
+      "Reformas DIY",
+      "Arquitetos"
+    ]
+  },
+  "features": {
+    "kicker": "O que ele faz",
+    "title": "Um app substitui sua trena, planejador, laser e designer de interiores.",
+    "intro": "Feito para empreiteiros que cobram por milímetro, designers que planejam em 3D e moradores que só querem saber se o sofá cabe. Cada cenário de medição que seu iPhone pode resolver, construído sobre ARKit e LiDAR.",
+    "items": {
+      "cameraMeasure": {
+        "title": "Medição por câmera: aponte, toque, pronto",
+        "subtitle": "Distância e comprimento em RA",
+        "body": "Aponte a câmera do iPhone para qualquer objeto. Toque nos pontos inicial e final para capturar uma dimensão precisa em centímetros, metros, polegadas ou pés. A sessão de RA se adapta à iluminação, à textura da superfície e à distância, então tanto um parafuso de 4 cm quanto uma parede de 4 m ficam precisos. Construído sobre o rastreamento de mundo do ARKit, com filtragem de outliers quadro a quadro."
+      },
+      "lidarRoom": {
+        "title": "Plantas baixas 3D com LiDAR",
+        "subtitle": "Scanner RoomPlan com IA",
+        "body": "Caminhe por qualquer ambiente. O app cria uma planta baixa 3D completa enquanto você anda — paredes, janelas, portas e móveis categorizados automaticamente. Exporte em PDF ou compartilhe como modelo 3D com seu empreiteiro, arquiteto ou perito de seguros. Funciona em todo iPhone Pro e iPad Pro com sensor LiDAR (12 Pro e mais recentes)."
+      },
+      "manualRoom": {
+        "title": "Construtor de ambientes manual (sem LiDAR)",
+        "subtitle": "Plantas baixas em RA para todo iPhone",
+        "body": "Sem LiDAR? Sem problema. Caminhe ao longo de cada parede, toque nos cantos e o app cria uma planta baixa ortogonal e limpa, com detecção de autointerseção, ajuste de ângulo e prévia de minimapa ao vivo. Funciona em todo iPhone, do iPhone Xs em diante."
+      },
+      "angleSquare": {
+        "title": "Ângulo e esquadro, cantos precisos",
+        "subtitle": "Transferidor em RA",
+        "body": "Meça ângulos entre quaisquer duas superfícies. Verifique se uma parede está no prumo, se uma prateleira está em esquadro, se um quadro está nivelado. Perfeito para pendurar quadros, alinhar armários ou conferir cantos durante a reforma, com precisão de até um grau."
+      },
+      "bubbleLevel": {
+        "title": "Nível de bolha, sempre no bolso",
+        "subtitle": "Nível digital",
+        "body": "Um nível digital confiável, movido pelo acelerômetro do iPhone. Modos vertical, horizontal e de rotação livre. Alinhe prateleiras, quadros, máquinas de lavar ou verifique se um piso está inclinado — sem revirar a caixa de ferramentas."
+      },
+      "export": {
+        "title": "Organize e exporte, do seu jeito",
+        "subtitle": "PDF · compartilhar · pastas",
+        "body": "Salve medições em pastas de projeto. Anexe notas e fotos. Exporte relatórios completos em PDF com dimensões e plantas baixas 2D, ou compartilhe medições individuais por Mensagens, E-mail ou AirDrop. Cada medição está a um toque de chegar à sua equipe."
+      }
+    }
+  },
+  "useCases": {
+    "kicker": "Quem usa",
+    "title": "Feito para quem constrói coisas",
+    "intro": "Cenários específicos, ferramentas específicas. O app traz predefinições e perfis de precisão para quem mede para viver — e para todos que só precisam encerrar a discussão na mesa de jantar sobre se a estante cabe.",
+    "items": {
+      "contractors": {
+        "title": "Empreiteiros e reformadores",
+        "body": "Levantamentos, listas de pendências, ordens de alteração. Exporte um PDF com medições e planta baixa antes de sair da obra."
+      },
+      "designers": {
+        "title": "Designers de interiores",
+        "body": "Capture um ambiente em 60 segundos. Planeje layouts em 3D. Compartilhe a planta com clientes antes da primeira revisão."
+      },
+      "diy": {
+        "title": "DIY e reforma residencial",
+        "body": "Meça para tinta, piso, revestimento e papel de parede. A calculadora de materiais transforma dimensões em listas de compras."
+      },
+      "realEstate": {
+        "title": "Corretores de imóveis",
+        "body": "Gere plantas baixas para anúncios durante a visita. Os compradores veem uma planta medida, não um chute."
+      },
+      "furniture": {
+        "title": "Compra de móveis",
+        "body": "O sofá vai caber? Meça seu espaço, salve as dimensões e confira na loja de móveis, no Leroy Merlin ou onde você comprar."
+      },
+      "everyday": {
+        "title": "Medições do dia a dia",
+        "body": "Uma encomenda, uma vaga de garagem, a altura de uma criança. Quando a trena está na garagem, o iPhone está no bolso."
+      }
+    }
+  },
+  "compare": {
+    "kicker": "Como se compara",
+    "title": "App de trena vs. as alternativas",
+    "intro": "Há três formas de medir um ambiente. Duas delas exigem um segundo par de mãos, uma trena de 5 metros e boa iluminação. Aqui vai a comparação honesta.",
+    "headers": [
+      "Capacidade",
+      "Ruler AR",
+      "Trena física",
+      "Medição do iPhone (nativo)"
+    ],
+    "rows": [
+      [
+        "Fluxo de uma pessoa só",
+        "yes",
+        "no",
+        "yes"
+      ],
+      [
+        "Mede até 5 m / 16 pés",
+        "yes",
+        "depende",
+        "yes"
+      ],
+      [
+        "Captura ângulos",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Captura área",
+        "yes",
+        "cálculo manual",
+        "no"
+      ],
+      [
+        "Escaneamento 3D com LiDAR",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Construtor de planta manual",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Exportar e compartilhar PDF",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Pastas de projeto e notas",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Nível de bolha incluído",
+        "yes",
+        "no",
+        "no"
+      ],
+      [
+        "Funciona sem internet",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      [
+        "Preço",
+        "Grátis",
+        "R$25–R$120",
+        "Grátis"
+      ]
+    ],
+    "footnote": "Atualizado para a versão 5.0 do app. \"Medição do iPhone\" refere-se ao app Medidas nativo do iOS."
+  },
+  "howItWorks": {
+    "kicker": "Como funciona",
+    "title": "Três toques até a medição",
+    "steps": {
+      "open": {
+        "title": "Abra e aponte",
+        "body": "Abra o app. Levante o iPhone em direção à parede, ao piso ou ao objeto que quer medir. A sessão de RA se calibra em menos de dois segundos."
+      },
+      "point": {
+        "title": "Toque no início e no fim",
+        "body": "Toque no ponto inicial. Mova o iPhone até o ponto final. Toque de novo. A medição aparece na tela em tempo real, em cm, m, polegadas ou pés."
+      },
+      "export": {
+        "title": "Salve, compartilhe, exporte",
+        "body": "Cada medição vai para o seu histórico com uma miniatura. Envie um PDF ao cliente, compartilhe uma captura por Mensagens ou salve o projeto inteiro para depois."
+      }
+    }
+  },
+  "twoApps": {
+    "kicker": "Duas edições",
+    "title": "Grátis para todos. Pro para profissionais.",
+    "free": {
+      "label": "01 / EDIÇÃO GRÁTIS",
+      "name": "Ruler AR",
+      "tagline": "A trena com IA para medições do dia a dia. Grátis, para sempre.",
+      "bullets": [
+        "Medição por câmera (comprimento, altura, área)",
+        "Nível de bolha e ferramenta de ângulo",
+        "Construtor de ambientes manual",
+        "Salvar em pastas de projeto"
+      ],
+      "cta": "Baixar o Ruler AR grátis"
+    },
+    "pro": {
+      "label": "02 / EDIÇÃO PRO",
+      "name": "Ruler Pro",
+      "tagline": "Precisão profissional. Escaneamento 3D com LiDAR, exportação ilimitada em PDF e 3D, sem anúncios, sem limites.",
+      "bullets": [
+        "Tudo do Ruler AR",
+        "Escaneamento 3D de ambientes com LiDAR",
+        "Exportação ilimitada em PDF e USDZ",
+        "Suporte prioritário, sem anúncios, sem limites"
+      ],
+      "cta": "Obter o Ruler Pro"
+    }
+  },
+  "faq": {
+    "kicker": "Perguntas comuns",
+    "title": "O que as pessoas perguntam antes de baixar",
+    "items": [
+      {
+        "q": "O Ruler AR precisa de sensor LiDAR?",
+        "a": "Não. Medição por câmera, ferramenta de ângulo, nível de bolha e o Construtor de ambientes manual funcionam em todo iPhone com iOS 16.6 ou mais recente, do iPhone Xs em diante. O LiDAR é necessário apenas para o scanner 3D automático de ambientes (iPhone 12 Pro e mais recentes, iPad Pro 2020+)."
+      },
+      {
+        "q": "Quão precisa é a trena em RA?",
+        "a": "Em iluminação interna típica e até 5 metros, a precisão é de ±1–2 cm. Com LiDAR, melhora para ±5 mm. Para trabalhos de acabamento, use o Modo Toque: ele posiciona o ponto inicial exatamente na posição do telefone, eliminando a maior fonte de erro em RA."
+      },
+      {
+        "q": "Posso exportar medições em PDF?",
+        "a": "Sim. Todo projeto salvo pode ser exportado em PDF com planta baixa 2D, tabela de dimensões e fotos opcionais. Compartilhe direto por E-mail, Mensagens, AirDrop ou qualquer extensão de compartilhamento. A exportação em PDF é ilimitada no Ruler Pro."
+      },
+      {
+        "q": "O app é mesmo gratuito?",
+        "a": "Sim. A edição grátis inclui medição por câmera, nível de bolha, ferramenta de ângulo, construtor de ambientes manual e pastas de projeto sem custo. Os recursos Pro (escaneamento LiDAR, exportações ilimitadas, sem anúncios) estão disponíveis por assinatura ou desbloqueio único."
+      },
+      {
+        "q": "Quais iPhones e iPads são compatíveis?",
+        "a": "Qualquer aparelho com iOS 16.6 ou posterior. O app é otimizado para iPhone Xs até iPhone 17 Pro, iPad Pro (2018+) e iPad Air (2020+). Em aparelhos mais antigos sem LiDAR, o app muda automaticamente para o Construtor de ambientes manual."
+      },
+      {
+        "q": "Como medir um ambiente com o iPhone?",
+        "a": "Se o iPhone tiver LiDAR (12 Pro e mais recentes): abra o Room Plan, ande devagar pelo ambiente e o app cria a planta 3D enquanto você caminha. Sem LiDAR: abra o Construtor de ambientes manual, fique num canto, caminhe ao longo de cada parede tocando nos cantos, e o app gera uma planta ortogonal limpa."
+      },
+      {
+        "q": "Funciona com pouca luz?",
+        "a": "Sim, mas a precisão depende da capacidade da sessão de RA de rastrear superfícies. Em ambientes escuros, o app mostra um aviso de pouca luz com um botão de lanterna de um toque. Em escuridão total, aparelhos com LiDAR continuam funcionando sem qualquer luz visível."
+      },
+      {
+        "q": "Funciona no iPad?",
+        "a": "Sim. O app roda em iPad Pro (2018+), iPad Air (2020+) e iPad mini (6ª geração+), qualquer um com iOS/iPadOS 16.6 ou mais recente. Modelos de iPad Pro com LiDAR suportam o scanner 3D RoomPlan completo. Telas maiores de iPad são especialmente úteis para o editor de planta baixa manual."
+      },
+      {
+        "q": "Dá para medir ao ar livre?",
+        "a": "Sim, mas a precisão depende da iluminação. À sombra aberta ou em dias nublados, o rastreamento de RA funciona tão bem quanto em ambientes internos. Sob sol direto, as leituras de profundidade do LiDAR podem ser ofuscadas pelo infravermelho do sol — as medições ainda funcionam, mas a tolerância aumenta para alguns cm a distância. Para trechos longos ao ar livre (acima de 5 m), um medidor a laser é mais confiável."
+      },
+      {
+        "q": "Vai funcionar no iPhone 16 e 17?",
+        "a": "Sim, o app é totalmente compatível com iPhone 16, 16 Pro, 17, 17 Pro e 17 Air. Modelos Pro com LiDAR têm o scanner 3D RoomPlan automático. Os chips A18/A19 também aceleram a inicialização da sessão de RA (menos de 1 segundo a partir do início frio)."
+      },
+      {
+        "q": "Existe versão para Android?",
+        "a": "No momento, não. O app é construído sobre os frameworks ARKit e RoomPlan da Apple, que não têm equivalente direto no Android. Acompanhamos os avanços do ARCore, mas não há previsão de lançamento para Android."
+      },
+      {
+        "q": "O app coleta dados de rastreamento?",
+        "a": "A edição grátis exibe anúncios (que usam identificadores anônimos se você conceder permissão pela Transparência de Rastreamento de Apps). A edição Pro tem zero rastreamento e zero anúncios. Divulgação completa no rótulo de privacidade da App Store e na nossa política de privacidade."
+      }
+    ]
+  },
+  "testimonials": {
+    "kicker": "O que dizem as avaliações",
+    "title": "Da App Store",
+    "items": [
+      {
+        "quote": "A curva de aprendizado é fácil e, depois que você pega o jeito, vira uma ferramenta perfeita.",
+        "author": "rKid · App Store",
+        "rating": 5
+      },
+      {
+        "quote": "Fácil de usar, preciso, com teste grátis, faz exatamente o que eu quero.",
+        "author": "App Store · Reino Unido",
+        "rating": 5
+      },
+      {
+        "quote": "Bem bacana. Dá para usar em medições do dia a dia.",
+        "author": "4kwuai · App Store",
+        "rating": 5
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Pare de chutar.\nComece a medir.",
+    "subtitle": "Grátis na App Store. iOS 16.6 e mais recentes. Centenas de milhares de medições feitas todos os dias — a sua é a próxima.",
+    "primary": "Baixar grátis",
+    "secondary": "Obter o Ruler Pro"
+  },
+  "footer": {
+    "tagline": "Um kit de medição para iOS por Vladislav Kovalski.",
+    "support": "Suporte: support@measuretape.app",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyright": "© 2026 Vladislav Kovalski. Todos os direitos reservados.",
+    "languages": "Idiomas"
+  },
+  "languageNames": {
+    "en": "English",
+    "ru": "Русский",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh-Hans": "简体中文",
+    "pt-BR": "Português (BR)",
+    "it": "Italiano"
+  }
+}

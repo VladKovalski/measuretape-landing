@@ -50,6 +50,46 @@ const BLOG_META: Record<Locale, { title: string; description: string; kicker: st
     h1: 'Medir, al estilo iPhone.',
     intro: 'Tutoriales, comparativas y notas de campo del equipo de Ruler AR. Artículos nuevos cada dos semanas, mide más inteligente.',
     readTime: 'min lectura'
+  },
+  ja: {
+    title: 'ブログ · 計測のコツ、ARガイド、リフォーム解説 · measuretape.app',
+    description: 'iPhoneでの計測、ARメジャーの精度、部屋スキャン、リフォーム計画に関する記事。Ruler ARの開発チームより。',
+    kicker: 'フィールドノート',
+    h1: '計測を、iPhone流に。',
+    intro: 'Ruler ARチームによるチュートリアル・比較・現場メモ。数週間ごとに新着記事。力任せではなく、賢く測ろう。',
+    readTime: '分で読了'
+  },
+  ko: {
+    title: '블로그 · 측정 팁, AR 가이드, 리모델링 안내 · measuretape.app',
+    description: 'iPhone 측정, AR 줄자 정확도, 방 스캔, 리모델링 계획에 관한 글. Ruler AR 제작팀이 전합니다.',
+    kicker: '현장 노트',
+    h1: '측정, iPhone 방식으로.',
+    intro: 'Ruler AR 팀의 튜토리얼·비교·현장 노트. 몇 주마다 새 글이 올라옵니다. 더 힘들게가 아니라 더 똑똑하게 측정하세요.',
+    readTime: '분 읽기'
+  },
+  'zh-Hans': {
+    title: '博客 · 测量技巧、AR 指南与装修教程 · measuretape.app',
+    description: '关于用 iPhone 测量、AR 卷尺精度、房间扫描和装修规划的文章。来自 Ruler AR 团队。',
+    kicker: '实地笔记',
+    h1: '测量，iPhone 之道。',
+    intro: '来自 Ruler AR 团队的教程、对比和实地笔记。每隔几周更新新文章——更聪明地测量，而不是更费力。',
+    readTime: '分钟阅读'
+  },
+  'pt-BR': {
+    title: 'Blog · Dicas de medição, guias de RA e tutoriais de reforma · measuretape.app',
+    description: 'Artigos sobre medir com o iPhone, precisão da trena em RA, escaneamento de ambientes e planejamento de reformas. Pela equipe do Ruler AR.',
+    kicker: 'Notas de campo',
+    h1: 'Medir, do jeito iPhone.',
+    intro: 'Tutoriais, comparações e notas de campo da equipe por trás do Ruler AR. Artigos novos a cada duas semanas — meça com mais inteligência, não com mais esforço.',
+    readTime: 'min de leitura'
+  },
+  it: {
+    title: 'Blog · Consigli di misurazione, guide AR e tutorial di ristrutturazione · measuretape.app',
+    description: 'Articoli su come misurare con l\'iPhone, precisione del metro in AR, scansione delle stanze e pianificazione delle ristrutturazioni. Dal team di Ruler AR.',
+    kicker: 'Note sul campo',
+    h1: 'Misurare, in stile iPhone.',
+    intro: 'Tutorial, confronti e note sul campo dal team di Ruler AR. Nuovi articoli ogni due settimane: misura in modo più intelligente, non più faticoso.',
+    readTime: 'min di lettura'
   }
 };
 

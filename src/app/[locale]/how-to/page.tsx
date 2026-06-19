@@ -50,6 +50,46 @@ const INDEX_META: Record<Locale, { title: string; description: string; kicker: s
     h1: 'Cómo medir cualquier cosa.',
     intro: 'Más de veinte guías paso a paso para objetos específicos con iPhone, desde el sofá al techo, de los armarios de cocina a las plazas de parking. Cada una probada en campo, 2-15 minutos.',
     categoryLabels: { furniture: 'Muebles', appliance: 'Electrodomésticos', room: 'Habitaciones', fixture: 'Fijos', outdoor: 'Exterior', body: 'Personas y mascotas', other: 'Otros' }
+  },
+  ja: {
+    title: 'iPhoneで何でも測る方法、ガイドライブラリ',
+    description: 'iPhoneのカメラでソファ・冷蔵庫・壁・窓ほか20以上のものを測る手順ガイド。各ガイドは3〜15分。',
+    kicker: 'ガイドライブラリ',
+    h1: 'iPhoneで何でも測る。',
+    intro: 'ソファから天井、キッチンの戸棚から駐車スペースまで、iPhoneで特定の対象を測る20以上の手順ガイド。どれも実践的で検証済み、2〜15分で完了します。',
+    categoryLabels: { furniture: '家具', appliance: '家電', room: '部屋', fixture: '建具', outdoor: '屋外', body: '人とペット', other: 'その他' }
+  },
+  ko: {
+    title: 'iPhone로 무엇이든 측정하는 법, 가이드 라이브러리',
+    description: 'iPhone 카메라로 소파·냉장고·벽·창문 등 20가지 이상을 측정하는 단계별 가이드. 각 가이드는 3~15분.',
+    kicker: '가이드 라이브러리',
+    h1: '무엇이든 측정하는 법.',
+    intro: '소파부터 천장, 주방 수납장부터 주차 공간까지, iPhone으로 특정 대상을 측정하는 20여 개의 단계별 가이드. 모두 실전 검증을 거쳤으며 2~15분이면 끝납니다.',
+    categoryLabels: { furniture: '가구', appliance: '가전', room: '방', fixture: '붙박이', outdoor: '실외', body: '사람 & 반려동물', other: '기타' }
+  },
+  'zh-Hans': {
+    title: '用 iPhone 测量一切的方法，指南库',
+    description: '用 iPhone 相机测量沙发、冰箱、墙壁、窗户等 20 多种物品的分步指南。每篇指南 3~15 分钟。',
+    kicker: '指南库',
+    h1: '如何测量一切。',
+    intro: '二十多篇用 iPhone 测量特定物品的分步指南，从沙发到天花板，从厨柜到车位。每篇都经过实测，2~15 分钟即可完成。',
+    categoryLabels: { furniture: '家具', appliance: '家电', room: '房间', fixture: '固定装置', outdoor: '户外', body: '人与宠物', other: '其他' }
+  },
+  'pt-BR': {
+    title: 'Como medir qualquer coisa com seu iPhone, Biblioteca de guias',
+    description: 'Guias passo a passo para medir sofás, geladeiras, paredes, janelas e mais de 20 outros itens com a câmera do iPhone. Cada guia leva de 3 a 15 minutos.',
+    kicker: 'Biblioteca de guias',
+    h1: 'Como medir qualquer coisa.',
+    intro: 'Mais de vinte guias passo a passo para medir objetos específicos com o iPhone, do sofá ao teto, dos armários de cozinha às vagas de garagem. Cada um testado na prática, de 2 a 15 minutos.',
+    categoryLabels: { furniture: 'Móveis', appliance: 'Eletrodomésticos', room: 'Ambientes', fixture: 'Fixos', outdoor: 'Externo', body: 'Pessoas e pets', other: 'Outros' }
+  },
+  it: {
+    title: 'Come misurare qualsiasi cosa con l\'iPhone, Libreria di guide',
+    description: 'Guide passo passo per misurare divani, frigoriferi, pareti, finestre e oltre 20 altri oggetti con la fotocamera dell\'iPhone. Ogni guida dura 3-15 minuti.',
+    kicker: 'Libreria di guide',
+    h1: 'Come misurare qualsiasi cosa.',
+    intro: 'Oltre venti guide passo passo per misurare oggetti specifici con l\'iPhone, dal divano al soffitto, dai pensili della cucina ai posti auto. Tutte testate sul campo, 2-15 minuti.',
+    categoryLabels: { furniture: 'Mobili', appliance: 'Elettrodomestici', room: 'Stanze', fixture: 'Strutture fisse', outdoor: 'Esterni', body: 'Persone e animali', other: 'Altro' }
   }
 };
 

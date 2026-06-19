@@ -10,9 +10,14 @@ export const metadata: Metadata = {
 
 const REDIRECT_SCRIPT = `
 try {
-  var lang = (navigator.language || 'en').slice(0,2).toLowerCase();
-  var supported = ['en','ru','de','fr','es'];
-  var target = supported.indexOf(lang) > -1 ? lang : 'en';
+  var raw = (navigator.language || 'en').toLowerCase();
+  var two = raw.slice(0,2);
+  // Region-specific locales first (full tag), then base-language fallback.
+  var map = { 'zh': 'zh-Hans', 'pt': 'pt-BR' };
+  var supported = ['en','ru','de','fr','es','ja','ko','it'];
+  var target = 'en';
+  if (map[two]) target = map[two];
+  else if (supported.indexOf(two) > -1) target = two;
   location.replace('/' + target + '/');
 } catch(e) { location.replace('/en/'); }
 `;

@@ -336,6 +336,11 @@
     "ru": "Русский",
     "de": "Deutsch",
     "fr": "Français",
-    "es": "Español"
+    "es": "Español",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh-Hans": "简体中文",
+    "pt-BR": "Português (BR)",
+    "it": "Italiano"
   }
 }
