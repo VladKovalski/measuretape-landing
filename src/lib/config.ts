@@ -29,15 +29,15 @@ export const APPS = {
 
 export const SCREENSHOTS = {
   preciseRuler:
-    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/99/65/ee9965a1-386a-7a17-7680-18914626408e/Precise_ruler.png/828x1472bb.png',
+    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/99/65/ee9965a1-386a-7a17-7680-18914626408e/Precise_ruler.png/640x1137bb.webp',
   height:
-    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/04/cc/f604ccc2-cd81-03ee-4801-7e76c15a739a/Measure_height.png/828x1472bb.png',
+    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/04/cc/f604ccc2-cd81-03ee-4801-7e76c15a739a/Measure_height.png/640x1137bb.webp',
   room:
-    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/f3/1b/62f31bf7-981c-587c-2e8a-5292f0e01cb6/Measure_room.png/828x1472bb.png',
+    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/f3/1b/62f31bf7-981c-587c-2e8a-5292f0e01cb6/Measure_room.png/640x1137bb.webp',
   multiToolFP:
-    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/58/e8/f958e8bf-a608-ec4f-d0ac-0adf298995de/measuring_multi-toolfp.png/828x1472bb.png',
+    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/58/e8/f958e8bf-a608-ec4f-d0ac-0adf298995de/measuring_multi-toolfp.png/640x1137bb.webp',
   multiTool:
-    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/34/fa/ec34fa3c-65cf-e6b5-e23a-a6c0a4cc874d/measuring_multi-tool.png/828x1472bb.png',
+    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/34/fa/ec34fa3c-65cf-e6b5-e23a-a6c0a4cc874d/measuring_multi-tool.png/640x1137bb.webp',
   area:
-    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/8a/b7/128ab79c-7553-3714-e29a-b4c4e8ef9cf4/Measure_area.png/828x1472bb.png'
+    'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/8a/b7/128ab79c-7553-3714-e29a-b4c4e8ef9cf4/Measure_area.png/640x1137bb.webp'
 } as const;
