@@ -345,5 +345,12 @@
     "pl": "Polski",
     "tr": "Türkçe",
     "ar": "العربية"
+  },
+  "consent": {
+    "message": "Sitenin nasıl kullanıldığını anlamak için çerezler ve analiz araçları (Google Analytics, Microsoft Clarity) kullanıyoruz.",
+    "accept": "Kabul et",
+    "reject": "Reddet",
+    "privacy": "Gizlilik Politikası",
+    "manage": "Çerez ayarları"
   }
 }

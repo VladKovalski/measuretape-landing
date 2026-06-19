@@ -345,5 +345,12 @@
     "pl": "Polski",
     "tr": "Türkçe",
     "ar": "العربية"
+  },
+  "consent": {
+    "message": "사이트 이용 방식을 파악하기 위해 쿠키와 분석 도구(Google Analytics, Microsoft Clarity)를 사용합니다.",
+    "accept": "동의",
+    "reject": "거부",
+    "privacy": "개인정보 처리방침",
+    "manage": "쿠키 설정"
   }
 }

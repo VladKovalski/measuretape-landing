@@ -345,5 +345,12 @@
     "pl": "Polski",
     "tr": "Türkçe",
     "ar": "العربية"
+  },
+  "consent": {
+    "message": "نستخدم ملفات تعريف الارتباط وأدوات التحليل (Google Analytics وMicrosoft Clarity) لفهم كيفية استخدام الموقع.",
+    "accept": "موافقة",
+    "reject": "رفض",
+    "privacy": "سياسة الخصوصية",
+    "manage": "إعدادات ملفات تعريف الارتباط"
   }
 }

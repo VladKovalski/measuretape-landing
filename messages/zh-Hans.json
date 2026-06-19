@@ -345,5 +345,12 @@
     "pl": "Polski",
     "tr": "Türkçe",
     "ar": "العربية"
+  },
+  "consent": {
+    "message": "我们使用 Cookie 和分析工具（Google Analytics、Microsoft Clarity）来了解网站的使用情况。",
+    "accept": "接受",
+    "reject": "拒绝",
+    "privacy": "隐私政策",
+    "manage": "Cookie 设置"
   }
 }

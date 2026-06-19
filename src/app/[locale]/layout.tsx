@@ -17,6 +17,7 @@ import { Footer } from '@/components/Footer';
 import { MobileStickyCta } from '@/components/MobileStickyCta';
 import { JsonLd } from '@/components/JsonLd';
 import { Analytics } from '@/components/Analytics';
+import { CookieConsent } from '@/components/CookieConsent';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -91,6 +92,7 @@ export default async function LocaleLayout({
           <Footer />
           <MobileStickyCta />
           <JsonLd locale={locale as Locale} />
+          <CookieConsent />
           <Analytics />
         </NextIntlClientProvider>
       </body>

@@ -1,7 +1,7 @@
 'use client';
 
 import Script from 'next/script';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID;
@@ -17,7 +17,32 @@ declare global {
   }
 }
 
+/**
+ * Analytics loader — GDPR/ePrivacy compliant.
+ *
+ * NOTHING tracking-related (Google Analytics, Microsoft Clarity) loads until
+ * the user has explicitly granted consent via the CookieConsent banner. The
+ * consent state lives in localStorage (`mt_consent`) and is broadcast on the
+ * `mt-consent-changed` window event so this component reacts without a reload.
+ * Default (no choice / declined) = no scripts, no cookies, no session recording.
+ */
 export function Analytics() {
+  const [granted, setGranted] = useState(false);
+
+  useEffect(() => {
+    try {
+      setGranted(localStorage.getItem('mt_consent') === 'granted');
+    } catch {
+      /* storage blocked — stay opted out */
+    }
+    const onChange = (e: Event) => {
+      setGranted((e as CustomEvent<string>).detail === 'granted');
+    };
+    window.addEventListener('mt-consent-changed', onChange);
+    return () => window.removeEventListener('mt-consent-changed', onChange);
+  }, []);
+
+  // App Store CTA click tracking — only forwards if a vendor is actually loaded.
   useEffect(() => {
     const handler = (e: MouseEvent) => {
       const target = (e.target as HTMLElement | null)?.closest<HTMLElement>(
@@ -32,15 +57,12 @@ export function Analytics() {
         window.clarity('event', 'app_store_click');
         window.clarity('set', 'cta_source', source);
       }
-      // also surface to dataLayer for any tag manager
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'app_store_click', source });
     };
     document.addEventListener('click', handler);
     return () => document.removeEventListener('click', handler);
   }, []);
 
-  if (!GA_ID && !CLARITY_ID) return null;
+  if (!granted || (!GA_ID && !CLARITY_ID)) return null;
 
   return (
     <>

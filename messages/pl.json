@@ -345,5 +345,12 @@
     "pl": "Polski",
     "tr": "Türkçe",
     "ar": "العربية"
+  },
+  "consent": {
+    "message": "Używamy plików cookie i narzędzi analitycznych (Google Analytics, Microsoft Clarity), aby rozumieć, jak korzystasz z witryny.",
+    "accept": "Akceptuję",
+    "reject": "Odrzuć",
+    "privacy": "Polityka prywatności",
+    "manage": "Ustawienia cookie"
   }
 }
