@@ -50,6 +50,11 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
               <li key={l}>
                 <a
                   href={href}
+                  onClick={() => {
+                    // Remember the deliberate choice so the root auto-detect
+                    // respects it on the next visit.
+                    try { localStorage.setItem('mt_locale', l); } catch {}
+                  }}
                   className={`block px-4 py-2.5 text-sm transition ${
                     l === locale ? 'bg-amber/10 text-amber' : 'text-ink/85 hover:bg-white/5'
                   }`}

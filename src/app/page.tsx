@@ -10,14 +10,21 @@ export const metadata: Metadata = {
 
 const REDIRECT_SCRIPT = `
 try {
-  var raw = (navigator.language || 'en').toLowerCase();
-  var two = raw.slice(0,2);
-  // Region-specific locales first (full tag), then base-language fallback.
-  var map = { 'zh': 'zh-Hans', 'pt': 'pt-BR' };
-  var supported = ['en','ru','de','fr','es','ja','ko','it','pl','tr','ar'];
+  var all = ['en','ru','de','fr','es','ja','ko','zh-Hans','pt-BR','it','pl','tr','ar'];
   var target = 'en';
-  if (map[two]) target = map[two];
-  else if (supported.indexOf(two) > -1) target = two;
+  // 1) Honor a previously chosen language (set by the language switcher).
+  var saved = localStorage.getItem('mt_locale');
+  if (saved && all.indexOf(saved) > -1) {
+    target = saved;
+  } else {
+    // 2) Otherwise auto-detect from the browser language.
+    var raw = (navigator.language || 'en').toLowerCase();
+    var two = raw.slice(0,2);
+    var map = { 'zh': 'zh-Hans', 'pt': 'pt-BR' }; // region-specific full tags
+    var base = ['en','ru','de','fr','es','ja','ko','it','pl','tr','ar'];
+    if (map[two]) target = map[two];
+    else if (base.indexOf(two) > -1) target = two;
+  }
   location.replace('/' + target + '/');
 } catch(e) { location.replace('/en/'); }
 `;

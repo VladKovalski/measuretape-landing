@@ -1,9 +1,17 @@
 import type { Metadata } from 'next';
+import { Syne, Inter, JetBrains_Mono } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales, type Locale } from '@/i18n';
-import { SITE } from '@/lib/config';
+import { SITE, SCREENSHOTS } from '@/lib/config';
+
+// Self-hosted, preloaded fonts (next/font) — removes the render-blocking
+// external Google Fonts stylesheet + third-party connection. CJK/Arabic
+// scripts fall back to system fonts (these families have no such glyphs).
+const syne = Syne({ subsets: ['latin'], weight: ['700', '800'], variable: '--font-syne', display: 'swap', fallback: ['system-ui', 'sans-serif'] });
+const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'], variable: '--font-inter', display: 'swap', fallback: ['system-ui', 'sans-serif'] });
+const jetbrains = JetBrains_Mono({ subsets: ['latin'], weight: ['300', '400'], variable: '--font-jetbrains', display: 'swap', fallback: ['ui-monospace', 'monospace'] });
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MobileStickyCta } from '@/components/MobileStickyCta';
@@ -67,14 +75,12 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${syne.variable} ${inter.variable} ${jetbrains.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap"
-        />
+        {/* LCP image lives on Apple's CDN — preconnect + preload so it starts
+            downloading immediately instead of after CSS/layout. */}
+        <link rel="preconnect" href="https://is1-ssl.mzstatic.com" crossOrigin="" />
+        <link rel="preload" as="image" href={SCREENSHOTS.preciseRuler} fetchPriority="high" />
         <meta name="theme-color" content="#0a0a0a" />
       </head>
       <body>

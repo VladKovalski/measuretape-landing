@@ -228,7 +228,7 @@
 }
 
 .headline-massive {
-  font-family: 'Syne', sans-serif;
+  font-family: var(--font-syne), sans-serif;
   font-weight: 800;
   font-size: clamp(2rem, 8vw, 8rem);
   line-height: 0.9;
@@ -237,7 +237,7 @@
 }
 
 .title-xl {
-  font-family: 'Syne', sans-serif;
+  font-family: var(--font-syne), sans-serif;
   font-weight: 800;
   font-size: clamp(1.85rem, 5.5vw, 4.5rem);
   line-height: 0.98;
@@ -266,7 +266,7 @@
   margin-bottom: 1.6em;
 }
 .prose-wrap .prose-content h2 {
-  font-family: 'Syne', sans-serif;
+  font-family: var(--font-syne), sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -0.025em;
@@ -275,7 +275,7 @@
   color: #f5f5f7;
 }
 .prose-wrap .prose-content h3 {
-  font-family: 'Syne', sans-serif;
+  font-family: var(--font-syne), sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -310,7 +310,7 @@
 }
 .prose-wrap .prose-content thead th {
   text-align: left;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-jetbrains), monospace;
   font-size: 10px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -331,7 +331,7 @@
 }
 .prose-wrap .prose-content a:hover { color: #ffdb40; }
 .prose-wrap .prose-content code {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-jetbrains), monospace;
   font-size: 0.9em;
   background: rgba(255, 255, 255, 0.05);
   padding: 0.1em 0.4em;
