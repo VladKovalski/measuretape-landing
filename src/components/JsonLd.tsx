@@ -24,7 +24,9 @@ export async function JsonLd({ locale }: { locale: Locale }) {
     '@type': ['SoftwareApplication', 'MobileApplication'],
     '@id': `${SITE.url}/#app-${k}`,
     name: APPS[k].name,
-    alternateName: k === 'free' ? ['Tape Measure Tools', 'Tape Tools Ruler', 'Ruler AR AI Tape Measure'] : ['Ruler Pro'],
+    alternateName: k === 'free' ? ['Ruler AR', 'Ruler AR: AI Tape Measure Cam', 'Tape Measure Tools', 'Tape Tools Ruler', 'Ruler AR AI Tape Measure'] : ['Ruler Pro'],
+    identifier: APPS[k].bundleId,
+    sameAs: [APPS[k].appStoreUrl],
     description:
       k === 'free'
         ? 'AR tape measure for iPhone, free to download. Measure length, area, and angles with your camera. Room scans, height, and plan export may need a subscription. Manual room floor plan builder on every iPhone Xs+. Free with optional Pro features.'
@@ -132,12 +134,7 @@ export async function JsonLd({ locale }: { locale: Locale }) {
     url: SITE.url,
     name: SITE.name,
     inLanguage: locale,
-    publisher: { '@id': `${SITE.url}/#organization` },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${SITE.url}/${locale}/blog/?q={search_term_string}`,
-      'query-input': 'required name=search_term_string'
-    }
+    publisher: { '@id': `${SITE.url}/#organization` }
   };
 
   // Static JSON-LD payload (typed config, no user input), safe stringify.

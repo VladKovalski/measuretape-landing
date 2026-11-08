@@ -21,6 +21,8 @@ export default function robots(): MetadataRoute.Robots {
     'OAI-SearchBot',    // search-style retrieval
     // Anthropic
     'ClaudeBot',
+    'Claude-User',
+    'Claude-SearchBot',
     'Claude-Web',
     'anthropic-ai',
     // Google AI products (Bard, Gemini, AI Overviews)

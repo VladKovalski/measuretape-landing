@@ -3,6 +3,7 @@ import type { PostMeta } from './posts';
 export const meta: PostMeta = {
   slug: 'best-ar-measure-apps-iphone-2026',
   date: '2026-04-22',
+  updated: '2026-11-08',
   readingTimeMin: 8,
   keywords:
     'best ar measure app iphone, best tape measure app, ar ruler app comparison, iphone measuring apps 2026',

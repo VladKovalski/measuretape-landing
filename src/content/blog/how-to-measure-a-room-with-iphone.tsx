@@ -3,6 +3,7 @@ import type { PostMeta } from './posts';
 export const meta: PostMeta = {
   slug: 'how-to-measure-a-room-with-iphone',
   date: '2026-05-15',
+  updated: '2026-11-08',
   readingTimeMin: 7,
   keywords:
     'how to measure a room with iphone, iphone room measurement, ar room scanner, lidar room scan, measuring app tutorial',

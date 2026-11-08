@@ -43,7 +43,7 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
-    alternates: { canonical: url, languages },
+    alternates: { canonical: url, languages, types: { 'text/markdown': `${url}index.md` } },
     openGraph: {
       title: t('title'),
       description: t('description'),

@@ -21,6 +21,8 @@ export interface PostMeta {
   excerpt: Partial<Record<Locale, string>>;
   /** YYYY-MM-DD */
   date: string;
+  /** YYYY-MM-DD of the last content change, when later than `date` */
+  updated?: string;
   /** Estimated reading time in minutes */
   readingTimeMin: number;
   /** Hero image URL (absolute or /-rooted), optional */

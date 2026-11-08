@@ -39,13 +39,14 @@ export async function generateMetadata({
     title: `${title} · measuretape.app`,
     description: desc,
     keywords: post.meta.keywords,
-    alternates: { canonical: `${SITE.url}${path}`, languages },
+    alternates: { canonical: `${SITE.url}${path}`, languages, types: { 'text/markdown': `${SITE.url}${path}index.md` } },
     openGraph: {
       title,
       description: desc,
       url: `${SITE.url}${path}`,
       type: 'article',
-      publishedTime: post.meta.date
+      publishedTime: post.meta.date,
+      modifiedTime: post.meta.updated ?? post.meta.date
     }
   };
 }
@@ -91,6 +92,7 @@ export default function PostPage({ params: { locale, slug } }: { params: { local
     headline: getLocalizedTitle(post.meta, locale as Locale),
     description: getLocalizedExcerpt(post.meta, locale as Locale),
     datePublished: post.meta.date,
+    dateModified: post.meta.updated ?? post.meta.date,
     inLanguage: locale,
     keywords: post.meta.keywords,
     author: { '@type': 'Organization', name: SITE.name, url: SITE.url },

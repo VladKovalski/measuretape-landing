@@ -3,6 +3,7 @@ import type { PostMeta } from './posts';
 export const meta: PostMeta = {
   slug: 'iphone-measure-vs-apple-measure',
   date: '2026-05-18',
+  updated: '2026-11-08',
   readingTimeMin: 6,
   keywords:
     'apple measure app vs, iphone measure app comparison, apple measure alternative, better than apple measure, measure app features',

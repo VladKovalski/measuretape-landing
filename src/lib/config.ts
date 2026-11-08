@@ -7,7 +7,7 @@ export const SITE = {
 export const APPS = {
   free: {
     id: '1279285953',
-    name: 'Ruler AR: AI Tape Measure Cam',
+    name: 'Ruler AR - Measuring Tape Cam',
     bundleId: 'com.tapetool.ruler',
     appStoreUrl: 'https://apps.apple.com/app/id1279285953',
     rating: 4.34,

@@ -3,6 +3,7 @@ import type { PostMeta } from './posts';
 export const meta: PostMeta = {
   slug: 'how-lidar-works-iphone',
   date: '2026-05-06',
+  updated: '2026-11-08',
   readingTimeMin: 7,
   keywords:
     'how lidar works iphone, iphone lidar explained, lidar vs arkit, iphone lidar scanner, lidar depth sensor',

@@ -3,6 +3,7 @@ import type { PostMeta } from './posts';
 export const meta: PostMeta = {
   slug: 'things-you-can-measure-iphone',
   date: '2026-04-25',
+  updated: '2026-11-08',
   readingTimeMin: 5,
   keywords:
     'what can iphone measure, iphone measure tricks, ar measure uses, useful measure app uses, surprising iphone measure',

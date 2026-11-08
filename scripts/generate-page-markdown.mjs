@@ -23,7 +23,7 @@ function html2md(html) {
   s = s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   s = s.replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, '');
   s = s.replace(/<template[^>]*>[\s\S]*?<\/template>/gi, '');
-  s = s.replace(/<h1[^>]*>([\s\S]*?)<\/h1>/gi, (_, t) => `\n# ${stripTags(t)}\n\n`);
+  s = s.replace(/<h1[^>]*>([\s\S]*?)<\/h1>/gi, (_, t) => `\n# ${stripTags(t.replace(/<br\s*\/?>/gi, ' '))}\n\n`);
   s = s.replace(/<h2[^>]*>([\s\S]*?)<\/h2>/gi, (_, t) => `\n## ${stripTags(t)}\n\n`);
   s = s.replace(/<h3[^>]*>([\s\S]*?)<\/h3>/gi, (_, t) => `\n### ${stripTags(t)}\n\n`);
   s = s.replace(/<h4[^>]*>([\s\S]*?)<\/h4>/gi, (_, t) => `\n#### ${stripTags(t)}\n\n`);
@@ -66,7 +66,15 @@ function html2md(html) {
 
   s = stripTags(s);
   // Decode named + numeric (decimal & hex) HTML entities
-  s = s
+  s = decodeEntities(s);
+  s = s.replace(/\n{3,}/g, '\n\n');
+  s = s.replace(/[ \t]+/g, ' ');
+  s = s.replace(/^[ \t]+/gm, '');
+  return s.trim();
+}
+
+function decodeEntities(s) {
+  return s
     .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
     .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
     .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
@@ -75,10 +83,6 @@ function html2md(html) {
     .replace(/&times;/g, '×').replace(/&deg;/g, '°')
     .replace(/&ldquo;/g, '“').replace(/&rdquo;/g, '”')
     .replace(/&lsquo;/g, '‘').replace(/&rsquo;/g, '’');
-  s = s.replace(/\n{3,}/g, '\n\n');
-  s = s.replace(/[ \t]+/g, ' ');
-  s = s.replace(/^[ \t]+/gm, '');
-  return s.trim();
 }
 
 function stripTags(s) { return s.replace(/<[^>]*>/g, ''); }
@@ -119,8 +123,8 @@ function generateMarkdown(htmlPath) {
 
   const frontmatter =
     `---\n` +
-    `title: ${title.replace(/[\r\n]/g, ' ')}\n` +
-    (description ? `description: ${description.replace(/[\r\n]/g, ' ')}\n` : '') +
+    `title: ${JSON.stringify(decodeEntities(title).replace(/[\r\n]/g, ' '))}\n` +
+    (description ? `description: ${JSON.stringify(decodeEntities(description).replace(/[\r\n]/g, ' '))}\n` : '') +
     (canonical ? `canonical: ${canonical}\n` : '') +
     `source: ${canonical || htmlPath.replace(outDir, '')}\n` +
     `---\n\n`;

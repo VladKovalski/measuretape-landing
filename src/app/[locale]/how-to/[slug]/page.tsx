@@ -46,7 +46,7 @@ export async function generateMetadata({
     title: `${title} · measuretape.app`,
     description: desc,
     keywords: item.keywords,
-    alternates: { canonical: `${SITE.url}${path}`, languages },
+    alternates: { canonical: `${SITE.url}${path}`, languages, types: { 'text/markdown': `${SITE.url}${path}index.md` } },
     openGraph: { title, description: desc, url: `${SITE.url}${path}`, type: 'article' }
   };
 }
