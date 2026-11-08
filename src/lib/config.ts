@@ -11,18 +11,18 @@ export const APPS = {
     bundleId: 'com.tapetool.ruler',
     appStoreUrl: 'https://apps.apple.com/app/id1279285953',
     rating: 4.34,
-    reviewCount: 3486,
-    price: 'Free',
+    reviewCount: 3498,
+    price: '0',
     edition: 'Home Utility'
   },
   pro: {
     id: '1672750252',
-    name: 'Ruler Pro, LiDAR Room Scanner',
-    bundleId: 'com.tapetool.ruler.pro',
+    name: 'Ruler Pro - Tape Measure AR',
+    bundleId: 'com.tapetool.proruler',
     appStoreUrl: 'https://apps.apple.com/app/id1672750252',
-    rating: 4.4,
-    reviewCount: 220,
-    price: 'Free with IAP',
+    rating: 4.69,
+    reviewCount: 13,
+    price: '2.99',
     edition: 'Pro Edition'
   }
 } as const;

@@ -131,7 +131,7 @@ export default function Post() {
       <p>
         An AR measuring app turns your phone into a tape measure, level,
         protractor, and laser distance meter at once. The traditional tools
-        each cost €15-50 and live in a drawer. The app is free and lives in
+        each cost €15-50 and live in a drawer. The app is free to download and lives in
         your pocket. The next time you'd reach for any of those tools, try
         the app first. After a few weeks, the drawer stays closed.
       </p>
@@ -232,8 +232,7 @@ export function PostRU() {
       <p>
         AR-приложение для измерений превращает ваш телефон в рулетку, уровень,
         транспортир и лазерный дальномер одновременно. Каждый из этих обычных
-        инструментов стоит €15-50 и пылится в ящике. Приложение бесплатно и
-        всегда в кармане. В следующий раз, когда захочется потянуться за любым
+        инструментов стоит €15-50 и пылится в ящике. Приложение можно скачать бесплатно, и оно всегда в кармане. В следующий раз, когда захочется потянуться за любым
         из этих инструментов, сначала попробуйте приложение. Через пару недель
         ящик так и останется закрытым.
       </p>
@@ -339,7 +338,7 @@ export function PostDE() {
         Eine AR-Mess-App verwandelt dein Handy gleichzeitig in Maßband,
         Wasserwaage, Winkelmesser und Laser-Entfernungsmesser. Die
         herkömmlichen Werkzeuge kosten je €15-50 und liegen in einer Schublade.
-        Die App ist kostenlos und steckt in deiner Tasche. Wenn du das nächste
+        Die App ist kostenlos herunterladbar und steckt in deiner Tasche. Wenn du das nächste
         Mal nach einem dieser Werkzeuge greifen würdest, probier zuerst die App.
         Nach ein paar Wochen bleibt die Schublade zu.
       </p>
@@ -444,8 +443,7 @@ export function PostFR() {
       <p>
         Une app de mesure en AR transforme votre téléphone en mètre ruban,
         niveau, rapporteur et télémètre laser, tout à la fois. Les outils
-        classiques coûtent chacun 15-50 € et dorment dans un tiroir. L'app est
-        gratuite et tient dans votre poche. La prochaine fois que vous voudrez
+        classiques coûtent chacun 15-50 € et dorment dans un tiroir. L'app est gratuite à télécharger et tient dans votre poche. La prochaine fois que vous voudrez
         attraper l'un de ces outils, essayez d'abord l'app. Au bout de quelques
         semaines, le tiroir reste fermé.
       </p>
@@ -550,7 +548,7 @@ export function PostES() {
         Una app de medición en AR convierte tu teléfono en cinta métrica, nivel,
         transportador y medidor láser de distancia a la vez. Cada una de esas
         herramientas tradicionales cuesta entre 15 y 50 € y vive en un cajón. La
-        app es gratis y vive en tu bolsillo. La próxima vez que vayas a echar
+        app es gratis de descargar y vive en tu bolsillo. La próxima vez que vayas a echar
         mano de cualquiera de esas herramientas, prueba primero la app. Al cabo
         de unas semanas, el cajón se queda cerrado.
       </p>
@@ -637,7 +635,7 @@ export function PostJA() {
       <h2>要するに</h2>
       <p>
         AR計測アプリは、あなたの端末をメジャー、水準器、分度器、レーザー距離計に一度に変えてくれます。
-        従来の道具はそれぞれ15-50ユーロして、引き出しの中で眠っています。アプリは無料で、ポケットの中に
+        従来の道具はそれぞれ15-50ユーロして、引き出しの中で眠っています。アプリはダウンロード無料で、ポケットの中に
         あります。次にそれらの道具に手を伸ばそうとしたら、まずアプリを試してみてください。数週間もすれば、
         引き出しは閉まったままになります。
       </p>
@@ -724,8 +722,7 @@ export function PostKO() {
       <h2>핵심</h2>
       <p>
         AR 측정 앱은 휴대폰을 줄자, 수평계, 각도기, 레이저 거리계로 한꺼번에 바꿔 줍니다.
-        전통적인 도구들은 각각 15-50유로씩 하고 서랍 속에 처박혀 있습니다. 앱은 무료이고
-        주머니 속에 있습니다. 다음에 그 도구들 중 하나에 손을 뻗으려 할 때, 먼저 앱을 써
+        전통적인 도구들은 각각 15-50유로씩 하고 서랍 속에 처박혀 있습니다. 앱은 다운로드가 무료이고 주머니 속에 있습니다. 다음에 그 도구들 중 하나에 손을 뻗으려 할 때, 먼저 앱을 써
         보세요. 몇 주만 지나면 서랍은 계속 닫힌 채로 있게 됩니다.
       </p>
     </article>
@@ -803,7 +800,7 @@ export function PostZH() {
       <h2>重点</h2>
       <p>
         一个 AR 测量应用，能把你的手机一次变成卷尺、水平仪、量角器和激光测距仪。那些传统工具每件
-        都要 15-50 欧元，还常年躺在抽屉里。这个应用是免费的，就装在你口袋里。下次你想伸手去拿那些
+        都要 15-50 欧元，还常年躺在抽屉里。这个应用可免费下载，就装在你口袋里。下次你想伸手去拿那些
         工具时，先试试这个应用。几周之后，抽屉就一直关着了。
       </p>
     </article>
@@ -903,7 +900,7 @@ export function PostPT() {
         Um app de medição em AR transforma seu telefone em trena, nível,
         transferidor e medidor de distância a laser ao mesmo tempo. Cada uma
         dessas ferramentas tradicionais custa de € 15 a € 50 e vive numa gaveta.
-        O app é grátis e vive no seu bolso. Da próxima vez que você for pegar
+        O app é grátis para baixar e vive no seu bolso. Da próxima vez que você for pegar
         qualquer uma dessas ferramentas, experimente o app primeiro. Depois de
         algumas semanas, a gaveta fica fechada.
       </p>
@@ -1007,8 +1004,7 @@ export function PostIT() {
       <p>
         Un'app di misurazione in AR trasforma il telefono in metro, livella,
         goniometro e distanziometro laser tutto insieme. Gli strumenti
-        tradizionali costano ciascuno 15-50 € e vivono in un cassetto. L'app è
-        gratuita e vive in tasca. La prossima volta che staresti per prendere uno
+        tradizionali costano ciascuno 15-50 € e vivono in un cassetto. L'app è gratuita da scaricare e vive in tasca. La prossima volta che staresti per prendere uno
         di quegli strumenti, prova prima l'app. Dopo qualche settimana, il
         cassetto resta chiuso.
       </p>
@@ -1110,8 +1106,7 @@ export function PostPL() {
       <p>
         Aplikacja do pomiarów w AR zamienia twój telefon naraz w miarkę,
         poziomicę, kątomierz i dalmierz laserowy. Każde z tych tradycyjnych
-        narzędzi kosztuje 15-50 € i leży w szufladzie. Aplikacja jest darmowa i
-        siedzi w twojej kieszeni. Następnym razem, gdy chciałbyś sięgnąć po
+        narzędzi kosztuje 15-50 € i leży w szufladzie. Aplikacja jest darmowa do pobrania i siedzi w twojej kieszeni. Następnym razem, gdy chciałbyś sięgnąć po
         którekolwiek z tych narzędzi, spróbuj najpierw aplikacji. Po kilku
         tygodniach szuflada pozostaje zamknięta.
       </p>
@@ -1210,8 +1205,7 @@ export function PostTR() {
       <p>
         Bir AR ölçüm uygulaması, telefonunuzu aynı anda şeritmetreye, su
         terazisine, açıölçere ve lazer mesafe ölçere dönüştürür. Geleneksel
-        aletlerin her biri 15-50 € tutar ve bir çekmecede yatar. Uygulama ücretsiz
-        ve cebinizde duruyor. Bir dahaki sefere o aletlerden birine uzanmak
+        aletlerin her biri 15-50 € tutar ve bir çekmecede yatar. Uygulamanın indirilmesi ücretsiz ve cebinizde duruyor. Bir dahaki sefere o aletlerden birine uzanmak
         istediğinizde, önce uygulamayı deneyin. Birkaç hafta sonra çekmece kapalı
         kalır.
       </p>
@@ -1305,7 +1299,7 @@ export function PostAR() {
       <p>
         يحوّل تطبيق القياس بالواقع المعزز هاتفك إلى شريط قياس وميزان ومنقلة وجهاز
         قياس مسافة بالليزر في آنٍ واحد. كل أداة من هذه الأدوات التقليدية تكلّف
-        15-50 يورو وتقبع في درج. التطبيق مجاني ويقبع في جيبك. في المرة القادمة التي
+        15-50 يورو وتقبع في درج. التطبيق مجاني للتنزيل ويقبع في جيبك. في المرة القادمة التي
         تهمّ فيها بمدّ يدك إلى أيٍّ من تلك الأدوات، جرّب التطبيق أولًا. بعد بضعة
         أسابيع، يبقى الدرج مغلقًا.
       </p>

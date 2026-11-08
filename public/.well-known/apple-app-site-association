@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["SFXWZ9W4BT.com.tapetool.ruler"],
+        "appIDs": ["SFXWZ9W4BT.com.tapetool.ruler", "SFXWZ9W4BT.com.tapetool.proruler"],
         "components": [
           { "/": "/roomplan", "comment": "Open the Room Plan scanner" },
           { "/": "/measure", "comment": "Open the app ready to measure" }

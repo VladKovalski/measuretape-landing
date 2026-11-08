@@ -27,13 +27,13 @@ export async function JsonLd({ locale }: { locale: Locale }) {
     alternateName: k === 'free' ? ['Tape Measure Tools', 'Tape Tools Ruler', 'Ruler AR AI Tape Measure'] : ['Ruler Pro'],
     description:
       k === 'free'
-        ? 'Free AR tape measure for iPhone. Measure length, height, area, and angles with your camera. Manual room floor plan builder on every iPhone Xs+. Free with optional Pro features.'
-        : 'Professional AR measurement toolkit for iPhone Pro models. LiDAR room scanning, unlimited PDF/USDZ export, no ads, no limits.',
-    operatingSystem: 'iOS 16.6, iPadOS 16.6',
+        ? 'AR tape measure for iPhone, free to download. Measure length, area, and angles with your camera. Room scans, height, and plan export may need a subscription. Manual room floor plan builder on every iPhone Xs+. Free with optional Pro features.'
+        : 'Paid AR tape measure for iPhone. One purchase, no subscription, no ads.',
+    operatingSystem: k === 'free' ? 'iOS 16.6, iPadOS 16.6' : 'iOS 15.6, iPadOS 15.6',
     applicationCategory: 'UtilitiesApplication',
     applicationSubCategory: 'MeasurementApplication',
-    softwareVersion: '5.0',
-    fileSize: '21 MB',
+    softwareVersion: k === 'free' ? '5.3' : '4.0',
+    fileSize: k === 'free' ? '35 MB' : '15 MB',
     inLanguage: ['en', 'ru', 'de', 'fr', 'es', 'it', 'pt', 'ja', 'ko', 'zh', 'ar', 'tr', 'pl', 'nl', 'da', 'nb', 'fi', 'el', 'id', 'ms'],
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -44,7 +44,7 @@ export async function JsonLd({ locale }: { locale: Locale }) {
     },
     offers: {
       '@type': 'Offer',
-      price: '0',
+      price: APPS[k].price,
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock'
     },
@@ -53,7 +53,7 @@ export async function JsonLd({ locale }: { locale: Locale }) {
     installUrl: APPS[k].appStoreUrl,
     publisher: { '@type': 'Person', name: 'Vladislav Kovalski', email: 'vladkovalski@gmail.com' },
     author: { '@type': 'Person', name: 'Vladislav Kovalski' },
-    featureList: [
+    featureList: k === 'pro' ? ['AR camera measurement', 'Digital bubble level', 'No ads', 'One-time purchase'] : [
       'AR camera measurement (length, height, area, perimeter)',
       'LiDAR 3D room scanner (iPhone 12 Pro and newer)',
       'Manual floor plan builder (works without LiDAR)',

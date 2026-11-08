@@ -121,8 +121,7 @@ export default function Post() {
         them, a way to share them, and tools beyond linear distance.
       </p>
       <p>
-        Keep Apple Measure for one-offs. Install Ruler AR (free, no
-        subscription required for the basics) for everything else. The
+        Keep Apple Measure for one-offs. Install Ruler AR (free to download; the basics need no subscription, but room scans may) for everything else. The
         moment you need to measure two things in a row, you'll know which
         one to open.
       </p>
@@ -215,7 +214,7 @@ export function PostRU() {
       </p>
       <p>
         Оставьте Apple «Рулетка» для разовых задач. Установите Ruler AR
-        (бесплатно, без подписки для базовых функций) для всего остального.
+        (скачать бесплатно; базовые функции без подписки, сканирование комнат может её требовать) для всего остального.
         В тот момент, когда вам понадобится измерить две вещи подряд, вы
         сами поймёте, какое приложение открыть.
       </p>
@@ -308,7 +307,7 @@ export function PostDE() {
       </p>
       <p>
         Behalten Sie Apple Maßband für Einzelfälle. Installieren Sie Ruler AR
-        (kostenlos, für die Grundfunktionen ist kein Abo nötig) für alles
+        (kostenlos herunterladbar; für die Grundfunktionen ist kein Abo nötig, Raumscans können eines erfordern) für alles
         andere. In dem Moment, in dem Sie zwei Dinge hintereinander messen
         müssen, wissen Sie, welche App Sie öffnen.
       </p>
@@ -400,7 +399,7 @@ export function PostFR() {
       </p>
       <p>
         Gardez Mesures d'Apple pour les coups ponctuels. Installez Ruler AR
-        (gratuit, pas d'abonnement nécessaire pour les bases) pour tout le
+        (gratuit à télécharger ; pas d'abonnement pour les bases, mais les scans de pièce peuvent en exiger un) pour tout le
         reste. À l'instant où vous devrez mesurer deux choses à la suite, vous
         saurez laquelle ouvrir.
       </p>
@@ -492,7 +491,7 @@ export function PostES() {
       </p>
       <p>
         Quédate con Medición de Apple para casos puntuales. Instala Ruler AR
-        (gratis, sin suscripción para lo básico) para todo lo demás. En el
+        (gratis de descargar; lo básico no requiere suscripción, pero los escaneos de habitación pueden requerirla) para todo lo demás. En el
         momento en que necesites medir dos cosas seguidas, sabrás cuál abrir.
       </p>
     </article>
@@ -582,7 +581,7 @@ export function PostJA() {
       </p>
       <p>
         一回限りの用途には Apple「計測」を残しておきましょう。それ以外の
-        すべてには Ruler AR(無料、基本機能にサブスクリプション不要)を
+        すべてには Ruler AR(ダウンロード無料。基本機能にサブスクリプションは不要ですが、ルームスキャンには必要な場合があります)を
         インストールしてください。2 つのものを続けて計測する必要が出た
         瞬間に、どちらを開けばよいか分かります。
       </p>
@@ -673,7 +672,7 @@ export function PostKO() {
       </p>
       <p>
         일회성 작업에는 Apple 측정을 남겨 두세요. 나머지 모든 것에는
-        Ruler AR(무료, 기본 기능에는 구독 불필요)을 설치하세요. 두 가지를
+        Ruler AR(다운로드 무료, 기본 기능에는 구독 불필요, 방 스캔에는 필요할 수 있음)을 설치하세요. 두 가지를
         연달아 측정해야 하는 순간, 어느 쪽을 열어야 할지 알게 될 것입니다.
       </p>
     </article>
@@ -761,8 +760,7 @@ export function PostZH() {
         距离的工具。
       </p>
       <p>
-        把 Apple 测距仪留给临时一量。其他所有场景就装 Ruler AR(免费,基础
-        功能无需订阅)吧。当你需要接连测量两样东西的那一刻,你就知道该打开
+        把 Apple 测距仪留给临时一量。其他所有场景就装 Ruler AR(可免费下载,基础功能无需订阅,房间扫描可能需要)吧。当你需要接连测量两样东西的那一刻,你就知道该打开
         哪一个了。
       </p>
     </article>
@@ -853,7 +851,7 @@ export function PostPT() {
       </p>
       <p>
         Mantenha o Medidas da Apple para casos pontuais. Instale o Ruler AR
-        (gratuito, sem assinatura para o básico) para todo o resto. No momento
+        (gratuito para baixar; sem assinatura para o básico, mas escaneamentos de cômodo podem exigir) para todo o resto. No momento
         em que você precisar medir duas coisas seguidas, vai saber qual abrir.
       </p>
     </article>
@@ -943,8 +941,7 @@ export function PostIT() {
         lineare.
       </p>
       <p>
-        Tieni Apple Metro per i casi isolati. Installa Ruler AR (gratuita,
-        nessun abbonamento necessario per le funzioni di base) per tutto il
+        Tieni Apple Metro per i casi isolati. Installa Ruler AR (gratuita da scaricare; nessun abbonamento per le funzioni di base, ma le scansioni delle stanze possono richiederlo) per tutto il
         resto. Nel momento in cui dovrai misurare due cose di fila, saprai
         quale aprire.
       </p>
@@ -1037,7 +1034,7 @@ export function PostPL() {
       </p>
       <p>
         Zostaw Miarkę od Apple do jednorazowych pomiarów. Zainstaluj Ruler AR
-        (za darmo, bez subskrypcji dla podstaw) do wszystkiego innego. W chwili,
+        (za darmo do pobrania; podstawy bez subskrypcji, ale skany pokoju mogą jej wymagać) do wszystkiego innego. W chwili,
         gdy będziesz musiał zmierzyć dwie rzeczy pod rząd, sam będziesz wiedział,
         którą otworzyć.
       </p>
@@ -1129,7 +1126,7 @@ export function PostTR() {
       </p>
       <p>
         Tek seferlik işler için Apple Ölçü'yü elinizde tutun. Geri kalan her şey
-        için Ruler AR'ı (ücretsiz, temel işlevler için abonelik gerekmiyor)
+        için Ruler AR'ı (indirmesi ücretsiz; temel işlevler için abonelik gerekmiyor, oda taramaları gerektirebilir)
         yükleyin. Üst üste iki şeyi ölçmeniz gereken anda, hangisini açacağınızı
         bileceksiniz.
       </p>
@@ -1219,7 +1216,7 @@ export function PostAR() {
       </p>
       <p>
         احتفظ بتطبيق القياس من Apple للقياسات العابرة. وثبِّت Ruler AR
-        (مجاني، لا يتطلب اشتراكًا للأساسيات) لكل شيء آخر. في اللحظة التي
+        (مجاني للتنزيل؛ لا يتطلب اشتراكًا للأساسيات، لكن مسح الغرف قد يتطلبه) لكل شيء آخر. في اللحظة التي
         تحتاج فيها إلى قياس شيئين على التوالي، ستعرف أيهما تفتح.
       </p>
     </article>

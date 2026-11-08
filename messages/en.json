@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Ruler AR: AI Tape Measure App for iPhone | LiDAR Room Scanner",
-    "description": "Your iPhone as a pocket digital measuring tape. Measure length, height, area, and angles with AR. Scan rooms in 3D with LiDAR. Free on the App Store, featured in Utilities.",
+    "title": "Ruler AR: AI Tape Measure & Room Scanner for iPhone",
+    "description": "Use your iPhone as a tape measure. Point the camera to get length, area and angles, or scan a room into a floor plan. Free to download on the App Store.",
     "ogAlt": "Ruler AR, iPhone tape measure app powered by LiDAR and ARKit",
     "keywords": "tape measure app, AR ruler, iPhone measure app, LiDAR room scanner, AR tape measure, measuring app, floor plan app, distance measurement app"
   },
@@ -16,17 +16,17 @@
   },
   "hero": {
     "label": "AR + LIDAR · PRECISION TOOLKIT",
-    "title": "Tape\nMeasure.\nReinvented.",
-    "subtitle": "Your iPhone as a pocket digital measuring tape, always at hand. Point the camera, get length, height, area, and a full 3D room plan in seconds. No tape. No assistant. No guesswork.",
+    "title": "No tape measure?\nUse your iPhone.",
+    "subtitle": "Point the camera and tap two points to get a length. It also does area, angles and room scans.",
     "primaryCta": "Download Free on App Store",
     "secondaryCta": "See how it works",
-    "trust": "Featured in App Store Utilities · 3,500+ reviewers · 20 languages · iPhone Xs and newer"
+    "trust": "Rated 4.3 in the US App Store · iOS 16.6 or later"
   },
   "socialProof": {
-    "ratingHeadline": "One app replaces your tape measure, room planner, laser, and interior designer",
+    "ratingHeadline": "For when you need a number now and the tape is in the garage.",
     "stat1": {
-      "value": "3,500+",
-      "label": "Verified reviewers"
+      "value": "5,500+",
+      "label": "App Store ratings"
     },
     "stat2": {
       "value": "20",
@@ -37,8 +37,8 @@
       "label": "iPhone & iPad"
     },
     "stat4": {
-      "value": "Featured",
-      "label": "in App Store Utilities"
+      "value": "4.3",
+      "label": "US App Store rating"
     },
     "useTags": [
       "Contractors",
@@ -50,65 +50,65 @@
   },
   "features": {
     "kicker": "What it does",
-    "title": "One app replaces your tape, planner, laser, and interior designer.",
-    "intro": "Designed for contractors who bill by the millimetre, designers who plan in 3D, and homeowners who just want to know if the sofa will fit. Every measurement scenario your iPhone can solve, built around ARKit and LiDAR.",
+    "title": "What you can do with it",
+    "intro": "Hang a shelf, check whether a sofa will fit, work out how much flooring to buy. Most of that takes a few taps.",
     "items": {
       "cameraMeasure": {
-        "title": "Camera Measure, point, tap, done",
-        "subtitle": "AR Distance & Length",
-        "body": "Point your iPhone camera at any object. Tap the start and end points to capture a precise dimension in centimetres, metres, inches, or feet. The AR session adapts to lighting, surface texture, and distance, so a 4 cm screw and a 4 m wall both stay accurate. Built on ARKit world tracking with frame-by-frame outlier filtering."
+        "title": "Point, tap, read the length",
+        "subtitle": "Length and distance",
+        "body": "Aim your iPhone at something and tap where it starts and ends. You get the length in centimetres, metres, inches or feet. It works best in good light, within about 5 metres."
       },
       "lidarRoom": {
-        "title": "3D Room Plans with LiDAR",
-        "subtitle": "RoomPlan AI scanner",
-        "body": "Walk through any room. The app builds a full 3D floor plan as you go, walls, windows, doors, furniture categorised automatically. Export to PDF or share as a 3D model with your contractor, architect, or insurance adjuster. Works on every iPhone Pro and iPad Pro with LiDAR sensor (12 Pro and newer)."
+        "title": "Scan a room with LiDAR",
+        "subtitle": "iPhone 12 Pro and newer Pro models",
+        "body": "Walk slowly around the room and the app draws walls, doors, windows and furniture as you go. Send the plan as a PDF or a 3D model to whoever needs it. You need a Pro iPhone or iPad with LiDAR."
       },
       "manualRoom": {
-        "title": "Manual Room Builder (no LiDAR required)",
-        "subtitle": "AR floor plans for every iPhone",
-        "body": "No LiDAR? No problem. Walk along each wall, tap corners, and the app builds a clean orthogonal floor plan with self-intersection detection, angle snapping, and live mini-map preview. Works on every iPhone from iPhone Xs and up."
+        "title": "No LiDAR? Draw the room as you walk",
+        "subtitle": "Floor plans without LiDAR",
+        "body": "Walk along each wall and tap the corners. The app straightens the lines, warns you if walls cross, and shows a small map as you go."
       },
       "angleSquare": {
-        "title": "Angle & Square, precision corners",
+        "title": "Check angles and corners",
         "subtitle": "AR protractor",
-        "body": "Measure angles between any two surfaces. Check if a wall is plumb, a shelf is square, a frame is level. Perfect for hanging artwork, aligning cabinets, or verifying corners during renovation, accurate to within a degree."
+        "body": "Measure the angle between two surfaces to see whether a corner is really square. Handy for cabinets, shelves and picture frames."
       },
       "bubbleLevel": {
-        "title": "Bubble Level, always in your pocket",
-        "subtitle": "Digital spirit level",
-        "body": "A reliable digital level powered by your iPhone's accelerometer. Vertical, horizontal, and free-rotation modes. Align shelves, picture frames, washing machines, or check that a floor isn't slanting, without digging through a toolbox."
+        "title": "A spirit level in your pocket",
+        "subtitle": "Bubble level",
+        "body": "Use the phone's sensors to level a shelf, a frame or a washing machine, or to find out which way the floor slopes."
       },
       "export": {
-        "title": "Organize & Export, your project, your way",
-        "subtitle": "PDF · share · folders",
-        "body": "Save measurements into project folders. Attach notes and photos. Export full PDF reports with dimensions and 2D floor plans, or share individual measurements via Messages, Mail, or AirDrop. Every measurement is one tap away from being delivered to your team."
+        "title": "Keep it and send it",
+        "subtitle": "History, folders, PDF",
+        "body": "Measurements go into your history, and you can sort them into project folders with notes and photos. Send a floor plan to a client as a PDF, or a single measurement by Messages or AirDrop."
       }
     }
   },
   "useCases": {
     "kicker": "Who uses it",
-    "title": "Built for people who build things",
-    "intro": "Specific scenarios, specific tools. The app ships presets and accuracy profiles for the people who measure for a living, and for everyone who just needs to settle a dinner-table argument about whether the bookshelf fits.",
+    "title": "Who it's useful for",
+    "intro": "People who measure for work, and people who just want to know whether the bookshelf fits.",
     "items": {
       "contractors": {
         "title": "Contractors & remodelers",
-        "body": "Site surveys, punch lists, change orders. Export a PDF with measurements and floor plan before you leave the job."
+        "body": "Site visits and change orders. Send a PDF of the measurements and floor plan before you leave the job."
       },
       "designers": {
         "title": "Interior designers",
-        "body": "Capture a room in 60 seconds. Plan layouts in 3D. Share the floor plan with clients before the first revision."
+        "body": "Scan a room on the first visit and share the plan with your client."
       },
       "diy": {
         "title": "DIY & home renovation",
-        "body": "Measure for paint, tile, flooring, and wallpaper. The material calculator turns dimensions into shopping lists."
+        "body": "Measure for paint, tile, flooring and wallpaper. The material calculator turns the numbers into a shopping list."
       },
       "realEstate": {
         "title": "Real estate agents",
-        "body": "Generate floor plans for listings on the walkthrough. Buyers see a measured plan, not a guess."
+        "body": "Make a floor plan during the walkthrough. Buyers see measurements, not a guess."
       },
       "furniture": {
         "title": "Furniture shopping",
-        "body": "Will the couch fit? Measure your space, save the dimensions, and check at IKEA, Home Depot, or wherever you shop."
+        "body": "Will the couch fit? Measure the space, save it, and check it in the store."
       },
       "everyday": {
         "title": "Everyday measurements",
@@ -119,7 +119,7 @@
   "compare": {
     "kicker": "How it compares",
     "title": "Tape measure app vs. the alternatives",
-    "intro": "There are three ways to measure a room. Two of them require a second pair of hands, a 25-foot tape, and good light. Here's the honest comparison.",
+    "intro": "There are three ways to measure a room. Here's how they compare.",
     "headers": [
       "Capability",
       "Ruler AR",
@@ -149,7 +149,7 @@
         "Captures area",
         "yes",
         "manual math",
-        "no"
+        "rectangles only"
       ],
       [
         "3D room scan with LiDAR",
@@ -179,7 +179,7 @@
         "Bubble level included",
         "yes",
         "no",
-        "no"
+        "yes"
       ],
       [
         "Works without internet",
@@ -189,12 +189,12 @@
       ],
       [
         "Price",
-        "Free",
-        "$5, $25",
+        "Free download",
+        "$5-25",
         "Free"
       ]
     ],
-    "footnote": "Last updated for app version 5.0. iPhone Measure refers to Apple's built-in Measure app shipped with iOS."
+    "footnote": "Checked for app version 5.3. In Ruler AR, room scans, height and plan export may need a subscription. iPhone Measure is Apple's built-in Measure app."
   },
   "howItWorks": {
     "kicker": "How it works",
@@ -202,44 +202,46 @@
     "steps": {
       "open": {
         "title": "Open & aim",
-        "body": "Launch the app. Raise your iPhone toward the wall, floor, or object you want to measure. The AR session calibrates in under two seconds."
+        "body": "Open the app and point your iPhone at the wall, floor or object you want to measure."
       },
       "point": {
         "title": "Tap start and end",
-        "body": "Tap the start point. Move your iPhone to the end point. Tap again. The measurement appears on screen in real time, in cm, m, inches, or feet."
+        "body": "Tap where it starts, move the phone to where it ends, and tap again. The length appears on screen in cm, m, inches or feet."
       },
       "export": {
         "title": "Save, share, export",
-        "body": "Every measurement lands in your history with a thumbnail. Send a PDF to your client, share a screenshot in Messages, or save the full project for later."
+        "body": "Every measurement goes into your history. Send a PDF to a client, share a screenshot, or keep it for later."
       }
     }
   },
   "twoApps": {
     "kicker": "Two editions",
-    "title": "Free for everyone. Pro for professionals.",
+    "title": "Two ways to use it",
     "free": {
-      "label": "01 / FREE EDITION",
+      "label": "01 / Free download",
       "name": "Ruler AR",
-      "tagline": "The AI tape measure for everyday measuring. Free, forever.",
+      "tagline": "Free to download, with ads. Subscribe in the app if you want everything.",
       "bullets": [
-        "Camera measure (length, height, area)",
-        "Bubble level & angle tool",
-        "Manual room builder",
-        "Save to project folders"
+        "Length, area and angles",
+        "Bubble level",
+        "Measurement history and folders",
+        "Room scans, height and plan export may need a subscription"
       ],
-      "cta": "Get Ruler AR Free"
+      "cta": "Get Ruler AR",
+      "price": "Free download"
     },
     "pro": {
-      "label": "02 / PRO EDITION",
+      "label": "02 / One payment",
       "name": "Ruler Pro",
-      "tagline": "Professional precision. LiDAR 3D room scanning, unlimited PDF & 3D export, no ads, no limits.",
+      "tagline": "For people who'd rather pay once and skip the ads.",
       "bullets": [
-        "Everything in Ruler AR",
-        "LiDAR 3D room scanning",
-        "Unlimited PDF & USDZ export",
-        "Priority support, no ads, no limits"
+        "One purchase, no subscription",
+        "No ads",
+        "Length, area and Touch Mode",
+        "Bubble level"
       ],
-      "cta": "Get Ruler Pro"
+      "cta": "Get Ruler Pro",
+      "price": "$2.99 in the US"
     }
   },
   "faq": {
@@ -248,19 +250,19 @@
     "items": [
       {
         "q": "Does Ruler AR require a LiDAR sensor?",
-        "a": "No. Camera measurement, angle tool, bubble level, and the Manual Room Builder work on every iPhone running iOS 16.6 or newer, iPhone Xs and up. LiDAR is required only for the automatic 3D room scanner (iPhone 12 Pro and newer, iPad Pro 2020+)."
+        "a": "No. Length, area, angles, the bubble level and the manual room builder all work without it. You only need LiDAR for the automatic 3D room scan (iPhone 12 Pro and newer Pro models, iPad Pro 2020 and later)."
       },
       {
         "q": "How accurate is the AR tape measure?",
-        "a": "In typical indoor lighting and within 5 metres, accuracy is ±1-2 cm. With LiDAR, accuracy improves to ±5 mm. For finishing-grade work, use Touch Mode, it places the start point exactly at the phone position, eliminating the largest source of AR error."
+        "a": "Usually within a couple of centimetres indoors, in good light, up to about 5 metres. iPhones with LiDAR tend to do better. Touch Mode measures from the phone itself, which helps on short distances. If you're about to cut something expensive, check it with a real tape."
       },
       {
         "q": "Can I export measurements to PDF?",
-        "a": "Yes. Every saved project can be exported as a PDF with a 2D floor plan, dimensions table, and optional photos. Share directly to Mail, Messages, AirDrop, or any sharing extension. PDF export is unlimited on Ruler Pro."
+        "a": "Yes. Saved room plans can be exported as a PDF with the floor plan and a table of dimensions, then sent by Mail, Messages or AirDrop. Plan export may need a subscription."
       },
       {
         "q": "Is the app really free?",
-        "a": "Yes, the Free edition includes camera measure, bubble level, angle tool, manual room builder, and project folders at no charge. Pro features (LiDAR scanning, unlimited exports, no ads) are available via subscription or one-time unlock."
+        "a": "It's free to download, and length, area, angles and the bubble level work without paying. The free version shows ads. Room scans, height and plan export may need a subscription, and you'll see the price in the app before you pay."
       },
       {
         "q": "Which iPhones and iPads are supported?",
@@ -272,7 +274,7 @@
       },
       {
         "q": "Does it work in low light?",
-        "a": "Yes, but accuracy depends on the AR session's ability to track surfaces. In dim rooms, the app shows a Low Light coach banner with a one-tap flashlight CTA. For pitch-dark environments, LiDAR-equipped devices still work without any visible light."
+        "a": "Yes, but it's less accurate. In dim rooms the app suggests turning on the flashlight with one tap. More light always helps."
       },
       {
         "q": "Does it work on iPad?",
@@ -284,7 +286,7 @@
       },
       {
         "q": "Will it work on iPhone 16 and 17?",
-        "a": "Yes, the app fully supports iPhone 16, 16 Pro, 17, 17 Pro, and 17 Air. Pro models with LiDAR get the automatic 3D RoomPlan scanner. The A18/A19 chips also speed up AR session initialization (under 1 second from cold start)."
+        "a": "Yes. It runs on iPhone 16 and 17 models. Models with LiDAR also get the automatic 3D room scan."
       },
       {
         "q": "Is there an Android version?",
@@ -292,7 +294,7 @@
       },
       {
         "q": "Does the app collect tracking data?",
-        "a": "The free edition shows ads (which use anonymous identifiers if you grant permission via App Tracking Transparency). The Pro edition has zero tracking and zero ads. Full disclosure in our App Store privacy label and privacy policy."
+        "a": "The free version shows ads, which can use identifiers if you allow tracking when iOS asks. Ruler Pro has no ads. Details are in the App Store privacy label and our privacy policy."
       }
     ]
   },
@@ -318,8 +320,8 @@
     ]
   },
   "finalCta": {
-    "title": "Stop guessing.\nStart measuring.",
-    "subtitle": "Free on the App Store. iOS 16.6 and newer. Hundreds of thousands of measurements taken every day, yours is next.",
+    "title": "Measure it\nbefore you buy it.",
+    "subtitle": "Free to download. Needs iOS 16.6 or later.",
     "primary": "Download Free",
     "secondary": "Get Ruler Pro"
   },

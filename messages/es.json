@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Ruler AR: App Cinta Métrica con IA para iPhone | Escáner LiDAR",
-    "description": "Tu iPhone como cinta métrica digital de precisión. Mide longitud, altura, área y ángulos con AR. Escanea habitaciones en 3D con LiDAR. Gratis en la App Store.",
+    "title": "Medir con iPhone: Ruler AR, cinta métrica y escáner",
+    "description": "Medir con iPhone: apunta la cámara y obtén longitud, área y ángulos, o escanea una habitación y saca el plano. Descarga gratis en la App Store.",
     "ogAlt": "Ruler AR, aplicación cinta métrica para iPhone con LiDAR y ARKit",
     "keywords": "app cinta métrica, regla AR, app medir iPhone, escáner LiDAR habitación, cinta AR, app de medición, plano de planta, medición de distancias"
   },
@@ -16,17 +16,17 @@
   },
   "hero": {
     "label": "AR + LIDAR · HERRAMIENTAS DE PRECISIÓN",
-    "title": "Cinta\nmétrica.\nReinventada.",
-    "subtitle": "Tu iPhone como cinta métrica digital de bolsillo, siempre a mano. Apunta la cámara: longitud, altura, área y plano 3D en segundos. Sin cinta, sin ayudante, sin adivinar.",
+    "title": "¿Sin cinta métrica?\nUsa tu iPhone.",
+    "subtitle": "Apunta la cámara y toca dos puntos para obtener una longitud. También calcula áreas y ángulos y escanea habitaciones.",
     "primaryCta": "Descargar gratis en App Store",
     "secondaryCta": "Cómo funciona",
-    "trust": "Destacada en Utilidades App Store · 3.500+ reseñas · 20 idiomas · iPhone Xs y posterior"
+    "trust": "Valoración de 4,3 en la App Store de EE. UU. · iOS 16.6 o posterior"
   },
   "socialProof": {
-    "ratingHeadline": "Una app sustituye tu cinta métrica, planificador, láser y diseñador de interiores",
+    "ratingHeadline": "Para cuando necesitas un número ya y la cinta métrica está en el garaje.",
     "stat1": {
-      "value": "3.500+",
-      "label": "Reseñas verificadas"
+      "value": "5.500+",
+      "label": "valoraciones en la App Store"
     },
     "stat2": {
       "value": "20",
@@ -37,8 +37,8 @@
       "label": "iPhone y iPad"
     },
     "stat4": {
-      "value": "Destacada",
-      "label": "en Utilidades de App Store"
+      "value": "4,3",
+      "label": "valoración en la App Store de EE. UU."
     },
     "useTags": [
       "Contratistas",
@@ -50,65 +50,65 @@
   },
   "features": {
     "kicker": "Qué hace",
-    "title": "Una app en lugar de cinta, planificador, láser y diseñador.",
-    "intro": "Diseñada para contratistas que facturan al milímetro, diseñadores que planifican en 3D y para quienes solo quieren saber si el sofá cabe. Cualquier escenario de medición que tu iPhone pueda resolver, basado en ARKit y LiDAR.",
+    "title": "Qué puedes hacer con ella",
+    "intro": "Colgar una estantería, ver si cabe un sofá, calcular cuánto suelo comprar. La mayor parte se hace con unos toques.",
     "items": {
       "cameraMeasure": {
-        "title": "Medición con cámara, apunta, toca, listo",
-        "subtitle": "Distancia y longitud AR",
-        "body": "Apunta la cámara del iPhone a cualquier objeto. Toca los puntos de inicio y fin para capturar una medida precisa en centímetros, metros, pulgadas o pies. La sesión AR se adapta a la luz, la textura de la superficie y la distancia, tanto un tornillo de 4 cm como un muro de 4 m mantienen la precisión. Construido sobre ARKit con filtrado de valores atípicos cuadro a cuadro."
+        "title": "Apunta, toca y lee la longitud",
+        "subtitle": "Longitud y distancia",
+        "body": "Apunta el iPhone a un objeto y toca donde empieza y donde acaba. Obtienes la longitud en centímetros, metros, pulgadas o pies. Funciona mejor con buena luz y a unos 5 metros como máximo."
       },
       "lidarRoom": {
-        "title": "Planos 3D de habitaciones con LiDAR",
-        "subtitle": "Escáner RoomPlan IA",
-        "body": "Recorre cualquier habitación. La app genera un plano 3D completo en directo, paredes, ventanas, puertas, muebles categorizados automáticamente. Exporta a PDF o comparte como modelo 3D con tu contratista, arquitecto o perito de seguros. Funciona en cada iPhone Pro y iPad Pro con sensor LiDAR (12 Pro y posteriores)."
+        "title": "Escanea una habitación con LiDAR",
+        "subtitle": "iPhone 12 Pro y modelos Pro posteriores",
+        "body": "Recorre la habitación despacio y la app dibuja paredes, puertas, ventanas y muebles sobre la marcha. Envía el plano en PDF o como modelo 3D a quien lo necesite. Hace falta un iPhone o iPad Pro con LiDAR."
       },
       "manualRoom": {
-        "title": "Constructor manual de planos (sin LiDAR)",
-        "subtitle": "Planos AR para cualquier iPhone",
-        "body": "¿Sin LiDAR? No hay problema. Camina junto a cada pared, toca las esquinas, la app genera un plano ortogonal limpio con detección de autointersección, ajuste de ángulos y minimapa en directo. Funciona desde iPhone Xs."
+        "title": "¿Sin LiDAR? Dibuja la habitación mientras caminas",
+        "subtitle": "Planos sin LiDAR",
+        "body": "Camina junto a cada pared y toca las esquinas. La app endereza las líneas, te avisa si se cruzan paredes y muestra un pequeño mapa mientras avanzas."
       },
       "angleSquare": {
-        "title": "Ángulo y escuadra, esquinas precisas",
+        "title": "Comprueba ángulos y esquinas",
         "subtitle": "Transportador AR",
-        "body": "Mide ángulos entre dos superficies. Comprueba si una pared está aplomada, una estantería en escuadra, un cuadro nivelado. Perfecto para colgar cuadros, alinear muebles o verificar esquinas durante una reforma, precisión al grado."
+        "body": "Mide el ángulo entre dos superficies para ver si una esquina es realmente recta. Útil para armarios, estanterías y marcos."
       },
       "bubbleLevel": {
-        "title": "Nivel de burbuja, siempre en el bolsillo",
-        "subtitle": "Nivel digital",
-        "body": "Un nivel digital fiable basado en el acelerómetro del iPhone. Modos vertical, horizontal y rotación libre. Alinea estanterías, cuadros, lavadoras o comprueba que el suelo no esté inclinado, sin rebuscar en la caja de herramientas."
+        "title": "Un nivel en el bolsillo",
+        "subtitle": "Nivel de burbuja",
+        "body": "Usa los sensores del teléfono para nivelar una estantería, un marco o una lavadora, o para saber hacia dónde se inclina el suelo."
       },
       "export": {
-        "title": "Organizar y exportar, tu proyecto, a tu manera",
-        "subtitle": "PDF · compartir · carpetas",
-        "body": "Guarda mediciones en carpetas de proyecto. Adjunta notas y fotos. Exporta informes PDF completos con dimensiones y plano 2D, o comparte mediciones individuales por Mensajes, Mail o AirDrop. Cada medición está a un toque de tu equipo."
+        "title": "Guárdalo y envíalo",
+        "subtitle": "Historial, carpetas, PDF",
+        "body": "Las medidas van a tu historial y puedes ordenarlas en carpetas de proyecto con notas y fotos. Envía un plano a un cliente en PDF, o una sola medida por Mensajes o AirDrop."
       }
     }
   },
   "useCases": {
     "kicker": "Para quién",
-    "title": "Hecho para quienes construyen",
-    "intro": "Escenarios concretos, herramientas concretas. La app incluye preajustes y perfiles de precisión para quienes miden por trabajo, y para quienes solo necesitan resolver una discusión sobre si la estantería cabe.",
+    "title": "A quién le sirve",
+    "intro": "A quien mide por trabajo y a quien solo quiere saber si cabe la estantería.",
     "items": {
       "contractors": {
         "title": "Contratistas y reformas",
-        "body": "Levantamientos in situ, listas de remates, órdenes de cambio. Exporta un PDF con medidas y plano antes de salir de la obra."
+        "body": "Visitas de obra y cambios al presupuesto. Envía un PDF con las medidas y el plano antes de irte de la obra."
       },
       "designers": {
         "title": "Diseñadores de interiores",
-        "body": "Captura una habitación en 60 segundos. Planifica distribuciones en 3D. Comparte el plano con el cliente antes de la primera revisión."
+        "body": "Escanea la habitación en la primera visita y comparte el plano con tu cliente."
       },
       "diy": {
         "title": "DIY y reforma del hogar",
-        "body": "Mide para pintura, azulejos, suelo y papel pintado. La calculadora de materiales convierte dimensiones en lista de la compra."
+        "body": "Mide para pintura, azulejos, suelo y papel pintado. La calculadora de materiales convierte los números en una lista de la compra."
       },
       "realEstate": {
         "title": "Agentes inmobiliarios",
-        "body": "Genera planos para los anuncios durante la visita. Los compradores ven un plano medido, no una estimación."
+        "body": "Haz el plano durante la visita. Los compradores ven medidas, no una estimación a ojo."
       },
       "furniture": {
         "title": "Compra de muebles",
-        "body": "¿Cabrá el sofá? Mide tu espacio, guarda las dimensiones y comprueba en IKEA, Leroy Merlin o donde compres."
+        "body": "¿Cabrá el sofá? Mide el espacio, guárdalo y compruébalo en la tienda."
       },
       "everyday": {
         "title": "Mediciones cotidianas",
@@ -119,7 +119,7 @@
   "compare": {
     "kicker": "Comparativa",
     "title": "App cinta métrica vs alternativas",
-    "intro": "Hay tres formas de medir una habitación. Dos de ellas requieren un segundo par de manos, una cinta de 8 m y buena luz. Aquí la comparación honesta.",
+    "intro": "Hay tres formas de medir una habitación. Así se comparan.",
     "headers": [
       "Capacidad",
       "Ruler AR",
@@ -149,7 +149,7 @@
         "Captura áreas",
         "yes",
         "manual",
-        "no"
+        "solo rectángulos"
       ],
       [
         "Escaneo 3D LiDAR",
@@ -179,7 +179,7 @@
         "Nivel incluido",
         "yes",
         "no",
-        "no"
+        "yes"
       ],
       [
         "Funciona sin internet",
@@ -189,12 +189,12 @@
       ],
       [
         "Precio",
-        "Gratis",
-        "5-25 €",
+        "Descarga gratis",
+        "$5-25",
         "Gratis"
       ]
     ],
-    "footnote": "Actualizado para la versión 5.0. Medidas iPhone se refiere a la app integrada de Apple en iOS."
+    "footnote": "Comprobado para la versión 5.3 de la app. En Ruler AR, los escaneos de habitaciones, la altura y la exportación del plano pueden requerir una suscripción. Medidas iPhone es la app Medidas integrada de Apple."
   },
   "howItWorks": {
     "kicker": "Cómo funciona",
@@ -202,44 +202,46 @@
     "steps": {
       "open": {
         "title": "Abrir y apuntar",
-        "body": "Lanza la app. Apunta el iPhone a la pared, al suelo o al objeto. La sesión AR se calibra en menos de dos segundos."
+        "body": "Abre la app y apunta el iPhone a la pared, el suelo o el objeto que quieras medir."
       },
       "point": {
         "title": "Toca inicio y fin",
-        "body": "Toca el punto de inicio. Mueve el iPhone al punto final. Toca de nuevo. La medida aparece en pantalla en tiempo real, en cm, m, pulgadas o pies."
+        "body": "Toca donde empieza, mueve el teléfono hasta donde acaba y toca de nuevo. La longitud aparece en pantalla en cm, m, pulgadas o pies."
       },
       "export": {
         "title": "Guarda, comparte, exporta",
-        "body": "Cada medida queda en tu historial con miniatura. Envía un PDF al cliente, comparte una captura en Mensajes o guarda el proyecto entero para después."
+        "body": "Cada medida va a tu historial. Envía un PDF a un cliente, comparte una captura o guárdala para después."
       }
     }
   },
   "twoApps": {
     "kicker": "Dos ediciones",
-    "title": "Gratis para todos. Pro para profesionales.",
+    "title": "Dos formas de usarla",
     "free": {
-      "label": "01 / EDICIÓN GRATUITA",
+      "label": "01 / Descarga gratis",
       "name": "Ruler AR",
-      "tagline": "La cinta métrica con IA para el día a día. Gratis. Para siempre.",
+      "tagline": "Descarga gratis, con anuncios. Suscríbete en la app si quieres todo.",
       "bullets": [
-        "Medición con cámara (longitud, altura, área)",
-        "Nivel y herramienta de ángulo",
-        "Constructor manual de plano",
-        "Guardado en carpetas de proyecto"
+        "Longitud, área y ángulos",
+        "Nivel de burbuja",
+        "Historial de medidas y carpetas",
+        "Los escaneos de habitaciones, la altura y la exportación del plano pueden requerir una suscripción"
       ],
-      "cta": "Obtener Ruler AR gratis"
+      "cta": "Obtener Ruler AR",
+      "price": "Descarga gratis"
     },
     "pro": {
-      "label": "02 / EDICIÓN PRO",
+      "label": "02 / Un solo pago",
       "name": "Ruler Pro",
-      "tagline": "Precisión profesional. Escaneo 3D LiDAR, exportación PDF y 3D ilimitada, sin anuncios, sin límites.",
+      "tagline": "Para quien prefiere pagar una vez y no ver anuncios.",
       "bullets": [
-        "Todo lo de Ruler AR",
-        "Escaneo LiDAR 3D de habitaciones",
-        "Exportación ilimitada PDF y USDZ",
-        "Soporte prioritario, sin anuncios, sin límites"
+        "Una sola compra, sin suscripción",
+        "Sin anuncios",
+        "Longitud, área y Touch Mode",
+        "Nivel de burbuja"
       ],
-      "cta": "Obtener Ruler Pro"
+      "cta": "Obtener Ruler Pro",
+      "price": "2,99 $ en EE. UU."
     }
   },
   "faq": {
@@ -248,19 +250,19 @@
     "items": [
       {
         "q": "¿Ruler AR necesita sensor LiDAR?",
-        "a": "No. La medición con cámara, la herramienta de ángulo, el nivel y el constructor manual funcionan en cualquier iPhone con iOS 16.6 o posterior, iPhone Xs en adelante. LiDAR solo es necesario para el escáner 3D automático (iPhone 12 Pro y posteriores, iPad Pro 2020+)."
+        "a": "No. La longitud, el área, los ángulos, el nivel de burbuja y el constructor manual de habitaciones funcionan sin él. LiDAR solo hace falta para el escaneo 3D automático de habitaciones (iPhone 12 Pro y modelos Pro posteriores, iPad Pro 2020 y posteriores)."
       },
       {
         "q": "¿Qué precisión tiene la cinta AR?",
-        "a": "Con iluminación interior normal y hasta 5 metros, la precisión es de ±1-2 cm. Con LiDAR mejora a ±5 mm. Para trabajos de acabado, usa el modo Touch, coloca el punto inicial exactamente en la posición del teléfono, eliminando la principal fuente de error AR."
+        "a": "Normalmente con un error de un par de centímetros, en interiores, con buena luz y hasta unos 5 metros. Los iPhone con LiDAR suelen dar mejores resultados. Touch Mode mide desde el propio teléfono, lo que ayuda a distancias cortas. Si vas a cortar algo caro, compruébalo con una cinta métrica de verdad."
       },
       {
         "q": "¿Puedo exportar mediciones a PDF?",
-        "a": "Sí. Cualquier proyecto guardado se puede exportar como PDF con plano 2D, tabla de dimensiones y fotos opcionales. Comparte directamente a Mail, Mensajes, AirDrop o cualquier extensión. Exportación PDF ilimitada en Ruler Pro."
+        "a": "Sí. Los planos de habitaciones guardados se pueden exportar en PDF con el plano y una tabla de dimensiones, y enviarlos por Mail, Mensajes o AirDrop. La exportación del plano puede requerir una suscripción."
       },
       {
         "q": "¿La app es realmente gratis?",
-        "a": "Sí, la edición gratuita incluye medición con cámara, nivel, herramienta de ángulo, constructor manual y carpetas de proyecto sin coste. Las funciones Pro (escaneo LiDAR, exportación ilimitada, sin anuncios) se obtienen por suscripción o compra única."
+        "a": "La descarga es gratis, y la longitud, el área, los ángulos y el nivel de burbuja funcionan sin pagar. La versión gratuita muestra anuncios. Los escaneos de habitaciones, la altura y la exportación del plano pueden requerir una suscripción, y verás el precio en la app antes de pagar."
       },
       {
         "q": "¿Qué iPhones y iPads son compatibles?",
@@ -272,7 +274,7 @@
       },
       {
         "q": "¿Funciona con poca luz?",
-        "a": "Sí, pero la precisión depende de la capacidad de la sesión AR para rastrear superficies. En habitaciones oscuras aparece un banner Low Light con botón de linterna. En oscuridad total, los dispositivos con LiDAR siguen funcionando sin luz visible."
+        "a": "Sí, pero con menos precisión. En habitaciones oscuras, la app sugiere encender la linterna con un toque. Más luz siempre ayuda."
       },
       {
         "q": "¿Funciona en iPad?",
@@ -284,7 +286,7 @@
       },
       {
         "q": "¿Funcionará en iPhone 16 y 17?",
-        "a": "Sí, la app soporta completamente iPhone 16, 16 Pro, 17, 17 Pro y 17 Air. Los modelos Pro con LiDAR obtienen el escáner 3D RoomPlan automático. Los chips A18/A19 también aceleran la inicialización de la sesión AR (menos de 1 segundo desde arranque en frío)."
+        "a": "Sí. Funciona en los modelos iPhone 16 y 17. Los modelos con LiDAR también tienen el escaneo 3D automático de habitaciones."
       },
       {
         "q": "¿Hay versión Android?",
@@ -292,7 +294,7 @@
       },
       {
         "q": "¿La app recopila datos de seguimiento?",
-        "a": "La edición gratuita muestra anuncios (con identificadores anónimos si lo autorizas vía App Tracking Transparency). La edición Pro no tiene seguimiento ni anuncios. Transparencia total en la etiqueta de privacidad del App Store y en la política."
+        "a": "La versión gratuita muestra anuncios, que pueden usar identificadores si permites el seguimiento cuando iOS lo pregunta. Ruler Pro no tiene anuncios. Los detalles están en la etiqueta de privacidad de la App Store y en nuestra política de privacidad."
       }
     ]
   },
@@ -318,8 +320,8 @@
     ]
   },
   "finalCta": {
-    "title": "Deja\nde estimar.\nEmpieza a medir.",
-    "subtitle": "Gratis en App Store. iOS 16.6 y posterior. Cientos de miles de mediciones cada día, la tuya es la próxima.",
+    "title": "Mídelo\nantes de comprarlo.",
+    "subtitle": "Descarga gratis. Requiere iOS 16.6 o posterior.",
     "primary": "Descargar gratis",
     "secondary": "Obtener Ruler Pro"
   },

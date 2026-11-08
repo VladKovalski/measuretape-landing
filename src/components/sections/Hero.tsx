@@ -11,10 +11,7 @@ export function Hero() {
   return (
     <section className="relative border-b border-line pt-12 md:pt-32 pb-16 md:pb-28">
       <div className="container-x md:pl-12">
-        <div className="flex items-center gap-3">
-          <span className="tape-marker">{t('label')}</span>
-        </div>
-        <div className="mt-8 grid grid-cols-1 gap-12 lg:grid-cols-[1.5fr_1fr] lg:items-end">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.5fr_1fr] lg:items-end">
           <div>
             <h1 className="headline-massive">
               {lines.map((l, i) => (

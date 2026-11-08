@@ -13,8 +13,7 @@ export function Faq() {
   return (
     <section id="faq" className="section">
       <div className="container-x md:pl-12">
-        <span className="kicker">{t('kicker')}</span>
-        <h2 className="title-xl mt-4 max-w-3xl">{t('title')}</h2>
+        <h2 className="title-xl max-w-3xl">{t('title')}</h2>
         <div className="mt-12 max-w-4xl divide-y divide-line border-y border-line">
           {items.map((item, i) => {
             const isOpen = open === i;

@@ -16,8 +16,7 @@ export function UseCases() {
   return (
     <section id="use-cases" className="section">
       <div className="container-x md:pl-12">
-        <span className="kicker">{t('kicker')}</span>
-        <h2 className="title-xl mt-4 max-w-3xl">{t('title')}</h2>
+        <h2 className="title-xl max-w-3xl">{t('title')}</h2>
         <p className="mt-6 max-w-2xl body-muted text-lg">{t('intro')}</p>
         <div className="mt-14 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {KEYS.map((k, idx) => (

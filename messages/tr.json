@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Ruler AR: iPhone için Yapay Zekâlı Ölçü Uygulaması | LiDAR Oda Tarayıcı",
-    "description": "iPhone'unuz cebinizdeki dijital şerit metre olsun. AR ile uzunluk, yükseklik, alan ve açı ölçün. LiDAR ile odaları 3B tarayın. App Store'da ücretsiz, Araçlar'da öne çıkan uygulama.",
+    "title": "Ruler AR: iPhone ile ölçüm, AR metre ve oda tarayıcı",
+    "description": "iPhone'unuzu metre olarak kullanın. Kamerayı yöneltip uzunluk, alan ve açı ölçün ya da odayı tarayıp kat planı çıkarın. App Store'da ücretsiz indirilir.",
     "ogAlt": "Ruler AR, LiDAR ve ARKit destekli iPhone ölçü uygulaması",
     "keywords": "ölçü uygulaması, AR mezura, iPhone ile ölçme, ölçüm uygulaması, mesafe ölçer, LiDAR oda tarayıcı, kat planı, AR cetvel"
   },
@@ -16,17 +16,17 @@
   },
   "hero": {
     "label": "AR + LIDAR · HASSAS ARAÇ SETİ",
-    "title": "Şerit metre.\nYeniden tasarlandı.",
-    "subtitle": "iPhone'unuz her zaman elinizin altında, cebinizde bir dijital şerit metre. Kamerayı yöneltin; uzunluğu, yüksekliği, alanı ve eksiksiz bir 3B oda planını saniyeler içinde alın. Metre yok. Yardımcı yok. Tahmin yok.",
+    "title": "Metre yok mu?\niPhone'unu kullan.",
+    "subtitle": "Kamerayı yöneltin, iki noktaya dokunun, uzunluk ekranda. Alan ve açı da ölçer, odaları tarar.",
     "primaryCta": "App Store'dan ücretsiz indir",
     "secondaryCta": "Nasıl çalıştığını gör",
-    "trust": "App Store Araçlar'da öne çıkan · 3.500+ değerlendirme · 20 dil · iPhone Xs ve üzeri"
+    "trust": "ABD App Store'da 4,3 puan · iOS 16.6 veya üzeri"
   },
   "socialProof": {
-    "ratingHeadline": "Tek uygulama; şerit metrenizin, oda planlayıcınızın, lazerinizin ve iç mimarınızın yerini alır",
+    "ratingHeadline": "Ölçüye hemen ihtiyacınız var ama metre garajda kaldıysa.",
     "stat1": {
-      "value": "3.500+",
-      "label": "Doğrulanmış değerlendirme"
+      "value": "5.500+",
+      "label": "App Store değerlendirmesi"
     },
     "stat2": {
       "value": "20",
@@ -37,8 +37,8 @@
       "label": "iPhone ve iPad"
     },
     "stat4": {
-      "value": "Öne çıkan",
-      "label": "App Store Araçlar'da"
+      "value": "4,3",
+      "label": "ABD App Store puanı"
     },
     "useTags": [
       "Müteahhitler",
@@ -50,65 +50,65 @@
   },
   "features": {
     "kicker": "Ne yapar",
-    "title": "Tek uygulama; metrenizin, planlayıcınızın, lazerinizin ve iç mimarınızın yerini alır.",
-    "intro": "Milimetre üzerinden ücret kesen müteahhitler, 3B planlayan tasarımcılar ve sadece koltuğun sığıp sığmayacağını merak eden ev sahipleri için tasarlandı. iPhone'unuzun çözebileceği her ölçüm senaryosu, ARKit ve LiDAR üzerine kuruldu.",
+    "title": "Neler yapabilirsiniz",
+    "intro": "Raf asmak, koltuğun sığıp sığmayacağına bakmak, ne kadar zemin alacağınızı hesaplamak. Bunların çoğu birkaç dokunuşla olur.",
     "items": {
       "cameraMeasure": {
-        "title": "Kamerayla ölç: yönelt, dokun, bitti",
-        "subtitle": "AR Mesafe ve Uzunluk",
-        "body": "iPhone kameranızı herhangi bir nesneye yöneltin. Başlangıç ve bitiş noktalarına dokunarak santimetre, metre, inç veya feet cinsinden hassas bir ölçü yakalayın. AR oturumu ışığa, yüzey dokusuna ve mesafeye uyum sağlar; böylece 4 cm'lik bir vida da 4 m'lik bir duvar da doğru kalır. ARKit dünya takibi ve kare kare aykırı değer filtreleme ile geliştirildi."
+        "title": "Yönelt, dokun, uzunluğu oku",
+        "subtitle": "Uzunluk ve mesafe",
+        "body": "iPhone'unuzu bir şeye yöneltin ve başladığı ile bittiği yere dokunun. Uzunluğu santimetre, metre, inç veya feet olarak görürsünüz. İyi ışıkta ve yaklaşık 5 metreye kadar en iyi sonucu verir."
       },
       "lidarRoom": {
-        "title": "LiDAR ile 3B oda planları",
-        "subtitle": "RoomPlan yapay zekâ tarayıcı",
-        "body": "Herhangi bir odada yürüyün. Uygulama siz ilerlerken eksiksiz bir 3B kat planı oluşturur — duvarlar, pencereler, kapılar ve mobilyalar otomatik sınıflandırılır. PDF olarak dışa aktarın veya 3B model olarak müteahhidiniz, mimarınız ya da sigorta eksperinizle paylaşın. LiDAR sensörlü her iPhone Pro ve iPad Pro'da çalışır (12 Pro ve üzeri)."
+        "title": "LiDAR ile odayı tara",
+        "subtitle": "iPhone 12 Pro ve daha yeni Pro modeller",
+        "body": "Odada yavaşça yürüyün, uygulama siz ilerledikçe duvarları, kapıları, pencereleri ve mobilyaları çizer. Planı PDF veya 3B model olarak ihtiyacı olan kişiye gönderin. LiDAR'lı bir Pro iPhone veya iPad gerekir."
       },
       "manualRoom": {
-        "title": "Elle oda oluşturucu (LiDAR gerekmez)",
-        "subtitle": "Her iPhone için AR kat planları",
-        "body": "LiDAR yok mu? Sorun değil. Her duvar boyunca yürüyüp köşelere dokunun; uygulama, kendiyle kesişim algılama, açı yapışması ve canlı mini harita önizlemesiyle temiz, dik açılı bir kat planı oluşturur. iPhone Xs ve üzeri her iPhone'da çalışır."
+        "title": "LiDAR yok mu? Yürüyerek odayı çizin",
+        "subtitle": "LiDAR olmadan kat planı",
+        "body": "Her duvar boyunca yürüyün ve köşelere dokunun. Uygulama çizgileri düzeltir, duvarlar kesişirse sizi uyarır ve ilerlerken küçük bir harita gösterir."
       },
       "angleSquare": {
-        "title": "Açı ve gönye, hassas köşeler",
+        "title": "Açıları ve köşeleri kontrol edin",
         "subtitle": "AR iletki",
-        "body": "Herhangi iki yüzey arasındaki açıyı ölçün. Bir duvarın şakulünde, bir rafın gönyesinde, bir çerçevenin terazide olup olmadığını kontrol edin. Tablo asmak, dolapları hizalamak veya tadilatta köşeleri doğrulamak için ideal, bir derece hassasiyetinde."
+        "body": "İki yüzey arasındaki açıyı ölçüp köşenin gerçekten dik olup olmadığını görün. Dolap, raf ve çerçevelerde işe yarar."
       },
       "bubbleLevel": {
-        "title": "Su terazisi, hep cebinizde",
-        "subtitle": "Dijital su terazisi",
-        "body": "iPhone'unuzun ivmeölçeriyle çalışan güvenilir bir dijital su terazisi. Dikey, yatay ve serbest dönüş modları. Rafları, çerçeveleri, çamaşır makinesini hizalayın ya da zeminin eğik olup olmadığını kontrol edin — alet çantasını karıştırmadan."
+        "title": "Cebinizde bir su terazisi",
+        "subtitle": "Su terazisi",
+        "body": "Telefonun sensörleriyle rafı, çerçeveyi veya çamaşır makinesini düzleyin ya da zeminin hangi yöne eğimli olduğunu öğrenin."
       },
       "export": {
-        "title": "Düzenle ve dışa aktar, kendi yönteminle",
-        "subtitle": "PDF · paylaş · klasörler",
-        "body": "Ölçümleri proje klasörlerine kaydedin. Not ve fotoğraf ekleyin. Boyutlar ve 2B kat planları içeren tam PDF raporları dışa aktarın ya da tek tek ölçümleri Mesajlar, Mail veya AirDrop ile paylaşın. Her ölçüm, ekibinize ulaşmaya tek dokunuş uzakta."
+        "title": "Kaydedin ve gönderin",
+        "subtitle": "Geçmiş, klasörler, PDF",
+        "body": "Ölçümler geçmişe kaydedilir; not ve fotoğraflarla proje klasörlerine ayırabilirsiniz. Kat planını müşteriye PDF olarak, tek bir ölçümü ise Mesajlar veya AirDrop ile gönderin."
       }
     }
   },
   "useCases": {
     "kicker": "Kimler kullanıyor",
-    "title": "Bir şeyler inşa edenler için",
-    "intro": "Belirli senaryolar, belirli araçlar. Uygulama, ölçümle geçinenler için hazır ayarlar ve doğruluk profilleri sunar — ve kitaplığın sığıp sığmayacağına dair sofradaki tartışmayı bitirmek isteyen herkes için.",
+    "title": "Kimler için faydalı",
+    "intro": "İşi gereği ölçüm yapanlar ve sadece kitaplığın sığıp sığmayacağını merak edenler için.",
     "items": {
       "contractors": {
         "title": "Müteahhitler ve tadilatçılar",
-        "body": "Saha keşfi, eksik listeleri, değişiklik talepleri. Şantiyeden ayrılmadan ölçümler ve kat planı içeren bir PDF dışa aktarın."
+        "body": "Şantiye ziyaretleri ve ek işler. İşten ayrılmadan önce ölçüleri ve kat planını PDF olarak gönderin."
       },
       "designers": {
         "title": "İç mimarlar",
-        "body": "Bir odayı 60 saniyede yakalayın. Yerleşimleri 3B planlayın. Kat planını ilk revizyondan önce müşteriyle paylaşın."
+        "body": "İlk ziyarette odayı tarayın ve planı müşterinizle paylaşın."
       },
       "diy": {
         "title": "DIY ve ev tadilatı",
-        "body": "Boya, fayans, zemin ve duvar kâğıdı için ölçün. Malzeme hesaplayıcı boyutları alışveriş listesine çevirir."
+        "body": "Boya, fayans, zemin ve duvar kâğıdı için ölçün. Malzeme hesaplayıcı sayıları alışveriş listesine çevirir."
       },
       "realEstate": {
         "title": "Emlak danışmanları",
-        "body": "Gezinti sırasında ilanlar için kat planı oluşturun. Alıcılar tahmin değil, ölçülmüş bir plan görür."
+        "body": "Gezi sırasında kat planı çıkarın. Alıcılar tahmin değil, ölçü görür."
       },
       "furniture": {
         "title": "Mobilya alışverişi",
-        "body": "Koltuk sığacak mı? Alanınızı ölçün, boyutları kaydedin ve IKEA'da, yapı marketinde ya da nerede alışveriş yaparsanız kontrol edin."
+        "body": "Koltuk sığar mı? Alanı ölçün, kaydedin ve mağazada kontrol edin."
       },
       "everyday": {
         "title": "Günlük ölçümler",
@@ -119,7 +119,7 @@
   "compare": {
     "kicker": "Nasıl karşılaştırılır",
     "title": "Ölçü uygulaması vs. alternatifler",
-    "intro": "Bir odayı ölçmenin üç yolu var. İkisi ikinci bir çift el, 5 metrelik bir metre ve iyi ışık gerektirir. İşte dürüst karşılaştırma.",
+    "intro": "Bir odayı ölçmenin üç yolu var. İşte karşılaştırması.",
     "headers": [
       "Yetenek",
       "Ruler AR",
@@ -149,7 +149,7 @@
         "Alan yakalar",
         "yes",
         "elle hesap",
-        "no"
+        "yalnızca dikdörtgenler"
       ],
       [
         "LiDAR ile 3B oda taraması",
@@ -179,7 +179,7 @@
         "Dahili su terazisi",
         "yes",
         "no",
-        "no"
+        "yes"
       ],
       [
         "İnternetsiz çalışır",
@@ -189,12 +189,12 @@
       ],
       [
         "Fiyat",
-        "Ücretsiz",
-        "150–750 ₺",
+        "Ücretsiz indirme",
+        "$5-25",
         "Ücretsiz"
       ]
     ],
-    "footnote": "Uygulama sürümü 5.0 için güncellendi. \"iPhone Ölçü\", iOS ile gelen yerleşik Ölçü uygulamasını ifade eder."
+    "footnote": "Uygulamanın 5.3 sürümü için kontrol edildi. Ruler AR'da oda taraması, yükseklik ve plan dışa aktarma abonelik gerektirebilir. iPhone Ölçü, Apple'ın yerleşik Ölçü uygulamasıdır."
   },
   "howItWorks": {
     "kicker": "Nasıl çalışır",
@@ -202,44 +202,46 @@
     "steps": {
       "open": {
         "title": "Aç ve yönelt",
-        "body": "Uygulamayı başlatın. iPhone'unuzu ölçmek istediğiniz duvara, zemine ya da nesneye doğrultun. AR oturumu iki saniyeden kısa sürede kalibre olur."
+        "body": "Uygulamayı açın ve iPhone'unuzu ölçmek istediğiniz duvara, zemine veya nesneye yöneltin."
       },
       "point": {
         "title": "Başlangıç ve bitişe dokun",
-        "body": "Başlangıç noktasına dokunun. iPhone'u bitiş noktasına hareket ettirin. Tekrar dokunun. Ölçüm cm, m, inç veya feet cinsinden ekranda gerçek zamanlı görünür."
+        "body": "Başladığı yere dokunun, telefonu bittiği yere götürün ve tekrar dokunun. Uzunluk ekranda cm, m, inç veya feet olarak görünür."
       },
       "export": {
         "title": "Kaydet, paylaş, dışa aktar",
-        "body": "Her ölçüm küçük resmiyle birlikte geçmişe düşer. Müşteriye PDF gönderin, Mesajlar'da ekran görüntüsü paylaşın ya da tüm projeyi sonrası için kaydedin."
+        "body": "Her ölçüm geçmişe kaydedilir. Müşteriye PDF gönderin, ekran görüntüsü paylaşın ya da sonrası için saklayın."
       }
     }
   },
   "twoApps": {
     "kicker": "İki sürüm",
-    "title": "Herkese ücretsiz. Profesyoneller için Pro.",
+    "title": "Kullanmanın iki yolu",
     "free": {
-      "label": "01 / ÜCRETSİZ SÜRÜM",
+      "label": "01 / Ücretsiz indirme",
       "name": "Ruler AR",
-      "tagline": "Günlük ölçümler için yapay zekâlı şerit metre. Sonsuza dek ücretsiz.",
+      "tagline": "Ücretsiz indirilir, reklamlıdır. Her şeyi istiyorsanız uygulama içinden abone olun.",
       "bullets": [
-        "Kamerayla ölçüm (uzunluk, yükseklik, alan)",
-        "Su terazisi ve açı aracı",
-        "Elle oda oluşturucu",
-        "Proje klasörlerine kaydetme"
+        "Uzunluk, alan ve açı",
+        "Su terazisi",
+        "Ölçüm geçmişi ve klasörler",
+        "Oda taraması, yükseklik ve plan dışa aktarma abonelik gerektirebilir"
       ],
-      "cta": "Ruler AR'ı ücretsiz al"
+      "cta": "Ruler AR'ı indir",
+      "price": "Ücretsiz indirme"
     },
     "pro": {
-      "label": "02 / PRO SÜRÜM",
+      "label": "02 / Tek ödeme",
       "name": "Ruler Pro",
-      "tagline": "Profesyonel hassasiyet. LiDAR ile 3B oda taraması, sınırsız PDF ve 3B dışa aktarma, reklamsız, sınırsız.",
+      "tagline": "Bir kez ödeyip reklamlardan kurtulmak isteyenler için.",
       "bullets": [
-        "Ruler AR'daki her şey",
-        "LiDAR ile 3B oda taraması",
-        "Sınırsız PDF ve USDZ dışa aktarma",
-        "Öncelikli destek, reklamsız, sınırsız"
+        "Tek satın alma, abonelik yok",
+        "Reklam yok",
+        "Uzunluk, alan ve Touch Mode",
+        "Su terazisi"
       ],
-      "cta": "Ruler Pro'yu al"
+      "cta": "Ruler Pro'yu al",
+      "price": "ABD'de 2,99 $"
     }
   },
   "faq": {
@@ -248,19 +250,19 @@
     "items": [
       {
         "q": "Ruler AR, LiDAR sensörü gerektirir mi?",
-        "a": "Hayır. Kamerayla ölçüm, açı aracı, su terazisi ve Elle Oda Oluşturucu, iOS 16.6 veya üzerini çalıştıran her iPhone'da (iPhone Xs ve üzeri) çalışır. LiDAR yalnızca otomatik 3B oda tarayıcı için gereklidir (iPhone 12 Pro ve üzeri, iPad Pro 2020+)."
+        "a": "Hayır. Uzunluk, alan, açı, su terazisi ve elle oda oluşturucu onsuz da çalışır. LiDAR yalnızca otomatik 3B oda taraması için gerekir (iPhone 12 Pro ve daha yeni Pro modeller, 2020 ve sonrası iPad Pro)."
       },
       {
         "q": "AR şerit metre ne kadar hassas?",
-        "a": "Tipik iç mekân aydınlatmasında ve 5 metre içinde hassasiyet ±1–2 cm'dir. LiDAR ile ±5 mm'ye kadar iyileşir. İnce işçilik için Dokunma Modu'nu kullanın: başlangıç noktasını tam telefon konumuna yerleştirerek en büyük AR hata kaynağını ortadan kaldırır."
+        "a": "Genellikle iç mekanda, iyi ışıkta ve yaklaşık 5 metreye kadar birkaç santimetre içinde. LiDAR'lı iPhone'lar genelde daha iyi sonuç verir. Touch Mode ölçümü telefonun kendisinden yapar, bu da kısa mesafelerde işe yarar. Pahalı bir şeyi kesmek üzereyseniz gerçek bir metreyle kontrol edin."
       },
       {
         "q": "Ölçümleri PDF'e aktarabilir miyim?",
-        "a": "Evet. Kaydedilen her proje, 2B kat planı, boyut tablosu ve isteğe bağlı fotoğraflarla PDF olarak dışa aktarılabilir. Doğrudan Mail, Mesajlar, AirDrop veya herhangi bir paylaşım uzantısına paylaşın. PDF dışa aktarma Ruler Pro'da sınırsızdır."
+        "a": "Evet. Kayıtlı oda planları, kat planı ve ölçü tablosuyla PDF olarak dışa aktarılıp Mail, Mesajlar veya AirDrop ile gönderilebilir. Plan dışa aktarma abonelik gerektirebilir."
       },
       {
         "q": "Uygulama gerçekten ücretsiz mi?",
-        "a": "Evet. Ücretsiz sürüm; kamerayla ölçüm, su terazisi, açı aracı, elle oda oluşturucu ve proje klasörlerini ücretsiz içerir. Pro özellikleri (LiDAR taraması, sınırsız dışa aktarma, reklamsız) abonelik veya tek seferlik kilit açma ile sunulur."
+        "a": "İndirmesi ücretsizdir; uzunluk, alan, açı ve su terazisi ödeme yapmadan çalışır. Ücretsiz sürümde reklam gösterilir. Oda taraması, yükseklik ve plan dışa aktarma abonelik gerektirebilir, ücreti ödemeden önce uygulamada görürsünüz."
       },
       {
         "q": "Hangi iPhone ve iPad'ler destekleniyor?",
@@ -272,7 +274,7 @@
       },
       {
         "q": "Az ışıkta çalışır mı?",
-        "a": "Evet, ancak hassasiyet AR oturumunun yüzeyleri takip edebilmesine bağlıdır. Loş odalarda uygulama, tek dokunuşla fener açan bir butonla birlikte \"Az Işık\" rehber afişi gösterir. Zifiri karanlıkta LiDAR'lı cihazlar görünür ışık olmadan da çalışır."
+        "a": "Evet, ama daha az doğru olur. Loş odalarda uygulama tek dokunuşla el fenerini açmanızı önerir. Daha fazla ışık her zaman yardımcı olur."
       },
       {
         "q": "iPad'de çalışır mı?",
@@ -280,11 +282,11 @@
       },
       {
         "q": "Dışarıda ölçüm yapabilir miyim?",
-        "a": "Evet, ancak hassasiyet ışığa bağlıdır. Açık gölgede veya bulutlu havada AR takibi iç mekân kadar iyi çalışır. Doğrudan güneş ışığında güneşin kızılötesi LiDAR derinlik okumalarını bozabilir — ölçümler yine çalışır ama tolerans mesafede birkaç cm'ye genişler. 5 m'yi aşan uzun dış mekân ölçümleri için lazer mesafe ölçer daha güvenilirdir."
+        "a": "Evet, ancak hassasiyet ışığa bağlıdır. Açık gölgede veya bulutlu havada AR takibi iç mekân kadar iyi çalışır. Doğrudan güneş ışığında güneşin kızılötesi LiDAR derinlik okumalarını bozabilir, ölçümler yine çalışır ama tolerans mesafede birkaç cm'ye genişler. 5 m'yi aşan uzun dış mekân ölçümleri için lazer mesafe ölçer daha güvenilirdir."
       },
       {
         "q": "iPhone 16 ve 17'de çalışacak mı?",
-        "a": "Evet, uygulama iPhone 16, 16 Pro, 17, 17 Pro ve 17 Air'i tam destekler. LiDAR'lı Pro modeller otomatik 3B RoomPlan tarayıcıya sahiptir. A18/A19 çipleri AR oturumu başlatmayı da hızlandırır (soğuk başlangıçtan itibaren 1 saniyenin altında)."
+        "a": "Evet. iPhone 16 ve 17 modellerinde çalışır. LiDAR'lı modellerde otomatik 3B oda taraması da bulunur."
       },
       {
         "q": "Android sürümü var mı?",
@@ -292,7 +294,7 @@
       },
       {
         "q": "Uygulama takip verisi topluyor mu?",
-        "a": "Ücretsiz sürüm reklam gösterir (App Tracking Transparency üzerinden izin verirseniz anonim tanımlayıcılar kullanır). Pro sürümünde hiç takip ve hiç reklam yoktur. Ayrıntılı bilgi App Store gizlilik etiketimizde ve gizlilik politikamızda."
+        "a": "Ücretsiz sürümde reklam gösterilir; iOS sorduğunda izlemeye izin verirseniz reklamlar tanımlayıcıları kullanabilir. Ruler Pro'da reklam yoktur. Ayrıntılar App Store gizlilik etiketinde ve gizlilik politikamızda."
       }
     ]
   },
@@ -318,8 +320,8 @@
     ]
   },
   "finalCta": {
-    "title": "Tahmin etmeyi bırak.\nÖlçmeye başla.",
-    "subtitle": "App Store'da ücretsiz. iOS 16.6 ve üzeri. Her gün yüz binlerce ölçüm yapılıyor — sıradaki seninki.",
+    "title": "Almadan önce\nölçün.",
+    "subtitle": "Ücretsiz indirilir. iOS 16.6 veya üzeri gerekir.",
     "primary": "Ücretsiz indir",
     "secondary": "Ruler Pro'yu al"
   },

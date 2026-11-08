@@ -17,8 +17,7 @@ export function Features() {
   return (
     <section id="features" className="section">
       <div className="container-x md:pl-12">
-        <span className="kicker">{t('kicker')}</span>
-        <h2 className="title-xl mt-4 max-w-3xl">{t('title')}</h2>
+        <h2 className="title-xl max-w-3xl">{t('title')}</h2>
         <p className="mt-6 max-w-2xl body-muted text-lg">{t('intro')}</p>
         <div className="mt-14 md:mt-20 flex flex-col gap-20 md:gap-36">
           {ORDER.map(({ key, img, alt }, i) => {

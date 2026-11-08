@@ -184,8 +184,7 @@ export default function Post() {
         the resulting plan is just as accurate as a LiDAR scan in 2D.
       </p>
       <p>
-        The Ruler AR free tier is full-featured on all iPhones from Xs
-        onward. LiDAR adds the speed and the 3D scan, but the core
+        The Ruler AR free tier covers length, area, angles and the level on all iPhones from Xs onward. LiDAR adds the speed and the 3D scan (room scans may need a subscription), but the core
         measurement workflow is hardware-agnostic.
       </p>
 
@@ -349,8 +348,8 @@ export function PostRU() {
         2D так же точен, как и сканирование с LiDAR.
       </p>
       <p>
-        Бесплатная версия Ruler AR полнофункциональна на всех iPhone начиная с Xs.
-        LiDAR добавляет скорость и 3D-сканирование, но базовый процесс измерения не
+        Бесплатная версия Ruler AR даёт длину, площадь, углы и уровень на всех iPhone начиная с Xs.
+        LiDAR добавляет скорость и 3D-сканирование (сканирование комнат может требовать подписки), но базовый процесс измерения не
         зависит от железа.
       </p>
 
@@ -514,8 +513,7 @@ export function PostDE() {
         ist in 2D genauso genau wie ein LiDAR-Scan.
       </p>
       <p>
-        Die kostenlose Version von Ruler AR ist auf allen iPhones ab dem Xs voll
-        funktionsfähig. LiDAR bringt die Geschwindigkeit und den 3D-Scan, aber der
+        Die kostenlose Version von Ruler AR deckt auf allen iPhones ab dem Xs Länge, Fläche, Winkel und Wasserwaage ab. LiDAR bringt die Geschwindigkeit und den 3D-Scan (Raumscans können ein Abonnement erfordern), aber der
         zentrale Mess-Workflow ist hardwareunabhängig.
       </p>
 
@@ -682,8 +680,7 @@ export function PostFR() {
         et le plan obtenu est tout aussi précis qu'un scan LiDAR en 2D.
       </p>
       <p>
-        La version gratuite de Ruler AR est complète sur tous les iPhone à partir
-        du Xs. Le LiDAR ajoute la vitesse et le scan 3D, mais le flux de mesure
+        La version gratuite de Ruler AR couvre la longueur, la surface, les angles et le niveau sur tous les iPhone à partir du Xs. Le LiDAR ajoute la vitesse et le scan 3D (les scans de pièce peuvent nécessiter un abonnement), mais le flux de mesure
         principal est indépendant du matériel.
       </p>
 
@@ -847,8 +844,7 @@ export function PostES() {
         plano resultante es tan preciso como un escaneo LiDAR en 2D.
       </p>
       <p>
-        La versión gratuita de Ruler AR es completa en todos los iPhone desde el Xs
-        en adelante. El LiDAR añade la velocidad y el escaneo 3D, pero el flujo de
+        La versión gratuita de Ruler AR cubre longitud, área, ángulos y nivel en todos los iPhone desde el Xs en adelante. El LiDAR añade la velocidad y el escaneo 3D (los escaneos de habitación pueden requerir una suscripción), pero el flujo de
         medición principal es independiente del hardware.
       </p>
 
@@ -1005,8 +1001,7 @@ export function PostJA() {
         LiDARスキャンと同じくらい正確です。
       </p>
       <p>
-        Ruler ARの無料版は、Xs以降のすべてのiPhoneでフル機能を備えています。LiDARは速度と
-        3Dスキャンを追加しますが、中核となる測定ワークフローはハードウェアに依存しません。
+        Ruler ARの無料版は、Xs以降のすべてのiPhoneで長さ、面積、角度、水準器に対応します。LiDARは速度と3Dスキャン（ルームスキャンにはサブスクリプションが必要な場合があります）を追加しますが、中核となる測定ワークフローはハードウェアに依存しません。
       </p>
 
       <h2>これから</h2>
@@ -1161,8 +1156,7 @@ export function PostKO() {
         않습니다. 그렇게 만들어진 도면은 2D에서는 LiDAR 스캔만큼이나 정확합니다.
       </p>
       <p>
-        Ruler AR 무료 버전은 Xs 이후의 모든 iPhone에서 모든 기능을 제공합니다. LiDAR는
-        속도와 3D 스캔을 더해 주지만, 핵심 측정 워크플로는 하드웨어에 구애받지 않습니다.
+        Ruler AR 무료 버전은 Xs 이후의 모든 iPhone에서 길이, 면적, 각도, 수평계를 제공합니다. LiDAR는 속도와 3D 스캔(방 스캔에는 구독이 필요할 수 있음)을 더해 주지만, 핵심 측정 워크플로는 하드웨어에 구애받지 않습니다.
       </p>
 
       <h2>앞으로</h2>
@@ -1306,8 +1300,7 @@ export function PostZH() {
         平面图，无需 LiDAR，而得到的平面图在 2D 上与 LiDAR 扫描一样精确。
       </p>
       <p>
-        Ruler AR 免费版在 Xs 及以后的所有 iPhone 上功能齐全。LiDAR 增加了速度和 3D 扫描，
-        但核心测量流程与硬件无关。
+        Ruler AR 免费版在 Xs 及以后的所有 iPhone 上可测量长度、面积、角度并提供水平仪。LiDAR 增加了速度和 3D 扫描（房间扫描可能需要订阅），但核心测量流程与硬件无关。
       </p>
 
       <h2>未来展望</h2>
@@ -1465,8 +1458,8 @@ export function PostPT() {
         planta resultante é tão precisa quanto um escaneamento LiDAR em 2D.
       </p>
       <p>
-        A versão gratuita do Ruler AR é completa em todos os iPhones a partir do Xs.
-        O LiDAR adiciona a velocidade e o escaneamento 3D, mas o fluxo de medição
+        A versão gratuita do Ruler AR cobre comprimento, área, ângulos e nível em todos os iPhones a partir do Xs.
+        O LiDAR adiciona a velocidade e o escaneamento 3D (escaneamentos de cômodo podem exigir assinatura), mas o fluxo de medição
         principal independe do hardware.
       </p>
 
@@ -1629,8 +1622,7 @@ export function PostIT() {
         LiDAR, e la planimetria risultante è precisa quanto una scansione LiDAR in 2D.
       </p>
       <p>
-        La versione gratuita di Ruler AR è completa su tutti gli iPhone a partire dal
-        Xs. Il LiDAR aggiunge la velocità e la scansione 3D, ma il flusso di
+        La versione gratuita di Ruler AR copre lunghezza, area, angoli e livella su tutti gli iPhone a partire dal Xs. Il LiDAR aggiunge la velocità e la scansione 3D (le scansioni delle stanze possono richiedere un abbonamento), ma il flusso di
         misurazione principale è indipendente dall'hardware.
       </p>
 
@@ -1794,8 +1786,7 @@ export function PostPL() {
         rzut jest w 2D równie dokładny jak skan LiDAR.
       </p>
       <p>
-        Darmowa wersja Ruler AR jest w pełni funkcjonalna na wszystkich iPhone'ach
-        od modelu Xs wzwyż. LiDAR dodaje szybkość i skan 3D, ale podstawowy proces
+        Darmowa wersja Ruler AR obejmuje długość, powierzchnię, kąty i poziomicę na wszystkich iPhone'ach od modelu Xs wzwyż. LiDAR dodaje szybkość i skan 3D (skany pokoju mogą wymagać subskrypcji), ale podstawowy proces
         pomiaru jest niezależny od sprzętu.
       </p>
 
@@ -1958,8 +1949,8 @@ export function PostTR() {
         hassastır.
       </p>
       <p>
-        Ruler AR ücretsiz sürümü, Xs'ten itibaren tüm iPhone'larda tam özelliklidir.
-        LiDAR hızı ve 3D taramayı ekler, ancak temel ölçüm iş akışı donanımdan
+        Ruler AR ücretsiz sürümü, Xs'ten itibaren tüm iPhone'larda uzunluk, alan, açı ve su terazisi ölçümünü kapsar.
+        LiDAR hızı ve 3D taramayı (oda taramaları abonelik gerektirebilir) ekler, ancak temel ölçüm iş akışı donanımdan
         bağımsızdır.
       </p>
 
@@ -2116,8 +2107,7 @@ export function PostAR() {
         تمامًا كمسح LiDAR.
       </p>
       <p>
-        النسخة المجانية من Ruler AR كاملة الميزات على جميع أجهزة iPhone بدءًا من Xs
-        فصاعدًا. يضيف LiDAR السرعة والمسح ثلاثي الأبعاد، لكن سير عمل القياس الأساسي
+        النسخة المجانية من Ruler AR تغطي الطول والمساحة والزوايا وميزان الاستواء على جميع أجهزة iPhone بدءًا من Xs فصاعدًا. يضيف LiDAR السرعة والمسح ثلاثي الأبعاد (وقد تتطلب عمليات مسح الغرف اشتراكًا)، لكن سير عمل القياس الأساسي
         لا يعتمد على العتاد.
       </p>
 

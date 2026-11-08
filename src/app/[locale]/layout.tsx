@@ -60,7 +60,8 @@ export async function generateMetadata({
       site: SITE.twitter,
       images: ['/og.png']
     },
-    robots: { index: true, follow: true }
+    robots: { index: true, follow: true },
+    other: { 'apple-itunes-app': 'app-id=1279285953, app-argument=https://measuretape.app/measure' }
   };
 }
 

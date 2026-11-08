@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import { APPS } from '@/lib/config';
 import { AppStoreBadge } from '../AppStoreBadge';
 
 export function TwoApps() {
@@ -8,8 +7,7 @@ export function TwoApps() {
   return (
     <section className="section">
       <div className="container-x md:pl-12">
-        <span className="kicker">{t('kicker')}</span>
-        <h2 className="title-xl mt-4 max-w-3xl">{t('title')}</h2>
+        <h2 className="title-xl max-w-3xl">{t('title')}</h2>
 
         <div className="mt-14 grid grid-cols-1 gap-5 md:grid-cols-2">
           {(['free', 'pro'] as const).map((variant) => {
@@ -59,7 +57,7 @@ export function TwoApps() {
                     label={t(`${ns}.cta`)}
                   />
                   <p className="mt-3 font-mono text-[10px] uppercase tracking-ruler text-ink/40">
-                    {APPS[variant].price}
+                    {t(`${ns}.price`)}
                   </p>
                 </div>
               </article>

@@ -59,6 +59,8 @@ import * as listicle from './things-you-can-measure-iphone';
 import * as construction from './ar-tape-measure-for-construction';
 import * as materials from './measure-for-tile-flooring-paint';
 import * as appliance from './measure-fridge-appliance-fit';
+import * as aiTapeMeasure from './ai-tape-measure-iphone';
+import * as iphoneTape from './use-iphone-as-tape-measure';
 
 export const POSTS: PostModule[] = [
   howToMeasureRoom as PostModule,
@@ -73,7 +75,9 @@ export const POSTS: PostModule[] = [
   listicle as PostModule,
   construction as PostModule,
   materials as PostModule,
-  appliance as PostModule
+  appliance as PostModule,
+  aiTapeMeasure as PostModule,
+  iphoneTape as PostModule
 ];
 
 export function getPost(slug: string): PostModule | undefined {

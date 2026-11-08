@@ -9,8 +9,7 @@ export function Testimonials() {
   return (
     <section className="section">
       <div className="container-x md:pl-12">
-        <span className="kicker">{t('kicker')}</span>
-        <h2 className="title-xl mt-4 max-w-3xl">{t('title')}</h2>
+        <h2 className="title-xl max-w-3xl">{t('title')}</h2>
         <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3">
           {items.map((it, i) => (
             <figure key={i} className="card dim-corners flex flex-col gap-5">

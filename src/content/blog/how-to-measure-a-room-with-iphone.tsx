@@ -8,11 +8,11 @@ export const meta: PostMeta = {
     'how to measure a room with iphone, iphone room measurement, ar room scanner, lidar room scan, measuring app tutorial',
   tags: ['Tutorial', 'Room scanning', 'AR'],
   title: {
-    en: "How to Measure a Room with Your iPhone (Step-by-Step Guide)",
-    ru: "Как измерить комнату с помощью iPhone (пошаговая инструкция)",
+    en: "How to Measure a Room with iPhone: LiDAR Scan or Manual Plan",
+    ru: "Как измерить и отсканировать комнату на iPhone: пошагово",
     de: "Wie misst du einen Raum mit deinem iPhone (Schritt-für-Schritt)",
-    fr: "Comment mesurer une pièce avec votre iPhone (guide étape par étape)",
-    es: "Cómo medir una habitación con tu iPhone (guía paso a paso)",
+    fr: "Comment mesurer une pièce avec un iPhone : scan LiDAR ou plan manuel",
+    es: "Cómo medir una habitación con iPhone: escaneo LiDAR o plano manual",
     ja: "iPhoneで部屋を測る方法（ステップ・バイ・ステップ・ガイド）",
     ko: "iPhone로 방을 측정하는 방법 (단계별 가이드)",
     "zh-Hans": "如何用 iPhone 测量房间（分步指南）",
@@ -53,7 +53,7 @@ export default function Post() {
         This guide walks you through both methods: the <strong>automatic LiDAR
         scan</strong> for iPhones with a depth sensor (12 Pro and newer), and the
         <strong> manual floor plan builder</strong> that works on every iPhone from
-        the Xs onward. We'll use the free <em>Ruler AR</em> app for both, but the
+        the Xs onward. We'll use the <em>Ruler AR</em> app (free to download; room scans may need a subscription) for both, but the
         techniques apply to any AR-based measuring app.
       </p>
 
@@ -256,7 +256,7 @@ export default function Post() {
 
       <h2>Ready to try it?</h2>
       <p>
-        Ruler AR is free on the App Store. The Manual Room Builder works on any
+        Ruler AR is free to download on the App Store, but room scans may need a subscription. The Manual Room Builder works on any
         iPhone Xs or newer; the LiDAR scanner is included on Pro versions of the
         iPhone 12 and up. Open the camera, walk the room, share the PDF, done in
         five minutes.
@@ -279,7 +279,7 @@ export function PostRU() {
         Это руководство проведёт вас через оба метода: <strong>автоматическое
         сканирование LiDAR</strong> для iPhone с датчиком глубины (12 Pro и новее) и
         <strong> ручной конструктор плана этажа</strong>, который работает на любом iPhone
-        начиная с Xs. Для обоих способов мы используем бесплатное приложение <em>Ruler AR</em>, но
+        начиная с Xs. Для обоих способов мы используем приложение <em>Ruler AR</em> (скачать бесплатно, сканирование комнат может требовать подписки), но
         приёмы применимы к любому приложению для измерений на базе AR.
       </p>
 
@@ -482,7 +482,7 @@ export function PostRU() {
 
       <h2>Готовы попробовать?</h2>
       <p>
-        Ruler AR бесплатен в App Store. Ручной конструктор комнаты работает на любом
+        Ruler AR можно скачать в App Store бесплатно, но сканирование комнат может требовать подписки. Ручной конструктор комнаты работает на любом
         iPhone Xs или новее; сканер LiDAR есть в версиях Pro
         iPhone 12 и выше. Откройте камеру, обойдите комнату, поделитесь PDF — готово за
         пять минут.
@@ -505,7 +505,7 @@ export function PostDE() {
         Diese Anleitung führt dich durch beide Methoden: den <strong>automatischen LiDAR-
         Scan</strong> für iPhones mit Tiefensensor (12 Pro und neuer) und den
         <strong> manuellen Grundriss-Builder</strong>, der auf jedem iPhone ab dem
-        Xs funktioniert. Wir verwenden für beides die kostenlose App <em>Ruler AR</em>, aber die
+        Xs funktioniert. Wir verwenden für beides die App <em>Ruler AR</em> (kostenlos herunterladbar; Raumscans können ein Abonnement erfordern), aber die
         Techniken gelten für jede AR-basierte Mess-App.
       </p>
 
@@ -708,7 +708,7 @@ export function PostDE() {
 
       <h2>Bereit, es auszuprobieren?</h2>
       <p>
-        Ruler AR ist kostenlos im App Store. Der manuelle Raum-Builder funktioniert auf jedem
+        Ruler AR ist kostenlos im App Store herunterladbar, Raumscans können aber ein Abonnement erfordern. Der manuelle Raum-Builder funktioniert auf jedem
         iPhone Xs oder neuer; der LiDAR-Scanner ist in den Pro-Versionen des
         iPhone 12 und höher enthalten. Öffne die Kamera, geh den Raum ab, teile das PDF, fertig in
         fünf Minuten.
@@ -731,7 +731,7 @@ export function PostFR() {
         Ce guide vous présente les deux méthodes : le <strong>scan LiDAR
         automatique</strong> pour les iPhone dotés d'un capteur de profondeur (12 Pro et plus récents), et le
         <strong> constructeur de plan d'étage manuel</strong> qui fonctionne sur tous les iPhone à partir
-        du Xs. Nous utiliserons l'application gratuite <em>Ruler AR</em> pour les deux, mais les
+        du Xs. Nous utiliserons l'application <em>Ruler AR</em> (gratuite à télécharger ; les scans de pièce peuvent nécessiter un abonnement) pour les deux, mais les
         techniques s'appliquent à toute application de mesure basée sur l'AR.
       </p>
 
@@ -933,7 +933,7 @@ export function PostFR() {
 
       <h2>Prêt à essayer ?</h2>
       <p>
-        Ruler AR est gratuit sur l'App Store. Le constructeur de pièce manuel fonctionne sur tout
+        Ruler AR est gratuit à télécharger sur l'App Store, mais les scans de pièce peuvent nécessiter un abonnement. Le constructeur de pièce manuel fonctionne sur tout
         iPhone Xs ou plus récent ; le scanner LiDAR est inclus sur les versions Pro de
         l'iPhone 12 et au-delà. Ouvrez la caméra, parcourez la pièce, partagez le PDF, terminé en
         cinq minutes.
@@ -956,7 +956,7 @@ export function PostES() {
         Esta guía te explica ambos métodos: el <strong>escaneo LiDAR
         automático</strong> para iPhone con sensor de profundidad (12 Pro y posteriores), y el
         <strong> constructor de planos manual</strong> que funciona en cualquier iPhone desde el
-        Xs en adelante. Usaremos la app gratuita <em>Ruler AR</em> para ambos, pero las
+        Xs en adelante. Usaremos la app <em>Ruler AR</em> (gratis de descargar; los escaneos de habitación pueden requerir una suscripción) para ambos, pero las
         técnicas se aplican a cualquier app de medición basada en AR.
       </p>
 
@@ -1158,7 +1158,7 @@ export function PostES() {
 
       <h2>¿Listo para probarlo?</h2>
       <p>
-        Ruler AR es gratis en la App Store. El constructor de habitación manual funciona en cualquier
+        Ruler AR es gratis de descargar en la App Store, pero los escaneos de habitación pueden requerir una suscripción. El constructor de habitación manual funciona en cualquier
         iPhone Xs o posterior; el escáner LiDAR está incluido en las versiones Pro del
         iPhone 12 y superiores. Abre la cámara, recorre la habitación, comparte el PDF, listo en
         cinco minutos.
@@ -1178,7 +1178,7 @@ export function PostJA() {
 
       <p>
         このガイドでは両方の方法を説明します。深度センサー搭載のiPhone（12 Pro以降）向けの<strong>自動LiDAR
-        スキャン</strong>と、Xs以降のすべてのiPhoneで動作する<strong>手動の間取り図ビルダー</strong>です。どちらも無料アプリの<em>Ruler AR</em>を使いますが、その
+        スキャン</strong>と、Xs以降のすべてのiPhoneで動作する<strong>手動の間取り図ビルダー</strong>です。どちらも<em>Ruler AR</em>アプリ（ダウンロードは無料、ルームスキャンにはサブスクリプションが必要な場合があります）を使いますが、その
         手法はARベースの計測アプリ全般に当てはまります。
       </p>
 
@@ -1379,7 +1379,7 @@ export function PostJA() {
 
       <h2>試してみませんか？</h2>
       <p>
-        Ruler ARはApp Storeで無料です。手動部屋ビルダーは
+        Ruler ARはApp Storeで無料でダウンロードできますが、ルームスキャンにはサブスクリプションが必要な場合があります。手動部屋ビルダーは
         iPhone Xs以降ならどれでも動作し、LiDARスキャナーは
         iPhone 12以降のProバージョンに搭載されています。カメラを開き、部屋を歩き、PDFを共有、
         5分で完了です。
@@ -1400,7 +1400,7 @@ export function PostKO() {
 
       <p>
         이 가이드는 두 가지 방법을 모두 안내합니다. 깊이 센서가 있는 iPhone(12 Pro 이상)을 위한 <strong>자동 LiDAR
-        스캔</strong>과, Xs 이후 모든 iPhone에서 작동하는 <strong>수동 평면도 빌더</strong>입니다. 둘 다 무료 앱 <em>Ruler AR</em>를 사용하지만, 이
+        스캔</strong>과, Xs 이후 모든 iPhone에서 작동하는 <strong>수동 평면도 빌더</strong>입니다. 둘 다 <em>Ruler AR</em> 앱(다운로드는 무료, 방 스캔에는 구독이 필요할 수 있습니다)을 사용하지만, 이
         기법은 AR 기반 측정 앱 어디에나 적용됩니다.
       </p>
 
@@ -1601,7 +1601,7 @@ export function PostKO() {
 
       <h2>시도해 볼 준비가 되셨나요?</h2>
       <p>
-        Ruler AR는 App Store에서 무료입니다. 수동 방 빌더는
+        Ruler AR는 App Store에서 무료로 다운로드할 수 있지만, 방 스캔에는 구독이 필요할 수 있습니다. 수동 방 빌더는
         iPhone Xs 이상이면 모두 작동하고, LiDAR 스캐너는
         iPhone 12 이상의 Pro 버전에 포함되어 있습니다. 카메라를 열고, 방을 걷고, PDF를 공유하면,
         5분 안에 끝납니다.
@@ -1622,7 +1622,7 @@ export function PostZH() {
 
       <p>
         本指南带你了解两种方法：面向带深度传感器的 iPhone（12 Pro 及更新机型）的<strong>自动 LiDAR
-        扫描</strong>，以及适用于 Xs 及之后所有 iPhone 的<strong>手动平面图构建器</strong>。两者我们都使用免费的 <em>Ruler AR</em> 应用，但这些
+        扫描</strong>，以及适用于 Xs 及之后所有 iPhone 的<strong>手动平面图构建器</strong>。两者我们都使用 <em>Ruler AR</em> 应用（可免费下载，房间扫描可能需要订阅），但这些
         技巧适用于任何基于 AR 的测量应用。
       </p>
 
@@ -1822,7 +1822,7 @@ export function PostZH() {
 
       <h2>准备好试试了吗？</h2>
       <p>
-        Ruler AR 在 App Store 上免费。手动房间构建器适用于任意
+        Ruler AR 可在 App Store 免费下载，但房间扫描可能需要订阅。手动房间构建器适用于任意
         iPhone Xs 或更新机型；LiDAR 扫描仪包含在
         iPhone 12 及以上的 Pro 版本中。打开相机，走一圈房间，分享 PDF，
         五分钟搞定。
@@ -1845,7 +1845,7 @@ export function PostPT() {
         Este guia mostra os dois métodos: a <strong>varredura LiDAR
         automática</strong> para iPhones com sensor de profundidade (12 Pro e mais recentes) e o
         <strong> construtor de planta manual</strong> que funciona em todos os iPhones a partir
-        do Xs. Usaremos o app gratuito <em>Ruler AR</em> para ambos, mas as
+        do Xs. Usaremos o app <em>Ruler AR</em> (download gratuito; escaneamentos de cômodo podem exigir assinatura) para ambos, mas as
         técnicas valem para qualquer app de medição baseado em AR.
       </p>
 
@@ -2047,7 +2047,7 @@ export function PostPT() {
 
       <h2>Pronto para testar?</h2>
       <p>
-        O Ruler AR é gratuito na App Store. O Construtor de cômodo manual funciona em qualquer
+        O Ruler AR é gratuito para baixar na App Store, mas escaneamentos de cômodo podem exigir assinatura. O Construtor de cômodo manual funciona em qualquer
         iPhone Xs ou mais recente; o scanner LiDAR está incluído nas versões Pro do
         iPhone 12 em diante. Abra a câmera, percorra o cômodo, compartilhe o PDF, pronto em
         cinco minutos.
@@ -2070,7 +2070,7 @@ export function PostIT() {
         Questa guida ti accompagna in entrambi i metodi: la <strong>scansione LiDAR
         automatica</strong> per gli iPhone con sensore di profondità (12 Pro e successivi) e il
         <strong> costruttore di piantine manuale</strong> che funziona su ogni iPhone a partire
-        dall'Xs. Per entrambi useremo l'app gratuita <em>Ruler AR</em>, ma le
+        dall'Xs. Per entrambi useremo l'app <em>Ruler AR</em> (gratuita da scaricare; le scansioni delle stanze possono richiedere un abbonamento), ma le
         tecniche valgono per qualsiasi app di misurazione basata sull'AR.
       </p>
 
@@ -2272,7 +2272,7 @@ export function PostIT() {
 
       <h2>Pronto a provarlo?</h2>
       <p>
-        Ruler AR è gratuito sull'App Store. Il Costruttore stanza manuale funziona su qualsiasi
+        Ruler AR è gratuito da scaricare sull'App Store, ma le scansioni delle stanze possono richiedere un abbonamento. Il Costruttore stanza manuale funziona su qualsiasi
         iPhone Xs o successivo; lo scanner LiDAR è incluso nelle versioni Pro di
         iPhone 12 e seguenti. Apri la fotocamera, percorri la stanza, condividi il PDF, fatto in
         cinque minuti.
@@ -2295,7 +2295,7 @@ export function PostPL() {
         Ten przewodnik przeprowadzi cię przez obie metody: <strong>automatyczne skanowanie
         LiDAR</strong> dla iPhone'ów z czujnikiem głębi (12 Pro i nowsze) oraz
         <strong> ręczny kreator rzutu</strong>, który działa na każdym iPhonie począwszy od
-        Xs. Do obu użyjemy darmowej aplikacji <em>Ruler AR</em>, ale te
+        Xs. Do obu użyjemy aplikacji <em>Ruler AR</em> (darmowej do pobrania; skany pokoju mogą wymagać subskrypcji), ale te
         techniki dotyczą każdej aplikacji do pomiarów opartej na AR.
       </p>
 
@@ -2497,7 +2497,7 @@ export function PostPL() {
 
       <h2>Gotowy, żeby spróbować?</h2>
       <p>
-        Ruler AR jest darmowy w App Store. Ręczny kreator pokoju działa na każdym
+        Ruler AR można pobrać z App Store za darmo, ale skany pokoju mogą wymagać subskrypcji. Ręczny kreator pokoju działa na każdym
         iPhonie Xs lub nowszym; skaner LiDAR jest dołączony w wersjach Pro
         iPhone'a 12 i nowszych. Otwórz aparat, obejdź pokój, udostępnij PDF, gotowe w
         pięć minut.
@@ -2519,7 +2519,7 @@ export function PostTR() {
       <p>
         Bu kılavuz sizi her iki yöntemde de adım adım götürür: derinlik sensörlü iPhone'lar (12 Pro ve sonrası) için <strong>otomatik LiDAR
         taraması</strong> ve Xs'ten itibaren her iPhone'da çalışan
-        <strong> manuel kat planı oluşturucu</strong>. İkisi için de ücretsiz <em>Ruler AR</em> uygulamasını kullanacağız, ancak
+        <strong> manuel kat planı oluşturucu</strong>. İkisi için de <em>Ruler AR</em> uygulamasını (indirmek ücretsiz; oda taramaları abonelik gerektirebilir) kullanacağız, ancak
         teknikler AR tabanlı her ölçüm uygulamasına uygulanır.
       </p>
 
@@ -2721,7 +2721,7 @@ export function PostTR() {
 
       <h2>Denemeye hazır mısınız?</h2>
       <p>
-        Ruler AR, App Store'da ücretsizdir. Manuel Oda Oluşturucu, Xs veya sonrası
+        Ruler AR, App Store'da ücretsiz indirilebilir, ancak oda taramaları abonelik gerektirebilir. Manuel Oda Oluşturucu, Xs veya sonrası
         herhangi bir iPhone'da çalışır; LiDAR tarayıcı,
         iPhone 12 ve sonrasının Pro sürümlerinde bulunur. Kamerayı açın, odayı dolaşın, PDF'yi paylaşın, beş
         dakikada tamam.
@@ -2744,7 +2744,7 @@ export function PostAR() {
         يرشدك هذا الدليل عبر الطريقتين: <strong>المسح التلقائي بتقنية
         LiDAR</strong> لأجهزة iPhone المزودة بمستشعر عمق (12 Pro والأحدث)، و
         <strong> منشئ مخطط الأرضية اليدوي</strong> الذي يعمل على كل iPhone بدءًا من
-        Xs فصاعدًا. سنستخدم تطبيق <em>Ruler AR</em> المجاني في الحالتين، لكن
+        Xs فصاعدًا. سنستخدم تطبيق <em>Ruler AR</em> (التنزيل مجاني، وقد تتطلب عمليات مسح الغرف اشتراكًا) في الحالتين، لكن
         هذه الأساليب تنطبق على أي تطبيق قياس قائم على الواقع المعزز.
       </p>
 
@@ -2946,7 +2946,7 @@ export function PostAR() {
 
       <h2>هل أنت مستعد للتجربة؟</h2>
       <p>
-        تطبيق Ruler AR مجاني على App Store. يعمل منشئ الغرفة اليدوي على أي
+        تطبيق Ruler AR مجاني للتنزيل من App Store، لكن عمليات مسح الغرف قد تتطلب اشتراكًا. يعمل منشئ الغرفة اليدوي على أي
         iPhone Xs أو أحدث؛ ويتوفر ماسح LiDAR في إصدارات Pro من
         iPhone 12 وما فوق. افتح الكاميرا، وتجوّل في الغرفة، وشارك ملف PDF، وينتهي الأمر في
         خمس دقائق.

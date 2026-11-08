@@ -115,7 +115,7 @@ export default function Post() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Best for:</strong> the broadest feature set in a free app, AR
+        <strong>Best for:</strong> the broadest feature set in an app that is free to download (room scans and PDF export may need a subscription), AR
         camera measure, manual floor plan builder (works without LiDAR), 3D
         LiDAR room scan, angles, area, level, project folders, PDF export.
         <strong> Skip if:</strong> you want zero ads (the Pro tier removes them).
@@ -168,7 +168,7 @@ export default function Post() {
             <td>Apple Measure (already installed)</td>
           </tr>
           <tr>
-            <td>Full room captured, exportable, free</td>
+            <td>Full room captured, exportable (may need a subscription)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -200,9 +200,7 @@ export default function Post() {
 
       <h2>Our pick</h2>
       <p>
-        For most people most of the time: <strong>Ruler AR</strong>. Free tier
-        covers manual room builder, camera measure, angles, level, area, and PDF
-        export. LiDAR scan available on supported hardware. No ads in the Pro
+        For most people most of the time: <strong>Ruler AR</strong>. Free tier covers camera measure, angles, level and area. The manual room builder, LiDAR scan (on supported hardware) and PDF export may need a subscription. No ads in the Pro
         tier. Adaptive performance keeps it stable on older 4 GB devices.
       </p>
       <p>
@@ -292,8 +290,7 @@ export function PostRU() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Лучше всего для:</strong> самого широкого набора функций среди
-        бесплатных приложений — измерение AR-камерой, ручной конструктор планов
+        <strong>Лучше всего для:</strong> самого широкого набора функций среди приложений, бесплатных для скачивания (сканирование комнат и экспорт в PDF могут требовать подписки) — измерение AR-камерой, ручной конструктор планов
         (работает без LiDAR), 3D-сканирование комнат через LiDAR, углы, площадь,
         уровень, папки проектов, экспорт в PDF.
         <strong> Пропустите, если:</strong> хотите полностью без рекламы (её
@@ -349,7 +346,7 @@ export function PostRU() {
             <td>Apple Measure (уже установлено)</td>
           </tr>
           <tr>
-            <td>Захватить всю комнату, с экспортом, бесплатно</td>
+            <td>Захватить всю комнату, с экспортом (может требовать подписки)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -382,9 +379,7 @@ export function PostRU() {
       <h2>Наш выбор</h2>
       <p>
         Для большинства людей в большинстве случаев: <strong>Ruler AR</strong>.
-        Бесплатный тариф включает ручной конструктор комнат, измерение камерой,
-        углы, уровень, площадь и экспорт в PDF. LiDAR-сканирование доступно на
-        поддерживаемом железе. В тарифе Pro нет рекламы. Адаптивная
+        Бесплатный тариф включает измерение камерой, углы, уровень и площадь. Ручной конструктор комнат, LiDAR-сканирование (на поддерживаемом железе) и экспорт в PDF могут требовать подписки. В тарифе Pro нет рекламы. Адаптивная
         производительность сохраняет стабильность на старых устройствах с 4 ГБ.
       </p>
       <p>
@@ -475,8 +470,7 @@ export function PostDE() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Am besten für:</strong> den breitesten Funktionsumfang in einer
-        kostenlosen App — AR-Kameramessung, manueller Grundriss-Builder
+        <strong>Am besten für:</strong> den breitesten Funktionsumfang in einer App, die sich kostenlos herunterladen lässt (Raumscans und PDF-Export können ein Abonnement erfordern) — AR-Kameramessung, manueller Grundriss-Builder
         (funktioniert ohne LiDAR), 3D-LiDAR-Raumscan, Winkel, Fläche, Wasserwaage,
         Projektordner, PDF-Export.
         <strong> Überspringen, wenn:</strong> Sie gar keine Werbung wollen (der
@@ -533,7 +527,7 @@ export function PostDE() {
             <td>Apple Measure (bereits installiert)</td>
           </tr>
           <tr>
-            <td>Ganzen Raum erfassen, exportierbar, kostenlos</td>
+            <td>Ganzen Raum erfassen, exportierbar (kann ein Abonnement erfordern)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -567,9 +561,7 @@ export function PostDE() {
       <h2>Unsere Empfehlung</h2>
       <p>
         Für die meisten Menschen in den meisten Fällen: <strong>Ruler AR</strong>.
-        Der kostenlose Tarif deckt manuellen Raum-Builder, Kameramessung, Winkel,
-        Wasserwaage, Fläche und PDF-Export ab. LiDAR-Scan auf unterstützter
-        Hardware verfügbar. Keine Werbung im Pro-Tarif. Die adaptive Leistung hält
+        Der kostenlose Tarif deckt Kameramessung, Winkel, Wasserwaage und Fläche ab. Manueller Raum-Builder, LiDAR-Scan (auf unterstützter Hardware) und PDF-Export können ein Abonnement erfordern. Keine Werbung im Pro-Tarif. Die adaptive Leistung hält
         es auf älteren 4-GB-Geräten stabil.
       </p>
       <p>
@@ -663,8 +655,7 @@ export function PostFR() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Idéale pour :</strong> l'éventail de fonctions le plus large dans
-        une application gratuite — mesure par caméra AR, créateur de plan manuel
+        <strong>Idéale pour :</strong> l'éventail de fonctions le plus large dans une application gratuite à télécharger (les scans de pièce et l'export PDF peuvent nécessiter un abonnement) — mesure par caméra AR, créateur de plan manuel
         (fonctionne sans LiDAR), scan de pièce LiDAR 3D, angles, surface, niveau,
         dossiers de projet, export PDF.
         <strong> À éviter si :</strong> vous voulez zéro publicité (la formule Pro
@@ -722,7 +713,7 @@ export function PostFR() {
             <td>Apple Measure (déjà installée)</td>
           </tr>
           <tr>
-            <td>Capturer une pièce entière, exportable, gratuit</td>
+            <td>Capturer une pièce entière, exportable (peut nécessiter un abonnement)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -757,9 +748,7 @@ export function PostFR() {
       <h2>Notre choix</h2>
       <p>
         Pour la plupart des gens la plupart du temps : <strong>Ruler AR</strong>.
-        La formule gratuite couvre le créateur de pièce manuel, la mesure par
-        caméra, les angles, le niveau, la surface et l'export PDF. Scan LiDAR
-        disponible sur le matériel compatible. Pas de publicité dans la formule
+        La formule gratuite couvre la mesure par caméra, les angles, le niveau et la surface. Le créateur de pièce manuel, le scan LiDAR (sur le matériel compatible) et l'export PDF peuvent nécessiter un abonnement. Pas de publicité dans la formule
         Pro. La performance adaptative la garde stable sur les anciens appareils
         de 4 Go.
       </p>
@@ -852,8 +841,7 @@ export function PostES() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Mejor para:</strong> el conjunto de funciones más amplio en una
-        app gratuita — medición con cámara AR, constructor manual de planos
+        <strong>Mejor para:</strong> el conjunto de funciones más amplio en una app gratis de descargar (los escaneos de habitación y la exportación a PDF pueden requerir una suscripción) — medición con cámara AR, constructor manual de planos
         (funciona sin LiDAR), escaneo de habitación 3D con LiDAR, ángulos, área,
         nivel, carpetas de proyecto, exportación a PDF.
         <strong> Sáltatela si:</strong> quieres cero anuncios (el plan Pro los
@@ -909,7 +897,7 @@ export function PostES() {
             <td>Apple Measure (ya instalada)</td>
           </tr>
           <tr>
-            <td>Capturar la habitación entera, exportable, gratis</td>
+            <td>Capturar la habitación entera, exportable (puede requerir una suscripción)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -942,9 +930,7 @@ export function PostES() {
       <h2>Nuestra elección</h2>
       <p>
         Para la mayoría de la gente la mayor parte del tiempo: <strong>Ruler
-        AR</strong>. El plan gratuito cubre el constructor manual de habitaciones,
-        la medición con cámara, ángulos, nivel, área y exportación a PDF. Escaneo
-        LiDAR disponible en hardware compatible. Sin anuncios en el plan Pro. El
+        AR</strong>. El plan gratuito cubre la medición con cámara, ángulos, nivel y área. El constructor manual de habitaciones, el escaneo LiDAR (en hardware compatible) y la exportación a PDF pueden requerir una suscripción. Sin anuncios en el plan Pro. El
         rendimiento adaptativo lo mantiene estable en dispositivos antiguos de
         4 GB.
       </p>
@@ -1032,7 +1018,7 @@ export function PostJA() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>こんな人に：</strong> 無料アプリの中で最も幅広い機能を求める人に。
+        <strong>こんな人に：</strong> ダウンロード無料のアプリの中で最も幅広い機能を求める人に（ルームスキャンと PDF 書き出しにはサブスクリプションが必要な場合があります）。
         AR カメラ計測、手動の間取り作成（LiDAR なしでも動作）、3D の LiDAR 部屋
         スキャン、角度、面積、水準器、プロジェクトフォルダ、PDF 書き出し。
         <strong> 避けるべき場合：</strong> 広告をまったく出したくないとき
@@ -1085,7 +1071,7 @@ export function PostJA() {
             <td>Apple Measure（すでに入っている）</td>
           </tr>
           <tr>
-            <td>部屋全体を取り込み、書き出せて、無料</td>
+            <td>部屋全体を取り込み、書き出せる（サブスクリプションが必要な場合あり）</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -1116,9 +1102,7 @@ export function PostJA() {
 
       <h2>私たちのおすすめ</h2>
       <p>
-        ほとんどの人にとって、ほとんどの場面で：<strong>Ruler AR</strong>。無料
-        プランで手動の部屋作成、カメラ計測、角度、水準器、面積、PDF 書き出しを
-        カバーします。LiDAR スキャンは対応ハードで利用可能。Pro プランは広告なし。
+        ほとんどの人にとって、ほとんどの場面で：<strong>Ruler AR</strong>。無料プランでカバーされるのはカメラ計測、角度、水準器、面積です。手動の部屋作成、LiDAR スキャン（対応ハードで利用可能）、PDF 書き出しにはサブスクリプションが必要な場合があります。Pro プランは広告なし。
         適応パフォーマンスにより、古い 4 GB 端末でも安定します。
       </p>
       <p>
@@ -1204,7 +1188,7 @@ export function PostKO() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>이럴 때 좋음:</strong> 무료 앱 중 가장 폭넓은 기능 세트 — AR
+        <strong>이럴 때 좋음:</strong> 다운로드가 무료인 앱 중 가장 폭넓은 기능 세트(방 스캔과 PDF 내보내기에는 구독이 필요할 수 있음) — AR
         카메라 측정, 수동 평면도 작성기(LiDAR 없이 작동), 3D LiDAR 방 스캔, 각도,
         면적, 수평계, 프로젝트 폴더, PDF 내보내기.
         <strong> 건너뛰세요:</strong> 광고를 완전히 없애고 싶다면(Pro 등급이
@@ -1258,7 +1242,7 @@ export function PostKO() {
             <td>Apple Measure(이미 설치됨)</td>
           </tr>
           <tr>
-            <td>방 전체를 담고, 내보내기 가능, 무료</td>
+            <td>방 전체를 담고, 내보내기 가능(구독이 필요할 수 있음)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -1288,9 +1272,7 @@ export function PostKO() {
 
       <h2>우리의 선택</h2>
       <p>
-        대부분의 사람에게, 대부분의 경우: <strong>Ruler AR</strong>. 무료 등급은
-        수동 방 작성기, 카메라 측정, 각도, 수평계, 면적, PDF 내보내기를 모두
-        포함합니다. LiDAR 스캔은 지원 하드웨어에서 가능합니다. Pro 등급에는 광고가
+        대부분의 사람에게, 대부분의 경우: <strong>Ruler AR</strong>. 무료 등급은 카메라 측정, 각도, 수평계, 면적을 포함합니다. 수동 방 작성기, LiDAR 스캔(지원 하드웨어), PDF 내보내기에는 구독이 필요할 수 있습니다. Pro 등급에는 광고가
         없습니다. 적응형 성능 덕분에 오래된 4 GB 기기에서도 안정적입니다.
       </p>
       <p>
@@ -1369,7 +1351,7 @@ export function PostZH() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>最适合：</strong> 免费应用里功能最全的一款——AR 相机测量、手动
+        <strong>最适合：</strong> 可免费下载的应用里功能最全的一款（房间扫描和 PDF 导出可能需要订阅）——AR 相机测量、手动
         户型图构建（无需 LiDAR 也能用）、3D LiDAR 房间扫描、角度、面积、水平仪、
         项目文件夹、PDF 导出。
         <strong> 不建议：</strong> 你想要完全没有广告（Pro 档会移除广告）。
@@ -1417,7 +1399,7 @@ export function PostZH() {
             <td>Apple Measure（已经装好）</td>
           </tr>
           <tr>
-            <td>捕捉整个房间、可导出、免费</td>
+            <td>捕捉整个房间、可导出（可能需要订阅）</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -1446,9 +1428,7 @@ export function PostZH() {
 
       <h2>我们的推荐</h2>
       <p>
-        对大多数人、大多数时候：<strong>Ruler AR</strong>。免费档涵盖手动房间
-        构建、相机测量、角度、水平仪、面积和 PDF 导出。LiDAR 扫描在支持的硬件上
-        可用。Pro 档没有广告。自适应性能让它在较旧的 4 GB 设备上保持稳定。
+        对大多数人、大多数时候：<strong>Ruler AR</strong>。免费档涵盖相机测量、角度、水平仪和面积。手动房间构建、LiDAR 扫描（在支持的硬件上）和 PDF 导出可能需要订阅。Pro 档没有广告。自适应性能让它在较旧的 4 GB 设备上保持稳定。
       </p>
       <p>
         对靠测量谋生的专业人士：预算允许就选 <strong>MagicPlan</strong>，预算紧张
@@ -1536,8 +1516,7 @@ export function PostPT() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Melhor para:</strong> o conjunto de recursos mais amplo em um app
-        gratuito — medição por câmera AR, construtor manual de planta (funciona sem
+        <strong>Melhor para:</strong> o conjunto de recursos mais amplo em um app gratuito para baixar (escaneamentos de cômodo e exportação para PDF podem exigir assinatura) — medição por câmera AR, construtor manual de planta (funciona sem
         LiDAR), escaneamento 3D do cômodo com LiDAR, ângulos, área, nível, pastas
         de projeto, exportação para PDF.
         <strong> Pule se:</strong> você quer zero anúncios (o plano Pro os remove).
@@ -1592,7 +1571,7 @@ export function PostPT() {
             <td>Apple Measure (já instalado)</td>
           </tr>
           <tr>
-            <td>Capturar o cômodo inteiro, exportável, grátis</td>
+            <td>Capturar o cômodo inteiro, exportável (pode exigir assinatura)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -1625,9 +1604,7 @@ export function PostPT() {
       <h2>Nossa escolha</h2>
       <p>
         Para a maioria das pessoas na maior parte do tempo: <strong>Ruler
-        AR</strong>. O plano gratuito cobre construtor manual de cômodo, medição por
-        câmera, ângulos, nível, área e exportação para PDF. Escaneamento LiDAR
-        disponível em hardware compatível. Sem anúncios no plano Pro. O desempenho
+        AR</strong>. O plano gratuito cobre medição por câmera, ângulos, nível e área. O construtor manual de cômodo, o escaneamento LiDAR (em hardware compatível) e a exportação para PDF podem exigir assinatura. Sem anúncios no plano Pro. O desempenho
         adaptativo o mantém estável em dispositivos antigos de 4 GB.
       </p>
       <p>
@@ -1718,8 +1695,7 @@ export function PostIT() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Ideale per:</strong> il set di funzioni più ampio in un'app
-        gratuita — misurazione con fotocamera AR, costruttore manuale di planimetria
+        <strong>Ideale per:</strong> il set di funzioni più ampio in un'app gratuita da scaricare (le scansioni delle stanze e l'esportazione PDF possono richiedere un abbonamento) — misurazione con fotocamera AR, costruttore manuale di planimetria
         (funziona senza LiDAR), scansione 3D della stanza con LiDAR, angoli, area,
         livella, cartelle progetto, esportazione PDF.
         <strong> Da evitare se:</strong> vuoi zero pubblicità (il piano Pro la
@@ -1775,7 +1751,7 @@ export function PostIT() {
             <td>Apple Measure (già installata)</td>
           </tr>
           <tr>
-            <td>Catturare l'intera stanza, esportabile, gratis</td>
+            <td>Catturare l'intera stanza, esportabile (può richiedere un abbonamento)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -1808,9 +1784,7 @@ export function PostIT() {
       <h2>La nostra scelta</h2>
       <p>
         Per la maggior parte delle persone nella maggior parte dei casi:
-        <strong> Ruler AR</strong>. Il piano gratuito copre il costruttore manuale
-        della stanza, la misurazione con fotocamera, gli angoli, la livella, l'area
-        e l'esportazione PDF. Scansione LiDAR disponibile su hardware compatibile.
+        <strong> Ruler AR</strong>. Il piano gratuito copre la misurazione con fotocamera, gli angoli, la livella e l'area. Il costruttore manuale della stanza, la scansione LiDAR (su hardware compatibile) e l'esportazione PDF possono richiedere un abbonamento.
         Nessuna pubblicità nel piano Pro. Le prestazioni adattive lo mantengono
         stabile sui vecchi dispositivi da 4 GB.
       </p>
@@ -1901,8 +1875,7 @@ export function PostPL() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Najlepsza do:</strong> najszerszego zestawu funkcji w darmowej
-        aplikacji — pomiar kamerą AR, ręczny kreator rzutu (działa bez LiDAR),
+        <strong>Najlepsza do:</strong> najszerszego zestawu funkcji w aplikacji darmowej do pobrania (skany pomieszczeń i eksport do PDF mogą wymagać subskrypcji) — pomiar kamerą AR, ręczny kreator rzutu (działa bez LiDAR),
         skanowanie pomieszczenia 3D z LiDAR, kąty, powierzchnia, poziomica, foldery
         projektów, eksport do PDF.
         <strong> Pomiń, jeśli:</strong> chcesz zero reklam (plan Pro je usuwa).
@@ -1957,7 +1930,7 @@ export function PostPL() {
             <td>Apple Measure (już zainstalowana)</td>
           </tr>
           <tr>
-            <td>Przechwycić całe pomieszczenie, z eksportem, za darmo</td>
+            <td>Przechwycić całe pomieszczenie, z eksportem (może wymagać subskrypcji)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -1990,9 +1963,7 @@ export function PostPL() {
       <h2>Nasz wybór</h2>
       <p>
         Dla większości ludzi w większości przypadków: <strong>Ruler AR</strong>.
-        Darmowy plan obejmuje ręczny kreator pomieszczeń, pomiar kamerą, kąty,
-        poziomicę, powierzchnię i eksport do PDF. Skanowanie LiDAR dostępne na
-        obsługiwanym sprzęcie. Brak reklam w planie Pro. Adaptacyjna wydajność
+        Darmowy plan obejmuje pomiar kamerą, kąty, poziomicę i powierzchnię. Ręczny kreator pomieszczeń, skanowanie LiDAR (na obsługiwanym sprzęcie) i eksport do PDF mogą wymagać subskrypcji. Brak reklam w planie Pro. Adaptacyjna wydajność
         utrzymuje stabilność na starszych urządzeniach z 4 GB.
       </p>
       <p>
@@ -2081,8 +2052,7 @@ export function PostTR() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>Şunun için en iyisi:</strong> ücretsiz bir uygulamadaki en geniş
-        özellik seti — AR kamera ölçümü, elle kat planı oluşturucu (LiDAR olmadan
+        <strong>Şunun için en iyisi:</strong> indirmesi ücretsiz bir uygulamadaki en geniş özellik seti (oda taramaları ve PDF dışa aktarımı abonelik gerektirebilir) — AR kamera ölçümü, elle kat planı oluşturucu (LiDAR olmadan
         çalışır), 3D LiDAR oda taraması, açılar, alan, su terazisi, proje klasörleri,
         PDF dışa aktarımı.
         <strong> Şu durumda atlayın:</strong> sıfır reklam istiyorsanız (Pro
@@ -2138,7 +2108,7 @@ export function PostTR() {
             <td>Apple Measure (zaten yüklü)</td>
           </tr>
           <tr>
-            <td>Tüm odayı yakalamak, dışa aktarılabilir, ücretsiz</td>
+            <td>Tüm odayı yakalamak, dışa aktarılabilir (abonelik gerektirebilir)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -2170,9 +2140,7 @@ export function PostTR() {
 
       <h2>Bizim tercihimiz</h2>
       <p>
-        Çoğu insan için çoğu zaman: <strong>Ruler AR</strong>. Ücretsiz katman elle
-        oda oluşturucuyu, kamera ölçümünü, açıları, su terazisini, alanı ve PDF dışa
-        aktarımını kapsar. LiDAR taraması desteklenen donanımda mevcut. Pro katmanda
+        Çoğu insan için çoğu zaman: <strong>Ruler AR</strong>. Ücretsiz katman kamera ölçümünü, açıları, su terazisini ve alanı kapsar. Elle oda oluşturucu, LiDAR taraması (desteklenen donanımda) ve PDF dışa aktarımı abonelik gerektirebilir. Pro katmanda
         reklam yok. Uyarlanabilir performans, eski 4 GB cihazlarda kararlı kalmasını
         sağlıyor.
       </p>
@@ -2259,7 +2227,7 @@ export function PostAR() {
 
       <h3>Ruler AR</h3>
       <p>
-        <strong>الأفضل لـ:</strong> أوسع مجموعة ميزات في تطبيق مجاني — قياس بكاميرا
+        <strong>الأفضل لـ:</strong> أوسع مجموعة ميزات في تطبيق مجاني التنزيل (قد تتطلب عمليات مسح الغرف وتصدير PDF اشتراكًا) — قياس بكاميرا
         الواقع المعزز، وبنّاء مخططات يدوي (يعمل بدون LiDAR)، ومسح ثلاثي الأبعاد
         للغرفة عبر LiDAR، والزوايا، والمساحة، وميزان الاستواء، ومجلدات المشاريع،
         وتصدير PDF.
@@ -2312,7 +2280,7 @@ export function PostAR() {
             <td>Apple Measure (مثبّت بالفعل)</td>
           </tr>
           <tr>
-            <td>التقاط الغرفة كاملةً، قابل للتصدير، مجانًا</td>
+            <td>التقاط الغرفة كاملةً، قابل للتصدير (قد يتطلب اشتراكًا)</td>
             <td>Ruler AR</td>
           </tr>
           <tr>
@@ -2343,9 +2311,7 @@ export function PostAR() {
 
       <h2>اختيارنا</h2>
       <p>
-        لمعظم الناس في معظم الأوقات: <strong>Ruler AR</strong>. تغطي الفئة المجانية
-        بنّاء الغرف اليدوي، والقياس بالكاميرا، والزوايا، وميزان الاستواء، والمساحة،
-        وتصدير PDF. ومسح LiDAR متاح على العتاد المدعوم. ولا إعلانات في الفئة Pro.
+        لمعظم الناس في معظم الأوقات: <strong>Ruler AR</strong>. تغطي الفئة المجانية القياس بالكاميرا، والزوايا، وميزان الاستواء، والمساحة. وقد يتطلب بنّاء الغرف اليدوي ومسح LiDAR (على العتاد المدعوم) وتصدير PDF اشتراكًا. ولا إعلانات في الفئة Pro.
         ويحافظ الأداء التكيفي على استقراره على الأجهزة الأقدم ذات 4 جيجابايت.
       </p>
       <p>
